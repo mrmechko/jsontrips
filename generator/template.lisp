@@ -2,7 +2,6 @@
 (ql:quickload :jonathan)
 
 (load "../OntologyManager/om.lisp")
-(load "functions")
 
 (in-package :om)
 
@@ -27,3 +26,22 @@
 ;defstruct feature-list type features defaults
 
 ;defstruct feature-type-description name features defaults
+
+
+(defparameter onttypes (ling-ontology-lf-table *lf-ontology*))
+(defparameter featuretypes (ling-ontology-feature-table *lf-ontology*))
+(defparameter featurelists (ling-ontology-feature-type-table *lf-ontology*))
+
+(defun write-ont-file (source destination)
+  (with-open-file
+    (str destination
+       :direction :output
+       :if-exists :supersede
+       :if-does-not-exist :create)
+    (format str (JONATHAN::to-json source)))
+)
+
+(write-ont-file onttypes "ontology.json")
+(write-ont-file featuretypes "featuretypes.json")
+(write-ont-file featurelists "featurelists.json")
+

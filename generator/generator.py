@@ -26,12 +26,15 @@ def generate(struct, slots):
     return template.format(struct=struct, entries="\n     ".join(entries))
 
 def def_file(lines):
+    buff = []
     for line in lines:
         if line.startswith(";defstruct"):
             l = line[10:].strip().split()
-            print(generate(l[0], l[1:]))
+            buff.append(generate(l[0], l[1:]))
+            buff.append("\n")
         else:
-            print(line)
+            buff.append(line)
+    print("".join(buff))
 
 def gen_from_line(line):
     line = line.split()

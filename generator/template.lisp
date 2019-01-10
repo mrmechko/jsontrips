@@ -41,7 +41,7 @@
     (format str (JONATHAN::to-json source)))
 )
 
-(write-ont-file onttypes "ontology.json")
-(write-ont-file featuretypes "featuretypes.json")
-(write-ont-file featurelists "featurelists.json")
+(write-ont-file onttypes "dist/ontology.json")
+(write-ont-file featuretypes "dist/featuretypes.json")
+(write-ont-file featurelists "dist/featurelists.json")
 

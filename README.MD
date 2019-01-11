@@ -1,3 +1,3 @@
-Here is a script to dump the contents of the ontology into a simplified json format
+run `./run.sh`, make sure you have quicklisp installed and trips compiled.
 
-Great for students
+TODO: add the SimpleRestrictions back in

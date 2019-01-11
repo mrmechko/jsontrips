@@ -15,6 +15,12 @@ def clean(data):
         return data
     keys = list(data.keys())
     for key in keys:
+        if key == "type" and data[key] and data[key][0] == "?":
+            # delete the variable name and rename type to typeq if it is a 'one of'
+            typeq = data[key][2:]
+            del data[key]
+            key = "typeq"
+            data[key] = typeq
         data[key] = clean(data[key])
 
         if data[key] == []:

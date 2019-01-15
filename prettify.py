@@ -38,6 +38,7 @@ def clean_lex_entry(entry):
     return {"cat": cat, "name": label, "entries": val}
 
 def clean_lexicon(lex):
+    #TODO: sort the keys so that updates don't take a ton of space.
     return {k: [clean_lex_entry(e) for e in v] for k, v in lex.items()}
 
 def main():

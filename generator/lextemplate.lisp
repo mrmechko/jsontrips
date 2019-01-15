@@ -5,8 +5,9 @@
 (in-package :lxm)
 
 (defun cell-to-pair (c) (list (car c) (cdr c)))
+(defun mctp (m) (map 'list #'cell-to-pair m))
 
-;defstruct vocabulary-entry name particle remaining-words word pos pronounciation wfeats senses boost-word abbrev
+;defstruct vocabulary-entry name particle remaining-words word pos pronunciation wfeats senses boost-word abbrev
 
 ;defstruct meta-data origin entry-date mod-date comments
 
@@ -16,13 +17,13 @@
 
 ;defstruct word-sense-definition pos lf sem pref nonhierarchy-lf syntax boost-word meta-data prototypical-word lf-parent lf-form templ params word roles mappings name remaining-words kr-type specialized transform coercions operator
 
-;defstruct syntax-template name syntax mappings,cdr
+;defstruct syntax-template name syntax mappings,mctp
 
 ;defstruct basic-synsem-map name slot optional maponly
 
-;defstruct synsem-map name slot optional map-only paramname default required
+;defstruct synsem-map name slot optional maponly paramname default required
 
-;defstruct word-synsem-map name slot optional map-only paramname default required varname syntcat syntfeat
+;defstruct word-synsem-map name slot optional maponly paramname default required varname syntcat syntfeat
 
 ;defstruct lex-entry id words pref description boost-word
 
@@ -31,7 +32,17 @@
 ;defstruct coercion-operator-description name argument result lf sem
 
 
-; test templates
-(defparameter a-template (caadr (get-all-values (lexicon-db-synt-table *lexicon-data*))))
+(jonathan::to-json (get-all-values (lexicon-db-synt-table *lexicon-data*)))
 
-(jonathan::to-json a-template)
+(defun write-ont-file (source destination)
+  (with-open-file
+    (str destination
+       :direction :output
+       :if-exists :supersede
+       :if-does-not-exist :create)
+    (format str (JONATHAN::to-json source)))
+)
+
+(write-ont-file (lexicon-db-synt-table *lexicon-data*) "dist/syntax_templates.json")
+(write-ont-file (lexicon-db-word-table *lexicon-data*) "dist/words.json")
+(write-ont-file (lexicon-db-lf-table *lexicon-data*) "dist/lexicon_lf.json")

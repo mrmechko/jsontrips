@@ -29,12 +29,24 @@ def clean(data):
             del data[key]
     return data
 
+def clean_lex_entry(entry):
+    if not entry:
+        return []
+    cat, label, val = entry
+    if cat == "NONE":
+        cat = None
+    return {"cat": cat, "name": label, "entries": val}
+
+def clean_lexicon(lex):
+    return {k: [clean_lex_entry(e) for e in v] for k, v in lex.items()}
 
 def main():
     if len(sys.argv) > 1:
         for fname in sys.argv[1:]:
             with open(fname) as inp:
                 data = json.load(inp)
+            if fname == "dist/words.json":
+                data = clean_lexicon(data)
             data = clean(data)
             with open(fname, 'w') as out:
                 out.write(json.dumps(data, indent=2))

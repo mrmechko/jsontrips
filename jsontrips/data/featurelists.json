@@ -1,0 +1,247 @@
+{
+  "PHYS-OBJ": {
+    "features": [
+      "OBJECT-FUNCTION",
+      "ORIGIN",
+      "FORM",
+      "MOBILITY",
+      "GROUP",
+      "SPATIAL-ABSTRACTION",
+      "INTENTIONAL",
+      "INFORMATION",
+      "CONTAINER",
+      "KR-TYPE",
+      "TYPE",
+      "TRAJECTORY",
+      "TANGIBLE"
+    ],
+    "defaults": {
+      "features": [
+        [
+          "TYPE",
+          "PHYS-OBJECT"
+        ],
+        [
+          "ORIGIN",
+          "ANY-ORIGIN"
+        ],
+        [
+          "FORM",
+          "ANY-FORM"
+        ],
+        [
+          "MOBILITY",
+          "ANY-MOBILITY"
+        ],
+        [
+          "GROUP",
+          "-"
+        ],
+        [
+          "SPATIAL-ABSTRACTION",
+          [
+            "?",
+            "SAB",
+            "SPATIAL-POINT",
+            "SPATIAL-REGION"
+          ]
+        ],
+        [
+          "INTENTIONAL",
+          "-"
+        ],
+        [
+          "TRAJECTORY",
+          "-"
+        ],
+        [
+          "INFORMATION",
+          "-"
+        ],
+        [
+          "CONTAINER",
+          "-"
+        ],
+        [
+          "TANGIBLE",
+          "+"
+        ]
+      ],
+      "type": "PHYS-OBJ"
+    },
+    "name": "PHYS-OBJ"
+  },
+  "TIME": {
+    "features": [
+      "TIME-FUNCTION",
+      "SCALE",
+      "KR-TYPE",
+      "TYPE"
+    ],
+    "defaults": {
+      "features": [
+        [
+          "TYPE",
+          "ANY-TIME-OBJECT"
+        ],
+        [
+          "TIME-FUNCTION",
+          "ANY-TIME-FUNCTION"
+        ],
+        [
+          "SCALE",
+          "TIME-LOC-SCALE"
+        ]
+      ],
+      "type": "TIME"
+    },
+    "name": "TIME"
+  },
+  "SITUATION": {
+    "features": [
+      "ASPECT",
+      "TIME-SPAN",
+      "CAUSE",
+      "TRAJECTORY",
+      "LOCATIVE",
+      "INTENTIONAL",
+      "INFORMATION",
+      "CONTAINER",
+      "KR-TYPE",
+      "TYPE",
+      "ORIGIN",
+      "IOBJ",
+      "TANGIBLE"
+    ],
+    "defaults": {
+      "features": [
+        [
+          "TYPE",
+          "SITUATION"
+        ],
+        [
+          "INTENTIONAL",
+          "-"
+        ],
+        [
+          "INFORMATION",
+          "MENTAL-CONSTRUCT"
+        ],
+        [
+          "CONTAINER",
+          "-"
+        ],
+        [
+          "ASPECT",
+          "ANY-ASPECT"
+        ],
+        [
+          "CAUSE",
+          "ANY-CAUSE"
+        ],
+        [
+          "TIME-SPAN",
+          "ANY-TIME-SPAN"
+        ],
+        [
+          "TRAJECTORY",
+          "-"
+        ],
+        [
+          "LOCATIVE",
+          "-"
+        ],
+        [
+          "ORIGIN",
+          "ANY-ORIGIN"
+        ],
+        [
+          "IOBJ",
+          "-"
+        ],
+        [
+          "TANGIBLE",
+          "-"
+        ]
+      ],
+      "type": "SITUATION"
+    },
+    "name": "SITUATION"
+  },
+  "SEM": {
+    "features": [
+      "TYPE"
+    ],
+    "defaults": {
+      "type": "SEM"
+    },
+    "name": "SEM"
+  },
+  "ABSTR-OBJ": {
+    "features": [
+      "MEASURE-FUNCTION",
+      "SCALE",
+      "INTENTIONAL",
+      "INFORMATION",
+      "CONTAINER",
+      "GRADABILITY",
+      "KR-TYPE",
+      "TYPE",
+      "OBJECT-FUNCTION",
+      "ORIGIN",
+      "INTENSITY",
+      "ORIENTATION",
+      "TANGIBLE"
+    ],
+    "defaults": {
+      "features": [
+        [
+          "TYPE",
+          "ABSTRACT-OBJECT"
+        ],
+        [
+          "GRADABILITY",
+          "-"
+        ],
+        [
+          "ORIENTATION",
+          "-"
+        ],
+        [
+          "INTENSITY",
+          "-"
+        ],
+        [
+          "INTENTIONAL",
+          "-"
+        ],
+        [
+          "INFORMATION",
+          "-"
+        ],
+        [
+          "CONTAINER",
+          "-"
+        ],
+        [
+          "MEASURE-FUNCTION",
+          "-"
+        ],
+        [
+          "SCALE",
+          "-"
+        ],
+        [
+          "ORIGIN",
+          "ANY-ORIGIN"
+        ],
+        [
+          "TANGIBLE",
+          "-"
+        ]
+      ],
+      "type": "ABSTR-OBJ"
+    },
+    "name": "ABSTR-OBJ"
+  }
+}

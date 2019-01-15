@@ -1,0 +1,1501 @@
+{
+  "SCALE": {
+    "values": [
+      {
+        "feature_name": "SCALE",
+        "value": "OTHER-SCALE",
+        "parent": [
+          "SCALE",
+          "ANY-SCALE"
+        ]
+      },
+      {
+        "feature_name": "SCALE",
+        "value": "COLOR-SCALE",
+        "parent": [
+          "SCALE",
+          "ANY-SCALE"
+        ]
+      },
+      {
+        "feature_name": "SCALE",
+        "value": "RATIO-SCALE",
+        "parent": [
+          "SCALE",
+          "ANY-SCALE"
+        ]
+      },
+      {
+        "feature_name": "SCALE",
+        "value": "PERCENT-SCALE",
+        "parent": [
+          "SCALE",
+          "ANY-SCALE"
+        ]
+      },
+      {
+        "feature_name": "SCALE",
+        "value": "HUMIDITY-SCALE",
+        "parent": [
+          "SCALE",
+          "ANY-SCALE"
+        ]
+      },
+      {
+        "feature_name": "SCALE",
+        "value": "LUMINOSITY-SCALE",
+        "parent": [
+          "SCALE",
+          "ANY-SCALE"
+        ]
+      },
+      {
+        "feature_name": "SCALE",
+        "value": "RATE-SCALE",
+        "parent": [
+          "SCALE",
+          "ANY-SCALE"
+        ]
+      },
+      {
+        "feature_name": "SCALE",
+        "value": "MONEY-SCALE",
+        "parent": [
+          "SCALE",
+          "ANY-SCALE"
+        ]
+      },
+      {
+        "feature_name": "SCALE",
+        "value": "TEMPERATURE-SCALE",
+        "parent": [
+          "SCALE",
+          "ANY-SCALE"
+        ]
+      },
+      {
+        "feature_name": "SCALE",
+        "value": "WEIGHT-SCALE",
+        "parent": [
+          "SCALE",
+          "ANY-SCALE"
+        ]
+      },
+      {
+        "feature_name": "SCALE",
+        "value": "SOUND-SCALE",
+        "parent": [
+          "SCALE",
+          "ANY-SCALE"
+        ]
+      },
+      {
+        "feature_name": "SCALE",
+        "value": "VOLUME-SCALE",
+        "parent": [
+          "SCALE",
+          "ANY-SCALE"
+        ]
+      },
+      {
+        "feature_name": "SCALE",
+        "value": "NUMBER-SCALE",
+        "parent": [
+          "SCALE",
+          "ANY-SCALE"
+        ]
+      },
+      {
+        "feature_name": "SCALE",
+        "value": "SIZE-SCALE",
+        "parent": [
+          "SCALE",
+          "ANY-SCALE"
+        ]
+      },
+      {
+        "feature_name": "SCALE",
+        "value": "AREA-SCALE",
+        "parent": [
+          "SCALE",
+          "ANY-SCALE"
+        ]
+      },
+      {
+        "feature_name": "SCALE",
+        "value": "LENGTH-SCALE",
+        "parent": [
+          "SCALE",
+          "LINEAR-EXTENT-SCALE"
+        ]
+      },
+      {
+        "feature_name": "SCALE",
+        "value": "DURATION-SCALE",
+        "parent": [
+          "SCALE",
+          "TIME-MEASURE-SCALE"
+        ]
+      },
+      {
+        "feature_name": "SCALE",
+        "value": "TIME-MEASURE-SCALE",
+        "parent": [
+          "SCALE",
+          "LINEAR-EXTENT-SCALE"
+        ]
+      },
+      {
+        "feature_name": "SCALE",
+        "value": "AGE-SCALE",
+        "parent": [
+          "SCALE",
+          "LINEAR-EXTENT-SCALE"
+        ]
+      },
+      {
+        "feature_name": "SCALE",
+        "value": "LINEAR-EXTENT-SCALE",
+        "parent": [
+          "SCALE",
+          "ANY-SCALE"
+        ]
+      },
+      {
+        "feature_name": "SCALE",
+        "value": "-",
+        "parent": [
+          "SCALE",
+          "ANY-SCALE"
+        ]
+      },
+      {
+        "feature_name": "SCALE",
+        "value": "ANY-SCALE"
+      }
+    ],
+    "root_value": "ANY-SCALE",
+    "name": "SCALE"
+  },
+  "IOBJ": {
+    "values": [
+      {
+        "feature_name": "IOBJ",
+        "value": "-",
+        "parent": [
+          "IOBJ",
+          "ANY-IOBJ"
+        ]
+      },
+      {
+        "feature_name": "IOBJ",
+        "value": "BENEFICIARY",
+        "parent": [
+          "IOBJ",
+          "ANY-IOBJ"
+        ]
+      },
+      {
+        "feature_name": "IOBJ",
+        "value": "RECIPIENT",
+        "parent": [
+          "IOBJ",
+          "ANY-IOBJ"
+        ]
+      },
+      {
+        "feature_name": "IOBJ",
+        "value": "ANY-IOBJ"
+      }
+    ],
+    "root_value": "ANY-IOBJ",
+    "name": "IOBJ"
+  },
+  "LOCATIVE": {
+    "values": [
+      {
+        "feature_name": "LOCATIVE",
+        "value": "-",
+        "parent": [
+          "LOCATIVE",
+          "ANY-LOCATIVE"
+        ]
+      },
+      {
+        "feature_name": "LOCATIVE",
+        "value": "LOCATED",
+        "parent": [
+          "LOCATIVE",
+          "ANY-LOCATIVE"
+        ]
+      },
+      {
+        "feature_name": "LOCATIVE",
+        "value": "ANY-LOCATIVE"
+      }
+    ],
+    "root_value": "ANY-LOCATIVE",
+    "name": "LOCATIVE"
+  },
+  "TRAJECTORY": {
+    "values": [
+      {
+        "feature_name": "TRAJECTORY",
+        "value": "-",
+        "parent": [
+          "TRAJECTORY",
+          "ANY-TRAJECTORY"
+        ]
+      },
+      {
+        "feature_name": "TRAJECTORY",
+        "value": "+",
+        "parent": [
+          "TRAJECTORY",
+          "ANY-TRAJECTORY"
+        ]
+      },
+      {
+        "feature_name": "TRAJECTORY",
+        "value": "ANY-TRAJECTORY"
+      }
+    ],
+    "root_value": "ANY-TRAJECTORY",
+    "name": "TRAJECTORY"
+  },
+  "TANGIBLE": {
+    "values": [
+      {
+        "feature_name": "TANGIBLE",
+        "value": "-",
+        "parent": [
+          "TANGIBLE",
+          "ANY-TANGIBLE"
+        ]
+      },
+      {
+        "feature_name": "TANGIBLE",
+        "value": "+",
+        "parent": [
+          "TANGIBLE",
+          "ANY-TANGIBLE"
+        ]
+      },
+      {
+        "feature_name": "TANGIBLE",
+        "value": "ANY-TANGIBLE"
+      }
+    ],
+    "root_value": "ANY-TANGIBLE",
+    "name": "TANGIBLE"
+  },
+  "ORIENTATION": {
+    "values": [
+      {
+        "feature_name": "ORIENTATION",
+        "value": "-",
+        "parent": [
+          "ORIENTATION",
+          "ANY-ORIENTATION"
+        ]
+      },
+      {
+        "feature_name": "ORIENTATION",
+        "value": "NEUTRAL",
+        "parent": [
+          "ORIENTATION",
+          "ANY-ORIENTATION"
+        ]
+      },
+      {
+        "feature_name": "ORIENTATION",
+        "value": "NEG",
+        "parent": [
+          "ORIENTATION",
+          "ANY-ORIENTATION"
+        ]
+      },
+      {
+        "feature_name": "ORIENTATION",
+        "value": "POS",
+        "parent": [
+          "ORIENTATION",
+          "ANY-ORIENTATION"
+        ]
+      },
+      {
+        "feature_name": "ORIENTATION",
+        "value": "ANY-ORIENTATION"
+      }
+    ],
+    "root_value": "ANY-ORIENTATION",
+    "name": "ORIENTATION"
+  },
+  "SPATIAL-ABSTRACTION": {
+    "values": [
+      {
+        "feature_name": "SPATIAL-ABSTRACTION",
+        "value": "SPATIAL-REGION",
+        "parent": [
+          "SPATIAL-ABSTRACTION",
+          "ANY-SPATIAL-ABSTRACTION"
+        ]
+      },
+      {
+        "feature_name": "SPATIAL-ABSTRACTION",
+        "value": "STRIP",
+        "parent": [
+          "SPATIAL-ABSTRACTION",
+          "ANY-SPATIAL-ABSTRACTION"
+        ]
+      },
+      {
+        "feature_name": "SPATIAL-ABSTRACTION",
+        "value": "LINE",
+        "parent": [
+          "SPATIAL-ABSTRACTION",
+          "ANY-SPATIAL-ABSTRACTION"
+        ]
+      },
+      {
+        "feature_name": "SPATIAL-ABSTRACTION",
+        "value": "SPATIAL-POINT",
+        "parent": [
+          "SPATIAL-ABSTRACTION",
+          "ANY-SPATIAL-ABSTRACTION"
+        ]
+      },
+      {
+        "feature_name": "SPATIAL-ABSTRACTION",
+        "value": "ANY-SPATIAL-ABSTRACTION"
+      }
+    ],
+    "root_value": "ANY-SPATIAL-ABSTRACTION",
+    "name": "SPATIAL-ABSTRACTION"
+  },
+  "OBJECT-FUNCTION": {
+    "values": [
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "PATH",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "SPATIAL-OBJECT"
+        ]
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "BUILDING",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "PLACE"
+        ],
+        "implied": {
+          "features": [
+            [
+              "INTENTIONAL",
+              "-"
+            ],
+            [
+              "FORM",
+              "OBJECT"
+            ]
+          ],
+          "type": "PHYS-OBJ"
+        }
+      },
+      {
+        "myimplied": {
+          "features": [
+            [
+              "INTENTIONAL",
+              "-"
+            ],
+            [
+              "FORM",
+              "OBJECT"
+            ]
+          ],
+          "type": "PHYS-OBJ"
+        },
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "PLACE",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "SPATIAL-OBJECT"
+        ],
+        "implied": {
+          "features": [
+            [
+              "INTENTIONAL",
+              "-"
+            ],
+            [
+              "FORM",
+              "OBJECT"
+            ]
+          ],
+          "type": "PHYS-OBJ"
+        }
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "SPATIAL-OBJECT",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "ANY-OBJECT-FUNCTION"
+        ]
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "SENTENCE",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "LINGUISTIC-OBJECT"
+        ]
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "WORD",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "LINGUISTIC-OBJECT"
+        ]
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "LETTER",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "LINGUISTIC-OBJECT"
+        ]
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "LINGUISTIC-OBJECT",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "ANY-OBJECT-FUNCTION"
+        ]
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "BODY-PART",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "ANY-OBJECT-FUNCTION"
+        ]
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "SUPPORT",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "ANY-OBJECT-FUNCTION"
+        ]
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "COMESTIBLE",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "ANY-OBJECT-FUNCTION"
+        ]
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "CONTAINER-OBJECT",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "ANY-OBJECT-FUNCTION"
+        ]
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "WEATHER",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "ANY-OBJECT-FUNCTION"
+        ]
+      },
+      {
+        "myimplied": {
+          "features": [
+            [
+              "INTENTIONAL",
+              "-"
+            ],
+            [
+              "FORM",
+              "OBJECT"
+            ]
+          ],
+          "type": "PHYS-OBJ"
+        },
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "COVERING",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "ANY-OBJECT-FUNCTION"
+        ],
+        "implied": {
+          "features": [
+            [
+              "INTENTIONAL",
+              "-"
+            ],
+            [
+              "FORM",
+              "OBJECT"
+            ]
+          ],
+          "type": "PHYS-OBJ"
+        }
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "FURNITURE",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "ANY-OBJECT-FUNCTION"
+        ]
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "GARMENT",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "ANY-OBJECT-FUNCTION"
+        ]
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "OCCUPATION",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "ANY-OBJECT-FUNCTION"
+        ]
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "CURRENCY",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "ANY-OBJECT-FUNCTION"
+        ]
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "SOFTWARE",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "ANY-OBJECT-FUNCTION"
+        ]
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "REPRESENTATION",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "ANY-OBJECT-FUNCTION"
+        ]
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "PROVIDES-SERVICE-UP-DOWN",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "PROVIDES-SERVICE"
+        ]
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "PROVIDES-SERVICE-OPEN-CLOSED",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "PROVIDES-SERVICE"
+        ]
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "PROVIDES-SERVICE-ON-OFF",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "PROVIDES-SERVICE"
+        ]
+      },
+      {
+        "myimplied": {
+          "features": [
+            [
+              "INTENTIONAL",
+              "-"
+            ],
+            [
+              "MOBILITY",
+              "MOVABLE"
+            ]
+          ],
+          "type": "PHYS-OBJ"
+        },
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "VEHICLE",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "PROVIDES-SERVICE"
+        ],
+        "implied": {
+          "features": [
+            [
+              "INTENTIONAL",
+              "-"
+            ],
+            [
+              "MOBILITY",
+              "MOVABLE"
+            ]
+          ],
+          "type": "PHYS-OBJ"
+        }
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "PROVIDES-SERVICE",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "INSTRUMENT"
+        ]
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "INSTRUMENT",
+        "parent": [
+          "OBJECT-FUNCTION",
+          "ANY-OBJECT-FUNCTION"
+        ]
+      },
+      {
+        "feature_name": "OBJECT-FUNCTION",
+        "value": "ANY-OBJECT-FUNCTION"
+      }
+    ],
+    "root_value": "ANY-OBJECT-FUNCTION",
+    "name": "OBJECT-FUNCTION"
+  },
+  "TIME-SPAN": {
+    "values": [
+      {
+        "feature_name": "TIME-SPAN",
+        "value": "EXTENDED",
+        "parent": [
+          "TIME-SPAN",
+          "ANY-TIME-SPAN"
+        ]
+      },
+      {
+        "feature_name": "TIME-SPAN",
+        "value": "ATOMIC",
+        "parent": [
+          "TIME-SPAN",
+          "ANY-TIME-SPAN"
+        ]
+      },
+      {
+        "feature_name": "TIME-SPAN",
+        "value": "ANY-TIME-SPAN"
+      }
+    ],
+    "root_value": "ANY-TIME-SPAN",
+    "name": "TIME-SPAN"
+  },
+  "KR-TYPE": {
+    "values": [
+      {
+        "feature_name": "KR-TYPE",
+        "value": "ANY-KR-TYPE"
+      }
+    ],
+    "root_value": "ANY-KR-TYPE",
+    "external": true,
+    "name": "KR-TYPE"
+  },
+  "CONTAINER": {
+    "values": [
+      {
+        "feature_name": "CONTAINER",
+        "value": "-",
+        "parent": [
+          "CONTAINER",
+          "ANY-CONTAINER"
+        ]
+      },
+      {
+        "feature_name": "CONTAINER",
+        "value": "+",
+        "parent": [
+          "CONTAINER",
+          "ANY-CONTAINER"
+        ]
+      },
+      {
+        "feature_name": "CONTAINER",
+        "value": "ANY-CONTAINER"
+      }
+    ],
+    "root_value": "ANY-CONTAINER",
+    "name": "CONTAINER"
+  },
+  "TYPE": {
+    "values": [
+      {
+        "feature_name": "TYPE",
+        "value": "ANY-TYPE"
+      }
+    ],
+    "root_value": "ANY-TYPE",
+    "external": true,
+    "name": "TYPE"
+  },
+  "GRADABILITY": {
+    "values": [
+      {
+        "feature_name": "GRADABILITY",
+        "value": "-",
+        "parent": [
+          "GRADABILITY",
+          "ANY-GRADABILITY"
+        ]
+      },
+      {
+        "feature_name": "GRADABILITY",
+        "value": "+",
+        "parent": [
+          "GRADABILITY",
+          "ANY-GRADABILITY"
+        ]
+      },
+      {
+        "feature_name": "GRADABILITY",
+        "value": "ANY-GRADABILITY"
+      }
+    ],
+    "root_value": "ANY-GRADABILITY",
+    "name": "GRADABILITY"
+  },
+  "ASPECT": {
+    "values": [
+      {
+        "feature_name": "ASPECT",
+        "value": "STAGE-LEVEL",
+        "parent": [
+          "ASPECT",
+          "STATIC"
+        ],
+        "implied": {
+          "features": [
+            [
+              "TIME-SPAN",
+              "EXTENDED"
+            ]
+          ],
+          "type": "SITUATION"
+        }
+      },
+      {
+        "feature_name": "ASPECT",
+        "value": "INDIV-LEVEL",
+        "parent": [
+          "ASPECT",
+          "STATIC"
+        ],
+        "implied": {
+          "features": [
+            [
+              "TIME-SPAN",
+              "EXTENDED"
+            ]
+          ],
+          "type": "SITUATION"
+        }
+      },
+      {
+        "myimplied": {
+          "features": [
+            [
+              "TIME-SPAN",
+              "EXTENDED"
+            ]
+          ],
+          "type": "SITUATION"
+        },
+        "feature_name": "ASPECT",
+        "value": "STATIC",
+        "parent": [
+          "ASPECT",
+          "ANY-ASPECT"
+        ],
+        "implied": {
+          "features": [
+            [
+              "TIME-SPAN",
+              "EXTENDED"
+            ]
+          ],
+          "type": "SITUATION"
+        }
+      },
+      {
+        "feature_name": "ASPECT",
+        "value": "UNBOUNDED",
+        "parent": [
+          "ASPECT",
+          "DYNAMIC"
+        ]
+      },
+      {
+        "feature_name": "ASPECT",
+        "value": "BOUNDED",
+        "parent": [
+          "ASPECT",
+          "DYNAMIC"
+        ]
+      },
+      {
+        "feature_name": "ASPECT",
+        "value": "DYNAMIC",
+        "parent": [
+          "ASPECT",
+          "ANY-ASPECT"
+        ]
+      },
+      {
+        "feature_name": "ASPECT",
+        "value": "ANY-ASPECT"
+      }
+    ],
+    "root_value": "ANY-ASPECT",
+    "name": "ASPECT"
+  },
+  "CAUSE": {
+    "values": [
+      {
+        "feature_name": "CAUSE",
+        "value": "MENTAL",
+        "parent": [
+          "CAUSE",
+          "ANY-CAUSE"
+        ]
+      },
+      {
+        "feature_name": "CAUSE",
+        "value": "STIMULATING",
+        "parent": [
+          "CAUSE",
+          "ANY-CAUSE"
+        ]
+      },
+      {
+        "feature_name": "CAUSE",
+        "value": "AGENTIVE",
+        "parent": [
+          "CAUSE",
+          "FORCE"
+        ]
+      },
+      {
+        "feature_name": "CAUSE",
+        "value": "PHENOMENAL",
+        "parent": [
+          "CAUSE",
+          "FORCE"
+        ]
+      },
+      {
+        "feature_name": "CAUSE",
+        "value": "FORCE",
+        "parent": [
+          "CAUSE",
+          "ANY-CAUSE"
+        ]
+      },
+      {
+        "feature_name": "CAUSE",
+        "value": "-",
+        "parent": [
+          "CAUSE",
+          "ANY-CAUSE"
+        ]
+      },
+      {
+        "feature_name": "CAUSE",
+        "value": "ANY-CAUSE"
+      }
+    ],
+    "root_value": "ANY-CAUSE",
+    "name": "CAUSE"
+  },
+  "GROUP": {
+    "values": [
+      {
+        "feature_name": "GROUP",
+        "value": "-",
+        "parent": [
+          "GROUP",
+          "ANY-GROUP"
+        ]
+      },
+      {
+        "feature_name": "GROUP",
+        "value": "+",
+        "parent": [
+          "GROUP",
+          "ANY-GROUP"
+        ]
+      },
+      {
+        "feature_name": "GROUP",
+        "value": "ANY-GROUP"
+      }
+    ],
+    "root_value": "ANY-GROUP",
+    "name": "GROUP"
+  },
+  "TIME-FUNCTION": {
+    "values": [
+      {
+        "feature_name": "TIME-FUNCTION",
+        "value": "FREQUENCY",
+        "parent": [
+          "TIME-FUNCTION",
+          "ANY-TIME-FUNCTION"
+        ]
+      },
+      {
+        "feature_name": "TIME-FUNCTION",
+        "value": "TIME-FRAME",
+        "parent": [
+          "TIME-FUNCTION",
+          "TIME-PERIOD"
+        ]
+      },
+      {
+        "feature_name": "TIME-FUNCTION",
+        "value": "TIME-PERIOD",
+        "parent": [
+          "TIME-FUNCTION",
+          "ANY-TIME-FUNCTION"
+        ]
+      },
+      {
+        "feature_name": "TIME-FUNCTION",
+        "value": "ERA",
+        "parent": [
+          "TIME-FUNCTION",
+          "TIME-OF-YEAR"
+        ]
+      },
+      {
+        "feature_name": "TIME-FUNCTION",
+        "value": "YEAR-NAME",
+        "parent": [
+          "TIME-FUNCTION",
+          "TIME-OF-YEAR"
+        ]
+      },
+      {
+        "feature_name": "TIME-FUNCTION",
+        "value": "DATE",
+        "parent": [
+          "TIME-FUNCTION",
+          "TIME-OF-YEAR"
+        ]
+      },
+      {
+        "feature_name": "TIME-FUNCTION",
+        "value": "MONTH-NAME",
+        "parent": [
+          "TIME-FUNCTION",
+          "TIME-OF-YEAR"
+        ]
+      },
+      {
+        "feature_name": "TIME-FUNCTION",
+        "value": "DAY-OF-WEEK",
+        "parent": [
+          "TIME-FUNCTION",
+          "TIME-OF-YEAR"
+        ]
+      },
+      {
+        "feature_name": "TIME-FUNCTION",
+        "value": "TIME-OF-YEAR",
+        "parent": [
+          "TIME-FUNCTION",
+          "ANY-TIME-FUNCTION"
+        ]
+      },
+      {
+        "feature_name": "TIME-FUNCTION",
+        "value": "DAY-POINT",
+        "parent": [
+          "TIME-FUNCTION",
+          "DAY-PART"
+        ]
+      },
+      {
+        "feature_name": "TIME-FUNCTION",
+        "value": "DAY-PERIOD",
+        "parent": [
+          "TIME-FUNCTION",
+          "DAY-PART"
+        ]
+      },
+      {
+        "feature_name": "TIME-FUNCTION",
+        "value": "DAY-PART",
+        "parent": [
+          "TIME-FUNCTION",
+          "TIME-OF-DAY"
+        ]
+      },
+      {
+        "feature_name": "TIME-FUNCTION",
+        "value": "CLOCK-TIME",
+        "parent": [
+          "TIME-FUNCTION",
+          "TIME-OF-DAY"
+        ]
+      },
+      {
+        "feature_name": "TIME-FUNCTION",
+        "value": "TIME-OF-DAY",
+        "parent": [
+          "TIME-FUNCTION",
+          "ANY-TIME-FUNCTION"
+        ]
+      },
+      {
+        "feature_name": "TIME-FUNCTION",
+        "value": "ANY-TIME-FUNCTION"
+      }
+    ],
+    "root_value": "ANY-TIME-FUNCTION",
+    "name": "TIME-FUNCTION"
+  },
+  "INFORMATION": {
+    "values": [
+      {
+        "feature_name": "INFORMATION",
+        "value": "MENTAL-CONSTRUCT",
+        "parent": [
+          "INFORMATION",
+          "INFORMATION-CONTENT"
+        ]
+      },
+      {
+        "feature_name": "INFORMATION",
+        "value": "DATA",
+        "parent": [
+          "INFORMATION",
+          "INFORMATION-CONTENT"
+        ]
+      },
+      {
+        "feature_name": "INFORMATION",
+        "value": "INFORMATION-CONTENT",
+        "parent": [
+          "INFORMATION",
+          "ANY-INFORMATION"
+        ]
+      },
+      {
+        "feature_name": "INFORMATION",
+        "value": "-",
+        "parent": [
+          "INFORMATION",
+          "ANY-INFORMATION"
+        ]
+      },
+      {
+        "feature_name": "INFORMATION",
+        "value": "ANY-INFORMATION"
+      }
+    ],
+    "root_value": "ANY-INFORMATION",
+    "name": "INFORMATION"
+  },
+  "MEASURE-FUNCTION": {
+    "values": [
+      {
+        "feature_name": "MEASURE-FUNCTION",
+        "value": "TERM",
+        "parent": [
+          "MEASURE-FUNCTION",
+          "ANY-MEASURE-FUNCTION"
+        ]
+      },
+      {
+        "feature_name": "MEASURE-FUNCTION",
+        "value": "UNIT",
+        "parent": [
+          "MEASURE-FUNCTION",
+          "VALUE"
+        ]
+      },
+      {
+        "feature_name": "MEASURE-FUNCTION",
+        "value": "VALUE",
+        "parent": [
+          "MEASURE-FUNCTION",
+          "ANY-MEASURE-FUNCTION"
+        ]
+      },
+      {
+        "feature_name": "MEASURE-FUNCTION",
+        "value": "-",
+        "parent": [
+          "MEASURE-FUNCTION",
+          "ANY-MEASURE-FUNCTION"
+        ]
+      },
+      {
+        "feature_name": "MEASURE-FUNCTION",
+        "value": "ANY-MEASURE-FUNCTION"
+      }
+    ],
+    "root_value": "ANY-MEASURE-FUNCTION",
+    "name": "MEASURE-FUNCTION"
+  },
+  "MOBILITY": {
+    "values": [
+      {
+        "feature_name": "MOBILITY",
+        "value": "NON-SELF-MOVING",
+        "parent": [
+          "MOBILITY",
+          "MOVABLE"
+        ]
+      },
+      {
+        "feature_name": "MOBILITY",
+        "value": "LAND-MOVABLE",
+        "parent": [
+          "MOBILITY",
+          "SELF-MOVING"
+        ]
+      },
+      {
+        "feature_name": "MOBILITY",
+        "value": "WATER-MOVABLE",
+        "parent": [
+          "MOBILITY",
+          "SELF-MOVING"
+        ]
+      },
+      {
+        "feature_name": "MOBILITY",
+        "value": "AIR-MOVABLE",
+        "parent": [
+          "MOBILITY",
+          "SELF-MOVING"
+        ]
+      },
+      {
+        "feature_name": "MOBILITY",
+        "value": "SELF-MOVING",
+        "parent": [
+          "MOBILITY",
+          "MOVABLE"
+        ]
+      },
+      {
+        "feature_name": "MOBILITY",
+        "value": "MOVABLE",
+        "parent": [
+          "MOBILITY",
+          "ANY-MOBILITY"
+        ]
+      },
+      {
+        "feature_name": "MOBILITY",
+        "value": "FIXED",
+        "parent": [
+          "MOBILITY",
+          "ANY-MOBILITY"
+        ]
+      },
+      {
+        "feature_name": "MOBILITY",
+        "value": "ANY-MOBILITY"
+      }
+    ],
+    "root_value": "ANY-MOBILITY",
+    "name": "MOBILITY"
+  },
+  "INTENSITY": {
+    "values": [
+      {
+        "feature_name": "INTENSITY",
+        "value": "-",
+        "parent": [
+          "INTENSITY",
+          "ANY-INTENSITY"
+        ]
+      },
+      {
+        "feature_name": "INTENSITY",
+        "value": "LO",
+        "parent": [
+          "INTENSITY",
+          "ANY-INTENSITY"
+        ]
+      },
+      {
+        "feature_name": "INTENSITY",
+        "value": "MED",
+        "parent": [
+          "INTENSITY",
+          "ANY-INTENSITY"
+        ]
+      },
+      {
+        "feature_name": "INTENSITY",
+        "value": "HI",
+        "parent": [
+          "INTENSITY",
+          "ANY-INTENSITY"
+        ]
+      },
+      {
+        "feature_name": "INTENSITY",
+        "value": "ANY-INTENSITY"
+      }
+    ],
+    "root_value": "ANY-INTENSITY",
+    "name": "INTENSITY"
+  },
+  "INTENTIONAL": {
+    "values": [
+      {
+        "feature_name": "INTENTIONAL",
+        "value": "-",
+        "parent": [
+          "INTENTIONAL",
+          "ANY-INTENTIONAL"
+        ]
+      },
+      {
+        "feature_name": "INTENTIONAL",
+        "value": "+",
+        "parent": [
+          "INTENTIONAL",
+          "ANY-INTENTIONAL"
+        ]
+      },
+      {
+        "feature_name": "INTENTIONAL",
+        "value": "ANY-INTENTIONAL"
+      }
+    ],
+    "root_value": "ANY-INTENTIONAL",
+    "name": "INTENTIONAL"
+  },
+  "ORIGIN": {
+    "values": [
+      {
+        "feature_name": "ORIGIN",
+        "value": "ARTIFACT",
+        "parent": [
+          "ORIGIN",
+          "NON-LIVING"
+        ]
+      },
+      {
+        "feature_name": "ORIGIN",
+        "value": "NON-LIVING",
+        "parent": [
+          "ORIGIN",
+          "NATURAL"
+        ]
+      },
+      {
+        "feature_name": "ORIGIN",
+        "value": "NON-HUMAN-ANIMAL",
+        "parent": [
+          "ORIGIN",
+          "NATURAL-NON-HUMAN"
+        ]
+      },
+      {
+        "feature_name": "ORIGIN",
+        "value": "CREATURE",
+        "parent": [
+          "ORIGIN",
+          "NATURAL-NON-HUMAN"
+        ]
+      },
+      {
+        "feature_name": "ORIGIN",
+        "value": "PLANT",
+        "parent": [
+          "ORIGIN",
+          "NATURAL-NON-HUMAN"
+        ]
+      },
+      {
+        "feature_name": "ORIGIN",
+        "value": "NATURAL-NON-HUMAN",
+        "parent": [
+          "ORIGIN",
+          "LIVING"
+        ]
+      },
+      {
+        "myimplied": {
+          "features": [
+            [
+              "INTENTIONAL",
+              "+"
+            ],
+            [
+              "FORM",
+              "SOLID-OBJECT"
+            ]
+          ],
+          "type": "PHYS-OBJ"
+        },
+        "feature_name": "ORIGIN",
+        "value": "HUMAN",
+        "parent": [
+          "ORIGIN",
+          "LIVING"
+        ],
+        "implied": {
+          "features": [
+            [
+              "INTENTIONAL",
+              "+"
+            ],
+            [
+              "FORM",
+              "SOLID-OBJECT"
+            ]
+          ],
+          "type": "PHYS-OBJ"
+        }
+      },
+      {
+        "feature_name": "ORIGIN",
+        "value": "LIVING",
+        "parent": [
+          "ORIGIN",
+          "NATURAL"
+        ]
+      },
+      {
+        "feature_name": "ORIGIN",
+        "value": "NATURAL",
+        "parent": [
+          "ORIGIN",
+          "ANY-ORIGIN"
+        ]
+      },
+      {
+        "feature_name": "ORIGIN",
+        "value": "ANY-ORIGIN"
+      }
+    ],
+    "root_value": "ANY-ORIGIN",
+    "name": "ORIGIN"
+  },
+  "FORM": {
+    "values": [
+      {
+        "feature_name": "FORM",
+        "value": "GEOGRAPHICAL-OBJECT",
+        "parent": [
+          "FORM",
+          "OBJECT"
+        ]
+      },
+      {
+        "feature_name": "FORM",
+        "value": "ENCLOSURE",
+        "parent": [
+          "FORM",
+          "OBJECT"
+        ]
+      },
+      {
+        "feature_name": "FORM",
+        "value": "HOLE",
+        "parent": [
+          "FORM",
+          "OBJECT"
+        ]
+      },
+      {
+        "feature_name": "FORM",
+        "value": "SOLID-OBJECT",
+        "parent": [
+          "FORM",
+          "OBJECT"
+        ]
+      },
+      {
+        "feature_name": "FORM",
+        "value": "OBJECT",
+        "parent": [
+          "FORM",
+          "ANY-FORM"
+        ]
+      },
+      {
+        "feature_name": "FORM",
+        "value": "WAVE",
+        "parent": [
+          "FORM",
+          "SUBSTANCE"
+        ]
+      },
+      {
+        "feature_name": "FORM",
+        "value": "GAS",
+        "parent": [
+          "FORM",
+          "SUBSTANCE"
+        ]
+      },
+      {
+        "feature_name": "FORM",
+        "value": "LIQUID",
+        "parent": [
+          "FORM",
+          "SUBSTANCE"
+        ]
+      },
+      {
+        "feature_name": "FORM",
+        "value": "SOLID",
+        "parent": [
+          "FORM",
+          "SUBSTANCE"
+        ]
+      },
+      {
+        "feature_name": "FORM",
+        "value": "SUBSTANCE",
+        "parent": [
+          "FORM",
+          "ANY-FORM"
+        ]
+      },
+      {
+        "feature_name": "FORM",
+        "value": "ANY-FORM"
+      }
+    ],
+    "root_value": "ANY-FORM",
+    "name": "FORM"
+  }
+}

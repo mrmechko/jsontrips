@@ -20,6 +20,6 @@ if __name__ == "__main__":
                 ],
                 packages=find_packages(exclude=["test"]),
                 package_data={
-                    "jsontrips": ['data/*']
+                    "jsontrips": ['data/*.json']
                 }
         )

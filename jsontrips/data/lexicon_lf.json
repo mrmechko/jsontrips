@@ -1,0 +1,7365 @@
+{
+  "ATTIRE": [
+    "N"
+  ],
+  "TASTY-VAL": [
+    "ADJ"
+  ],
+  "GEO-SAMPLE": [
+    "N"
+  ],
+  "IMMEDIATE": [
+    "ADJ",
+    "ADV"
+  ],
+  "HALF-STEP": [
+    "N"
+  ],
+  "MINERALS": [
+    "N"
+  ],
+  "SWEAR": [
+    "V"
+  ],
+  "COMFORTABLE": [
+    "ADJ"
+  ],
+  "RELATION": [
+    "N"
+  ],
+  "PLACE": [
+    "N"
+  ],
+  "SOUR-VAL": [
+    "ADJ"
+  ],
+  "AREA-SCALE": [
+    "N"
+  ],
+  "REVIVING": [
+    "V"
+  ],
+  "POSSIBLE-SCALE": [
+    "N"
+  ],
+  "ATTRIBUTE": [
+    "N"
+  ],
+  "CLOCKWISE": [
+    "ADV"
+  ],
+  "INVISIBILITY-SCALE": [
+    "N"
+  ],
+  "MOVE-SLOWLY": [
+    "V"
+  ],
+  "CORRELATION": [
+    "N",
+    "V"
+  ],
+  "FEDERAL-ORGANIZATION": [
+    "NAME",
+    "N"
+  ],
+  "DI-VAL": [
+    "ADJ",
+    "ADV"
+  ],
+  "ORIENT": [
+    "V"
+  ],
+  "ORGANISM": [
+    "N"
+  ],
+  "INHIBIT-EFFECT": [
+    "N",
+    "V"
+  ],
+  "MULTIPLE": [
+    "N"
+  ],
+  "LID": [
+    "N"
+  ],
+  "DISCIPLINE": [
+    "N"
+  ],
+  "MEMORY-UNIT": [
+    "N"
+  ],
+  "LEAN-VAL": [
+    "ADJ"
+  ],
+  "NEAR-RELN": [
+    "ADV"
+  ],
+  "ARRIVE": [
+    "N",
+    "V"
+  ],
+  "COLORING": [
+    "V"
+  ],
+  "MOVE-FLUIDLY": [
+    "V"
+  ],
+  "APPRECIATE": [
+    "V"
+  ],
+  "HEALTH-PROFESSIONAL": [
+    "N"
+  ],
+  "ALONG": [
+    "ADV"
+  ],
+  "STOMACHACHE": [
+    "N"
+  ],
+  "LIVESTOCK-VAL": [
+    "ADJ"
+  ],
+  "EXPENSE": [
+    "N"
+  ],
+  "PLANET": [
+    "NAME"
+  ],
+  "TEMPORAL-LOCATION": [
+    "ADJ",
+    "ADV"
+  ],
+  "AMPHIBIAN": [
+    "N"
+  ],
+  "MISSES": [
+    "V"
+  ],
+  "ON-MEDICATION": [
+    "ADV"
+  ],
+  "PUNCTUATION": [
+    "N"
+  ],
+  "ENTERTAINMENT-ESTABLISHMENT": [
+    "N"
+  ],
+  "REGIONAL-IDENTITY": [
+    "N"
+  ],
+  "SOFTEN": [
+    "V"
+  ],
+  "AIR-VEHICLE": [
+    "N"
+  ],
+  "INTERVIEW": [
+    "N",
+    "V"
+  ],
+  "INSTRUCTION-EVENT": [
+    "N"
+  ],
+  "LIKELY-SCALE": [
+    "N"
+  ],
+  "ROUND-VAL": [
+    "ADJ"
+  ],
+  "DESELECT": [
+    "V"
+  ],
+  "DIFFER": [
+    "V"
+  ],
+  "ABOVE": [
+    "ADV"
+  ],
+  "FOOD-PREP-PROCESS": [
+    "N"
+  ],
+  "HUGE-VAL": [
+    "ADJ"
+  ],
+  "CHEESE": [
+    "N"
+  ],
+  "WOUND": [
+    "N"
+  ],
+  "EXTENSION": [
+    "ADV"
+  ],
+  "IDENTITY-VAL": [
+    "ADV",
+    "ADJ"
+  ],
+  "BRIGHTNESS-SCALE": [
+    "N"
+  ],
+  "INFORMATION-SCRUTINY": [
+    "V"
+  ],
+  "DIZZY-VAL": [
+    "ADJ"
+  ],
+  "RECTANGULAR-VAL": [
+    "ADJ"
+  ],
+  "SHORTEN": [
+    "V"
+  ],
+  "DEPENDENT": [
+    "ADJ"
+  ],
+  "COMMERCE-PAY": [
+    "N",
+    "V"
+  ],
+  "SALTWATER-FISH": [
+    "N"
+  ],
+  "CHEMICAL-VAL": [
+    "ADJ"
+  ],
+  "INSECT": [
+    "N"
+  ],
+  "PERCENT-SCALE": [
+    "N"
+  ],
+  "SHEET": [
+    "N"
+  ],
+  "UNSTEADY": [
+    "ADJ"
+  ],
+  "INTERSECT": [
+    "N",
+    "V"
+  ],
+  "SPECIALIST": [
+    "N"
+  ],
+  "SPEED-SCALE": [
+    "N"
+  ],
+  "MONEY": [
+    "N"
+  ],
+  "PRIMARY": [
+    "ADJ"
+  ],
+  "COURT-GAME": [
+    "N"
+  ],
+  "PROCESS": [
+    "N"
+  ],
+  "DIRECTION-DOWN-GROUND": [
+    "ADJ",
+    "ADV"
+  ],
+  "EVOKE-DISCOMFORT": [
+    "N",
+    "V"
+  ],
+  "COMPLIANCE": [
+    "N",
+    "V"
+  ],
+  "FRANTIC-VAL": [
+    "ADJ"
+  ],
+  "HAPPINESS-SCALE": [
+    "N"
+  ],
+  "NATIONALITY": [
+    "N"
+  ],
+  "PLEASING-VAL": [
+    "ADJ"
+  ],
+  "EXPERIENCER-OBJ": [
+    "N",
+    "V"
+  ],
+  "HEADACHE": [
+    "N"
+  ],
+  "NOTICEABLE": [
+    "ADJ"
+  ],
+  "OBJECTIVE-INFLUENCE": [
+    "N",
+    "V"
+  ],
+  "INTERESTED-SCALE": [
+    "N"
+  ],
+  "HYPERKALEMIA": [
+    "N"
+  ],
+  "PRIZE": [
+    "N"
+  ],
+  "POLY-VAL": [
+    "ADJ",
+    "ADV"
+  ],
+  "PAN": [
+    "V"
+  ],
+  "EXTEND": [
+    "V"
+  ],
+  "NEGOTIATE": [
+    "V"
+  ],
+  "MOVE-AROUND": [
+    "V"
+  ],
+  "PERCEIVABLE-SMELL-PROPERTY": [
+    "N"
+  ],
+  "COLD": [
+    "ADJ"
+  ],
+  "DECIDE": [
+    "N",
+    "V"
+  ],
+  "ARRANGING": [
+    "N",
+    "V"
+  ],
+  "ABILITY": [
+    "V"
+  ],
+  "ATMOSPHERIC-EVENT": [
+    "V"
+  ],
+  "OSTEOARTHRITIS": [
+    "N"
+  ],
+  "CHORD": [
+    "N"
+  ],
+  "DENSITY-SCALE": [
+    "N"
+  ],
+  "ALIVE": [
+    "ADJ"
+  ],
+  "FAT-CONTENT": [
+    "ADJ"
+  ],
+  "INVALID-VAL": [
+    "ADJ"
+  ],
+  "ACCOMPANIMENT": [
+    "ADV"
+  ],
+  "REPLACEABLE-VAL": [
+    "ADJ"
+  ],
+  "INFORMATION": [
+    "N"
+  ],
+  "CARDINAL-POINT": [
+    "N"
+  ],
+  "ABUSE": [
+    "N",
+    "V"
+  ],
+  "COMMERCE-COLLECT": [
+    "V"
+  ],
+  "CLEAN": [
+    "V"
+  ],
+  "MENTAL-OBJECT": [
+    "N"
+  ],
+  "RECURRING-TIME-OF-DAY": [
+    "PRO",
+    "N"
+  ],
+  "ENROLL": [
+    "N",
+    "V"
+  ],
+  "DEGREE-MODIFIER": [
+    "ADV"
+  ],
+  "FURNISHINGS": [
+    "N"
+  ],
+  "BET": [
+    "V"
+  ],
+  "COMPUTER-CARD": [
+    "N"
+  ],
+  "DEPRESSION": [
+    "N"
+  ],
+  "PLAY": [
+    "N",
+    "V"
+  ],
+  "BENEFICIARY": [
+    "ADV"
+  ],
+  "TOPIC-SIGNAL": [
+    "ADV"
+  ],
+  "DATA-STORAGE-MEDIUM": [
+    "N"
+  ],
+  "SPICINESS-SCALE": [
+    "N"
+  ],
+  "DISTRIBUTED-POS": [
+    "ADV"
+  ],
+  "CONVENTIONAL-POSITION-RELN": [
+    "ADV"
+  ],
+  "HOLIDAY": [
+    "NAME"
+  ],
+  "SEVERITY-SCALE": [
+    "N"
+  ],
+  "BORROW": [
+    "V"
+  ],
+  "ECONOMIC-EVENT": [
+    "N"
+  ],
+  "EXTERNAL-BODY-PART": [
+    "N"
+  ],
+  "ALLOWS-DOING-VAL": [
+    "ADJ"
+  ],
+  "GREEK-LETTER-SYMBOL": [
+    "VALUE"
+  ],
+  "THROMBOSIS": [
+    "N"
+  ],
+  "BLUE": [
+    "ADJ"
+  ],
+  "NOT-LIKELY-SCALE": [
+    "N"
+  ],
+  "NOT-COMPATIBLE-VAL": [
+    "ADJ"
+  ],
+  "MOLECULAR-SITE": [
+    "N"
+  ],
+  "SCALE-RELATION": [
+    "ADV"
+  ],
+  "ID-NUMBER": [
+    "N"
+  ],
+  "TAME-VAL": [
+    "ADJ"
+  ],
+  "CENTURY": [
+    "N"
+  ],
+  "AGITATED": [
+    "ADJ"
+  ],
+  "AMNESIA": [
+    "N"
+  ],
+  "CRACKERS": [
+    "N"
+  ],
+  "ANESTHESIA": [
+    "N"
+  ],
+  "EXCHANGE": [
+    "N",
+    "V"
+  ],
+  "STRENGTH-SCALE": [
+    "N"
+  ],
+  "REPOSITORY": [
+    "N"
+  ],
+  "SPEED-UNIT": [
+    "N"
+  ],
+  "ENTERING": [
+    "V"
+  ],
+  "ALLERGY-MEDICATION": [
+    "N"
+  ],
+  "SNIFFLE": [
+    "N"
+  ],
+  "MERE-VAL": [
+    "ADJ"
+  ],
+  "EVOKE-CALM": [
+    "N",
+    "V"
+  ],
+  "AROUND": [
+    "ADV"
+  ],
+  "AWAKE": [
+    "V"
+  ],
+  "POS-BEFORE-IN-TRAJECTORY": [
+    "ADV"
+  ],
+  "REVERSE": [
+    "V"
+  ],
+  "CARD": [
+    "N"
+  ],
+  "EVOKE-OFFENSE": [
+    "N",
+    "V"
+  ],
+  "NATURE-CHANGE": [
+    "V"
+  ],
+  "HINDERING": [
+    "V",
+    "N"
+  ],
+  "HEART-ATTACK": [
+    "N"
+  ],
+  "CARDINAL-DIRECTION": [
+    "ADV"
+  ],
+  "GROUP-OBJECT": [
+    "N"
+  ],
+  "TRIPLE": [
+    "V"
+  ],
+  "MIDDLE-VAL": [
+    "ADJ"
+  ],
+  "PIGEON": [
+    "N"
+  ],
+  "ENTER-ON-FORM": [
+    "V"
+  ],
+  "NOT-RESPONSIBLE-VAL": [
+    "ADJ"
+  ],
+  "LIGHTWEIGHT": [
+    "ADJ"
+  ],
+  "EXHALE-FORCEFULLY": [
+    "V"
+  ],
+  "TIME-DEFINED-BY-EVENT": [
+    "N"
+  ],
+  "PRODUCT": [
+    "N"
+  ],
+  "VACATION": [
+    "N"
+  ],
+  "FIGHTING": [
+    "V"
+  ],
+  "MOVE-FORWARD": [
+    "V"
+  ],
+  "PAUSE": [
+    "N",
+    "V"
+  ],
+  "STANDARD": [
+    "N"
+  ],
+  "SMOOTHEN": [
+    "V"
+  ],
+  "SAVE-COST": [
+    "V"
+  ],
+  "TEXT-REPRESENTATION": [
+    "N"
+  ],
+  "COST-RELATION": [
+    "ADV"
+  ],
+  "WEST-RELN": [
+    "ADV",
+    "ADJ"
+  ],
+  "ROUTE": [
+    "N"
+  ],
+  "UNATTACH": [
+    "V"
+  ],
+  "EVOKE-INJURY": [
+    "N",
+    "V"
+  ],
+  "DIRECTION-BACKWARD": [
+    "ADV"
+  ],
+  "LEAVE-TIME": [
+    "V"
+  ],
+  "AGE-SCALE": [
+    "N"
+  ],
+  "HUMIDITY-SCALE": [
+    "N"
+  ],
+  "MAX-VAL": [
+    "ADV",
+    "N",
+    "ADJ"
+  ],
+  "COMBINATION": [
+    "N"
+  ],
+  "DRESSINGS-SAUCES-COATINGS": [
+    "N"
+  ],
+  "TRY-AGAIN": [
+    "V"
+  ],
+  "DESIRE": [
+    "N"
+  ],
+  "CLINICAL-FINDING": [
+    "N"
+  ],
+  "FAMILY-RELATION": [
+    "N"
+  ],
+  "MILD-AND-PLEASANT-VAL": [
+    "ADJ"
+  ],
+  "CHOICE-OPTION": [
+    "ADV"
+  ],
+  "PAIN-RELIEVER": [
+    "N",
+    "NAME"
+  ],
+  "GOOD": [
+    "ADV",
+    "ADJ"
+  ],
+  "COME-TO-UNDERSTAND": [
+    "N",
+    "V"
+  ],
+  "AWARE-VAL": [
+    "ADJ"
+  ],
+  "INTRINSIC-VAL": [
+    "ADJ"
+  ],
+  "INTENSITY-SCALE": [
+    "N"
+  ],
+  "THICKNESS-SCALE": [
+    "N"
+  ],
+  "SMOOTH-VAL": [
+    "ADJ"
+  ],
+  "WANT": [
+    "N",
+    "V"
+  ],
+  "GRUMPY-VAL": [
+    "ADJ"
+  ],
+  "COUNTERCLOCKWISE": [
+    "ADV"
+  ],
+  "DIFFICULT-SCALE": [
+    "N"
+  ],
+  "DAIRY": [
+    "N"
+  ],
+  "AT-RISK-VAL": [
+    "ADJ"
+  ],
+  "STEP": [
+    "N"
+  ],
+  "SUCCESSFUL-VAL": [
+    "ADJ"
+  ],
+  "N-TUPLE-VAL": [
+    "ADJ"
+  ],
+  "BEFORE": [
+    "ADJ",
+    "ADV"
+  ],
+  "IDENTIFICATION": [
+    "N"
+  ],
+  "PARTS-REMOVED": [
+    "V",
+    "N"
+  ],
+  "DIRECTION-FORWARD": [
+    "ADV"
+  ],
+  "KICKING": [
+    "N",
+    "V"
+  ],
+  "FREE-VAL": [
+    "ADJ"
+  ],
+  "FAT-VAL": [
+    "ADJ"
+  ],
+  "METHOD": [
+    "N"
+  ],
+  "LOCOMOTE-UP": [
+    "V"
+  ],
+  "TOPIC": [
+    "ADV"
+  ],
+  "CARVE-CUT": [
+    "N",
+    "V"
+  ],
+  "ACTUAL": [
+    "ADJ"
+  ],
+  "ACTION": [
+    "N"
+  ],
+  "RELIGIOUS-IDENTITY": [
+    "N"
+  ],
+  "DRIVE": [
+    "N",
+    "V"
+  ],
+  "AGE": [
+    "N",
+    "V"
+  ],
+  "SELF-LOCOMOTE": [
+    "N",
+    "V"
+  ],
+  "WEALTHY-VAL": [
+    "ADJ"
+  ],
+  "CAUSE-MOVE": [
+    "N",
+    "V"
+  ],
+  "DEPRIVE": [
+    "V"
+  ],
+  "BOXCAR": [
+    "N"
+  ],
+  "AGGRESSIVE-VAL": [
+    "ADJ"
+  ],
+  "MICROWAVE": [
+    "N"
+  ],
+  "PURCHASE-COST": [
+    "ADV"
+  ],
+  "NOT-AMBITIOUS-VAL": [
+    "ADJ"
+  ],
+  "FAILING": [
+    "N",
+    "V"
+  ],
+  "STRAIGHTFORWARD-VAL": [
+    "ADJ"
+  ],
+  "DEGREE-MODIFIER-HIGH": [
+    "ADJ",
+    "ADV"
+  ],
+  "NOT-PLAIN-VAL": [
+    "ADJ"
+  ],
+  "ONE-BEFORE-LAST-VAL": [
+    "ADJ"
+  ],
+  "SECRET-VAL": [
+    "ADJ"
+  ],
+  "EMERGENCY": [
+    "N"
+  ],
+  "SMART": [
+    "ADJ"
+  ],
+  "TEAS-COCKTAILS-BLENDS": [
+    "N"
+  ],
+  "POLARITY-VAL-NEGATIVE": [
+    "ADJ"
+  ],
+  "VOYAGE": [
+    "N"
+  ],
+  "HUMID-VAL": [
+    "ADJ"
+  ],
+  "ABILITY-TO-TASTE": [
+    "N"
+  ],
+  "CENTRAL-VAL": [
+    "ADJ"
+  ],
+  "ORDER": [
+    "N"
+  ],
+  "INTERSECTING-VAL": [
+    "ADJ"
+  ],
+  "ALLOW": [
+    "N",
+    "V"
+  ],
+  "GRAY": [
+    "ADJ"
+  ],
+  "KINDNESS-SCALE": [
+    "N"
+  ],
+  "THROUGH": [
+    "ADV"
+  ],
+  "OPEN": [
+    "V"
+  ],
+  "APPROPRIATE": [
+    "N",
+    "V"
+  ],
+  "PASS-BY": [
+    "V"
+  ],
+  "PROGRESSIVE": [
+    "V"
+  ],
+  "SHOWER": [
+    "N"
+  ],
+  "PITCH": [
+    "N"
+  ],
+  "NOT-CONVENIENT-VAL": [
+    "ADJ"
+  ],
+  "NEUTRAL-ACCEPTABILITY-VAL": [
+    "ADJ"
+  ],
+  "COVER": [
+    "V"
+  ],
+  "RESOLUTION-SCALE": [
+    "N"
+  ],
+  "ROBOT": [
+    "N"
+  ],
+  "SPATIAL-DISTANCE-REL": [
+    "ADV"
+  ],
+  "DECREASE-COMPLETELY": [
+    "N",
+    "V"
+  ],
+  "MONO-VAL": [
+    "ADJ",
+    "ADV"
+  ],
+  "EQUAL-SCALE": [
+    "N"
+  ],
+  "INJURY": [
+    "N"
+  ],
+  "TRANSGRESS": [
+    "V",
+    "N"
+  ],
+  "PERIODIC-VAL": [
+    "ADJ"
+  ],
+  "EMPLOY": [
+    "N",
+    "V"
+  ],
+  "TYPICAL-SCALE": [
+    "N"
+  ],
+  "SIGNATURE": [
+    "N"
+  ],
+  "NOT-EFFICIENT-VAL": [
+    "ADJ"
+  ],
+  "BURN": [
+    "V"
+  ],
+  "EVOKE-ANGER": [
+    "N",
+    "V"
+  ],
+  "ENLARGE": [
+    "N",
+    "V"
+  ],
+  "DIRECTION-OUT": [
+    "ADV"
+  ],
+  "RESPONSIBILITY": [
+    "N"
+  ],
+  "JUNIOR-VAL": [
+    "ADJ"
+  ],
+  "UNCLEAR": [
+    "ADJ"
+  ],
+  "LEFT": [
+    "ADJ"
+  ],
+  "EQUIPMENT": [
+    "N"
+  ],
+  "PURSUE": [
+    "N",
+    "V"
+  ],
+  "COMPLAIN": [
+    "N",
+    "V"
+  ],
+  "LAND-VEHICLE": [
+    "N"
+  ],
+  "INVERTED-VAL": [
+    "ADJ"
+  ],
+  "DOMAIN": [
+    "N"
+  ],
+  "BASIC-VAL": [
+    "ADJ"
+  ],
+  "SUMOYLATION": [
+    "N",
+    "V"
+  ],
+  "MOVE-PLAYFULLY": [
+    "V"
+  ],
+  "EQUAL-DISTANCE-VAL": [
+    "ADJ"
+  ],
+  "TAKING-CARE-OF": [
+    "V"
+  ],
+  "VISUAL-SHARPNESS-SCALE": [
+    "N"
+  ],
+  "POULTRY": [
+    "N"
+  ],
+  "TOP-LOCATION-VAL": [
+    "ADJ"
+  ],
+  "REPAIR": [
+    "N",
+    "V"
+  ],
+  "JUMP": [
+    "V"
+  ],
+  "SMALL-CONTAINER": [
+    "N"
+  ],
+  "TABLE": [
+    "N"
+  ],
+  "INFLAMMATION": [
+    "N"
+  ],
+  "SPICY-VAL": [
+    "ADJ"
+  ],
+  "BE-INCLINED": [
+    "V"
+  ],
+  "TRAVELLER": [
+    "N"
+  ],
+  "QUANTITY-ABSTR": [
+    "N"
+  ],
+  "CAUTIOUSNESS-SCALE": [
+    "N"
+  ],
+  "ATTACH": [
+    "N",
+    "V"
+  ],
+  "POS-EXTENDED-ALONG-LINEAR-AREA": [
+    "ADV"
+  ],
+  "AIR-CURRENT": [
+    "N"
+  ],
+  "MODEST-VAL": [
+    "ADJ"
+  ],
+  "GLYCOSYLATION": [
+    "N",
+    "V"
+  ],
+  "CREDIBLE-VAL": [
+    "ADJ"
+  ],
+  "PUT-ON": [
+    "V"
+  ],
+  "DIMENSIONAL-SCALE": [
+    "N"
+  ],
+  "DIRECTION-UP": [
+    "ADJ",
+    "ADV"
+  ],
+  "BEAUTIFUL-SCALE": [
+    "N"
+  ],
+  "LIFE-TRANSFORMATION": [
+    "N",
+    "V"
+  ],
+  "GEO-OBJECT": [
+    "N"
+  ],
+  "TIME-POINT": [
+    "N"
+  ],
+  "SKILLFULNESS-SCALE": [
+    "N"
+  ],
+  "EXCEPTIONAL-VAL": [
+    "ADJ"
+  ],
+  "NATIONALITY-VAL": [
+    "ADJ"
+  ],
+  "SUMMARIZE": [
+    "V"
+  ],
+  "FEMALE-PERSON": [
+    "PRO",
+    "N"
+  ],
+  "REGRETTING": [
+    "V"
+  ],
+  "COPE-DEAL": [
+    "N",
+    "V"
+  ],
+  "OBJECT-COMPARE": [
+    "V"
+  ],
+  "SELECT": [
+    "N",
+    "V"
+  ],
+  "INJURY-PROPERTY-VAL": [
+    "ADJ"
+  ],
+  "SILLY-VAL": [
+    "ADJ"
+  ],
+  "SOUP": [
+    "N"
+  ],
+  "AFFIXED-VAL": [
+    "ADJ"
+  ],
+  "TITLE": [
+    "N",
+    "NAME"
+  ],
+  "REMOVE-FROM-FOOD": [
+    "V"
+  ],
+  "WORK": [
+    "N",
+    "V"
+  ],
+  "BAGELS-BISCUITS": [
+    "N"
+  ],
+  "SCHEDULED-TIME-MODIFIER": [
+    "ADJ"
+  ],
+  "CLASSIFIED-VAL": [
+    "ADJ"
+  ],
+  "FARNESYLATION": [
+    "N",
+    "V"
+  ],
+  "BLEED": [
+    "N",
+    "V"
+  ],
+  "WARM": [
+    "ADJ"
+  ],
+  "CLOG": [
+    "N",
+    "V"
+  ],
+  "THIN-VAL": [
+    "ADJ"
+  ],
+  "SAFETY-SCALE": [
+    "N"
+  ],
+  "EXTENDED-SAY": [
+    "N",
+    "V"
+  ],
+  "FLOOR-BELOW": [
+    "ADV"
+  ],
+  "RECORD": [
+    "N",
+    "V"
+  ],
+  "ADEQUATE": [
+    "ADV",
+    "ADJ"
+  ],
+  "LINGUISTIC-COMPONENT": [
+    "N"
+  ],
+  "NATIONAL-VAL": [
+    "ADJ"
+  ],
+  "FIRE": [
+    "N"
+  ],
+  "FRONT": [
+    "ADV"
+  ],
+  "WHEN-WHILE": [
+    "ADV"
+  ],
+  "SOFT-VAL": [
+    "ADJ"
+  ],
+  "REDNESS-SCALE": [
+    "N"
+  ],
+  "RECIPIENT": [
+    "N"
+  ],
+  "TENTATIVE-VAL": [
+    "ADJ"
+  ],
+  "ANNOTATION": [
+    "N"
+  ],
+  "PHYSICAL-REACTION": [
+    "ADJ"
+  ],
+  "SOCIAL-EVENT": [
+    "N"
+  ],
+  "BUDGET": [
+    "N"
+  ],
+  "AFTER": [
+    "ADJ",
+    "ADV"
+  ],
+  "LESS-THAN-REL": [
+    "ADV"
+  ],
+  "STICKY-VAL": [
+    "ADJ"
+  ],
+  "SAY": [
+    "N",
+    "V"
+  ],
+  "BRIGHT-VAL": [
+    "ADJ"
+  ],
+  "EVOKE-PAIN": [
+    "N",
+    "V"
+  ],
+  "EVOKE-ATTENTION": [
+    "N",
+    "V"
+  ],
+  "INAUDIBILITY-VAL": [
+    "ADJ"
+  ],
+  "MEDIUM-VAL": [
+    "ADJ"
+  ],
+  "DETERIORATE": [
+    "N",
+    "V"
+  ],
+  "OPENING": [
+    "N"
+  ],
+  "FLUIDIC-MOTION": [
+    "N",
+    "V"
+  ],
+  "CURRENCY": [
+    "N"
+  ],
+  "TIME-SPAN": [
+    "N"
+  ],
+  "NOT-VERIFIABLE-VAL": [
+    "ADJ"
+  ],
+  "BOTTOM-LOCATION-VAL": [
+    "ADJ"
+  ],
+  "DIGITAL-VAL": [
+    "ADJ"
+  ],
+  "NOT-HOMOGENEOUS-VAL": [
+    "ADJ"
+  ],
+  "KNOWIF": [
+    "N",
+    "V"
+  ],
+  "NOT-IN-WORKING-ORDER-VAL": [
+    "ADJ"
+  ],
+  "SPACE": [
+    "V"
+  ],
+  "FINISHED": [
+    "ADJ"
+  ],
+  "STEADY-SCALE": [
+    "N"
+  ],
+  "RESEMBLE": [
+    "V"
+  ],
+  "BIOLOGICAL-PROCESS": [
+    "N"
+  ],
+  "TIME-ON-REL": [
+    "ADV"
+  ],
+  "CONTROL-MANAGE": [
+    "N",
+    "V"
+  ],
+  "JUICE": [
+    "N"
+  ],
+  "PROFESSIONAL": [
+    "N"
+  ],
+  "NOVELTY-VAL": [
+    "ADJ"
+  ],
+  "MALE-PERSON": [
+    "N",
+    "PRO"
+  ],
+  "UNCLASSIFIED-VAL": [
+    "ADJ"
+  ],
+  "HIVES": [
+    "N"
+  ],
+  "ACCOUNT-PAYABLE": [
+    "N"
+  ],
+  "PHOSPHORILATED": [
+    "ADJ"
+  ],
+  "MEDICAL-DRESSING": [
+    "N"
+  ],
+  "MANNER": [
+    "ADJ",
+    "ADV"
+  ],
+  "DANGEROUS": [
+    "ADJ"
+  ],
+  "ACTION-DEFINED-BY-GAME": [
+    "N"
+  ],
+  "KETTLE": [
+    "N"
+  ],
+  "REWARD": [
+    "N",
+    "V"
+  ],
+  "WEAKNESS-SCALE": [
+    "N"
+  ],
+  "COMPOSITION": [
+    "N"
+  ],
+  "REMOVE-FROM": [
+    "N",
+    "V"
+  ],
+  "ROUGHNESS-SCALE": [
+    "N"
+  ],
+  "REMEMBER": [
+    "N",
+    "V"
+  ],
+  "SIMILARITY": [
+    "ADV"
+  ],
+  "FLEXIBLE-VAL": [
+    "ADJ"
+  ],
+  "INTERNAL": [
+    "ADJ"
+  ],
+  "DIRECT-INFORMATION": [
+    "N",
+    "V"
+  ],
+  "COUNTY": [
+    "N"
+  ],
+  "MANUFACTURED-OBJECT": [
+    "N"
+  ],
+  "SUFFICIENCY": [
+    "V"
+  ],
+  "CRATER": [
+    "N"
+  ],
+  "CONSUME": [
+    "N",
+    "V"
+  ],
+  "AUTUMN": [
+    "N"
+  ],
+  "IN-TOUCH-VAL": [
+    "ADJ"
+  ],
+  "WAIT": [
+    "N",
+    "V"
+  ],
+  "BEAR": [
+    "V"
+  ],
+  "MAP": [
+    "N"
+  ],
+  "MINIMIZE": [
+    "V",
+    "N"
+  ],
+  "NUMBER-UNIT": [
+    "NUMBER-UNIT"
+  ],
+  "CEREMONY": [
+    "N"
+  ],
+  "PNEUMONIA": [
+    "N"
+  ],
+  "ROAST": [
+    "V"
+  ],
+  "REJECT": [
+    "N",
+    "V"
+  ],
+  "QUANTITY": [
+    "N"
+  ],
+  "SEQUENCE-POSITION": [
+    "ADV"
+  ],
+  "EDGE": [
+    "N"
+  ],
+  "POST-TRANSLATIONAL-MODIFICATION": [
+    "V",
+    "N"
+  ],
+  "PENETRATE": [
+    "V"
+  ],
+  "LANGUAGE-ADJUST": [
+    "N",
+    "V"
+  ],
+  "SALIENCE": [
+    "V"
+  ],
+  "SQUEEZE": [
+    "N",
+    "V"
+  ],
+  "NOT-WORTHY-VAL": [
+    "ADJ"
+  ],
+  "SOW-SEED": [
+    "V"
+  ],
+  "JOINING": [
+    "V"
+  ],
+  "IMPRESS": [
+    "V"
+  ],
+  "TIME-CULMINATION-REL": [
+    "ADV"
+  ],
+  "SOCIALLY-REMOVE": [
+    "N",
+    "V"
+  ],
+  "ILLNESS-SCALE": [
+    "N"
+  ],
+  "COMPATIBILITY-SCALE": [
+    "N"
+  ],
+  "NUMBER": [
+    "N"
+  ],
+  "WAYPOINT": [
+    "N"
+  ],
+  "INTERESTED-VAL": [
+    "ADJ"
+  ],
+  "NOT-CAREFUL-VAL": [
+    "ADJ"
+  ],
+  "STD-MEASUREMENT-VAL": [
+    "N"
+  ],
+  "UNCOMFORTABLE": [
+    "ADJ"
+  ],
+  "EUPHORIC": [
+    "ADJ"
+  ],
+  "IMAGE": [
+    "N"
+  ],
+  "BODY-MOVEMENT": [
+    "V"
+  ],
+  "HYPERTENSION": [
+    "N"
+  ],
+  "COLLABORATE": [
+    "N",
+    "V"
+  ],
+  "CURE": [
+    "V"
+  ],
+  "DIRECTION-LEFTWARD": [
+    "ADV"
+  ],
+  "START": [
+    "N",
+    "V"
+  ],
+  "OUTSIDE": [
+    "ADV"
+  ],
+  "ALGORITHM": [
+    "N"
+  ],
+  "NOT-MEANINGFUL-VAL": [
+    "ADJ"
+  ],
+  "COORDINATING": [
+    "V"
+  ],
+  "YESTERDAY": [
+    "N"
+  ],
+  "CONNECTIVITY-SCALE": [
+    "N"
+  ],
+  "POLARITY-VAL": [
+    "ADJ"
+  ],
+  "HARDEN": [
+    "V"
+  ],
+  "EVENT-TIME-REL-CULMINATION": [
+    "ADV"
+  ],
+  "MEET": [
+    "N",
+    "V"
+  ],
+  "IS-COMPATIBLE-WITH": [
+    "N",
+    "V"
+  ],
+  "INTERACT": [
+    "N",
+    "V"
+  ],
+  "BIKE": [
+    "V"
+  ],
+  "ANGLE-UNIT": [
+    "N"
+  ],
+  "PUT": [
+    "N",
+    "V"
+  ],
+  "DOUBT": [
+    "V"
+  ],
+  "MEDICAL-VAL": [
+    "ADJ"
+  ],
+  "CAUSED-EVENT": [
+    "N"
+  ],
+  "RELEASING": [
+    "N",
+    "V"
+  ],
+  "TUNNEL": [
+    "N"
+  ],
+  "WINDY-VAL": [
+    "ADJ"
+  ],
+  "COMFORTABLE-SCALE": [
+    "N"
+  ],
+  "GLASS": [
+    "N"
+  ],
+  "EQUAL": [
+    "ADJ"
+  ],
+  "SCHMOOZE-TALK": [
+    "N",
+    "V"
+  ],
+  "ASSOCIATED-INFORMATION": [
+    "ADV"
+  ],
+  "CLEAN-VAL": [
+    "ADJ"
+  ],
+  "NOT-COMFORTABLE-SCALE": [
+    "N"
+  ],
+  "ENDPOINT": [
+    "N"
+  ],
+  "NUMBER-MEASURE-DOMAIN": [
+    "N"
+  ],
+  "BE": [
+    "V"
+  ],
+  "ACTIVITY": [
+    "N"
+  ],
+  "CONFIRM": [
+    "N",
+    "V"
+  ],
+  "TELL": [
+    "N",
+    "V"
+  ],
+  "AFFORD": [
+    "V"
+  ],
+  "RITUAL-CLASSIFICATION": [
+    "V"
+  ],
+  "CENTER": [
+    "N"
+  ],
+  "BORED": [
+    "ADJ"
+  ],
+  "AT-LOC": [
+    "ADV"
+  ],
+  "DYNAMICS": [
+    "N"
+  ],
+  "SETTING": [
+    "N"
+  ],
+  "ATMOSPHERIC-PHENOMENON": [
+    "N"
+  ],
+  "SPASM": [
+    "N"
+  ],
+  "CAPTURE": [
+    "N",
+    "V"
+  ],
+  "VERTICAL": [
+    "ADJ"
+  ],
+  "FLOOR-ABOVE": [
+    "ADV"
+  ],
+  "SPOON": [
+    "N"
+  ],
+  "FOOD-PREPARATION": [
+    "ADJ"
+  ],
+  "HOTSPOT": [
+    "N"
+  ],
+  "CONTAINMENT": [
+    "N",
+    "V"
+  ],
+  "TIRESOME-VAL": [
+    "ADJ"
+  ],
+  "PASSIVE": [
+    "V"
+  ],
+  "MEAL-EVENT": [
+    "N"
+  ],
+  "ANGRY": [
+    "ADJ"
+  ],
+  "BROAD": [
+    "ADJ"
+  ],
+  "START-TIME": [
+    "ADV"
+  ],
+  "CAUSE-STIMULATE": [
+    "N",
+    "V"
+  ],
+  "SHARE-PROPERTY": [
+    "V"
+  ],
+  "ACQUIRE": [
+    "N",
+    "V"
+  ],
+  "EVOKE-SHAME": [
+    "V"
+  ],
+  "AUTOMATIC": [
+    "ADV",
+    "ADJ"
+  ],
+  "GROUP-CONFLICT": [
+    "N",
+    "V"
+  ],
+  "METHYLATION": [
+    "N",
+    "V"
+  ],
+  "PALPITATION": [
+    "N"
+  ],
+  "RESULTING-OBJECT": [
+    "ADV"
+  ],
+  "STRUCTURE-EXTERNAL-COMPONENT": [
+    "N"
+  ],
+  "INCREASE-SPEED": [
+    "N",
+    "V"
+  ],
+  "SKINNY-SCALE": [
+    "N"
+  ],
+  "MENTAL-PLAN": [
+    "N"
+  ],
+  "IMPLICIT-VAL": [
+    "ADJ"
+  ],
+  "VISIBILITY-SCALE": [
+    "N"
+  ],
+  "IN-SCALE": [
+    "ADV"
+  ],
+  "PASSING": [
+    "V"
+  ],
+  "FUTURE-GIVING": [
+    "V"
+  ],
+  "COMPETE": [
+    "N",
+    "V"
+  ],
+  "USELESS": [
+    "ADJ"
+  ],
+  "ADVANCING-STATUS": [
+    "V"
+  ],
+  "MIGRATION": [
+    "N"
+  ],
+  "AVOIDING": [
+    "V"
+  ],
+  "LINEAR-GROUPING": [
+    "N"
+  ],
+  "EXPOSE": [
+    "N",
+    "V"
+  ],
+  "BELOW": [
+    "ADV"
+  ],
+  "JUDGEMENT": [
+    "V"
+  ],
+  "CHANGE-MAGNITUDE": [
+    "V"
+  ],
+  "PROGRESS": [
+    "N",
+    "V"
+  ],
+  "SURFACE-LOCATION": [
+    "N"
+  ],
+  "CONVENIENT-VAL": [
+    "ADJ"
+  ],
+  "EATING-DISORDER": [
+    "N"
+  ],
+  "CRAZINESS-SCALE": [
+    "N"
+  ],
+  "POLITICAL": [
+    "ADJ"
+  ],
+  "SWEETS": [
+    "N"
+  ],
+  "PARDON": [
+    "V"
+  ],
+  "CLOSE": [
+    "V"
+  ],
+  "STEW": [
+    "V"
+  ],
+  "RESTLESSNESS-SCALE": [
+    "N"
+  ],
+  "GOING-TO": [
+    "V"
+  ],
+  "AIR": [
+    "N"
+  ],
+  "HEALTHY-VAL": [
+    "ADJ"
+  ],
+  "THICKEN": [
+    "V"
+  ],
+  "WEST": [
+    "ADJ"
+  ],
+  "USEFUL": [
+    "ADJ"
+  ],
+  "ENCODES-MESSAGE": [
+    "N",
+    "V"
+  ],
+  "INSTANTANEOUS-VAL": [
+    "ADJ"
+  ],
+  "NECESSARY": [
+    "ADJ"
+  ],
+  "LOW-VAL": [
+    "ADJ"
+  ],
+  "ACTIVITY-EVENT": [
+    "V",
+    "N"
+  ],
+  "VITAMINS": [
+    "N"
+  ],
+  "THOROUGHFARE": [
+    "N"
+  ],
+  "NATURAL-PHENOMENON": [
+    "N"
+  ],
+  "SENDCOPY": [
+    "N",
+    "V"
+  ],
+  "COOK-IN-MICROWAVE": [
+    "V"
+  ],
+  "VALUE-COST": [
+    "N"
+  ],
+  "UP": [
+    "ADV"
+  ],
+  "MACROMOLECULAR-COMPLEX": [
+    "N"
+  ],
+  "DISEASE": [
+    "N"
+  ],
+  "EATER": [
+    "N"
+  ],
+  "PHYS-REPRESENTATION": [
+    "N"
+  ],
+  "RELIGIOUS-IDENTITY-VAL": [
+    "ADJ"
+  ],
+  "BY-MEANS-OF": [
+    "ADV"
+  ],
+  "SUPERNATURAL-BEING": [
+    "N"
+  ],
+  "KNOWLEDGE-BELIEF": [
+    "N"
+  ],
+  "ZIPCODE": [
+    "N"
+  ],
+  "MEAT-OTHER": [
+    "N"
+  ],
+  "CONFUSION-SCALE": [
+    "N"
+  ],
+  "HOARSENESS-SCALE": [
+    "N"
+  ],
+  "INFORMATION-FUNCTION-OBJECT": [
+    "N"
+  ],
+  "LACK": [
+    "N"
+  ],
+  "DEVICE": [
+    "N"
+  ],
+  "COUGH": [
+    "N"
+  ],
+  "UNIQUENESS-VAL": [
+    "ADJ"
+  ],
+  "LEND": [
+    "V"
+  ],
+  "PREGNANCY": [
+    "N"
+  ],
+  "BODY-MOVEMENT-SELF": [
+    "N",
+    "V"
+  ],
+  "LITTLE": [
+    "ADJ"
+  ],
+  "ARTICLE": [
+    "N"
+  ],
+  "R-ABLE-VAL": [
+    "ADJ"
+  ],
+  "FINALIZED-VAL": [
+    "ADJ"
+  ],
+  "BREATHE": [
+    "N",
+    "V"
+  ],
+  "STONES-DISEASE": [
+    "N"
+  ],
+  "CEREALS": [
+    "N"
+  ],
+  "PUZZLED-VAL": [
+    "ADJ"
+  ],
+  "RELIABILITY-SCALE": [
+    "N"
+  ],
+  "INCLUSIVE": [
+    "ADJ",
+    "ADV"
+  ],
+  "NOT-ACCESSIBLE-VAL": [
+    "ADJ"
+  ],
+  "SOURCE-AS-LOC": [
+    "ADV"
+  ],
+  "WEEK": [
+    "N"
+  ],
+  "GOUT": [
+    "N"
+  ],
+  "AFFECT-EXPERIENCER": [
+    "V"
+  ],
+  "SENSIBLE-VAL": [
+    "ADJ"
+  ],
+  "DROUGHT": [
+    "N"
+  ],
+  "LIGHTEN-WEIGHT": [
+    "V"
+  ],
+  "BASE": [
+    "N"
+  ],
+  "BIOLOGICAL": [
+    "ADV",
+    "ADJ"
+  ],
+  "VISUAL-ADJUST": [
+    "V"
+  ],
+  "HAVE-EXPERIENCE": [
+    "N",
+    "V"
+  ],
+  "AUDITORY-SCALE": [
+    "N"
+  ],
+  "EXCRETE-WASTE": [
+    "N",
+    "V"
+  ],
+  "TIME-INTERVAL": [
+    "N"
+  ],
+  "MILITARY-GROUP": [
+    "N"
+  ],
+  "RATE-REL": [
+    "ADV"
+  ],
+  "FISH": [
+    "N"
+  ],
+  "SUPERIOR-VAL": [
+    "ADJ"
+  ],
+  "SHORTCUT": [
+    "N"
+  ],
+  "RUB-SCRAPE-WIPE": [
+    "V"
+  ],
+  "TEXT-FIELD": [
+    "N"
+  ],
+  "DEVICE-COMPONENT": [
+    "N"
+  ],
+  "REQUEST": [
+    "N",
+    "V"
+  ],
+  "LOCATION-ID": [
+    "N"
+  ],
+  "RESEARCH-FACILITY": [
+    "N"
+  ],
+  "POSITIVE-SMELL-SCALE": [
+    "N"
+  ],
+  "QUIETNESS-SCALE": [
+    "N"
+  ],
+  "MINE": [
+    "N"
+  ],
+  "ORGANIC-VAL": [
+    "ADJ"
+  ],
+  "CAUSE-EFFECT": [
+    "N",
+    "V"
+  ],
+  "PROTECTING": [
+    "N",
+    "V"
+  ],
+  "SUPPLIER": [
+    "N"
+  ],
+  "VERIFIED-VAL": [
+    "ADJ"
+  ],
+  "TRUCK": [
+    "N"
+  ],
+  "PRAISE": [
+    "N",
+    "V"
+  ],
+  "DO": [
+    "V"
+  ],
+  "FAVORITE": [
+    "N"
+  ],
+  "SPATIAL": [
+    "ADJ"
+  ],
+  "CONFIDENCE-SCALE": [
+    "N"
+  ],
+  "TIME-LOC": [
+    "N"
+  ],
+  "EVENT-TIME": [
+    "ADV"
+  ],
+  "WASHING": [
+    "N"
+  ],
+  "MUSICAL-DOCUMENT": [
+    "N"
+  ],
+  "ADORNED-VAL": [
+    "ADJ"
+  ],
+  "MODIFIER": [
+    "ADJ",
+    "ADV"
+  ],
+  "PREMEDITATED-VAL": [
+    "ADJ"
+  ],
+  "ENTERPRISE": [
+    "N"
+  ],
+  "PARTICIPATE-ATTEND": [
+    "V"
+  ],
+  "FRESHWATER-FISH": [
+    "N"
+  ],
+  "SHED": [
+    "V"
+  ],
+  "AUTOMATON": [
+    "N"
+  ],
+  "INTERNET-ORGANIZATION": [
+    "N"
+  ],
+  "ACADEMIC-INSTITUTION": [
+    "N"
+  ],
+  "INADEQUATE": [
+    "ADJ"
+  ],
+  "LAND": [
+    "N"
+  ],
+  "DISTANCE-PER-GASOLINE-SCALE": [
+    "N"
+  ],
+  "NOT-IMPORTANT-VAL": [
+    "ADJ"
+  ],
+  "HAS-MEDICAL-CONDITION": [
+    "ADJ"
+  ],
+  "HAPPEN": [
+    "N",
+    "V"
+  ],
+  "NOT-INTERESTED-SCALE": [
+    "N"
+  ],
+  "WHEREBY": [
+    "ADV"
+  ],
+  "PICKUP": [
+    "V"
+  ],
+  "POS-CONDITION": [
+    "ADV"
+  ],
+  "EXTENT-PREDICATE": [
+    "ADV"
+  ],
+  "CALC-MULTIPLY": [
+    "V"
+  ],
+  "ALTER-FLAVOR": [
+    "V"
+  ],
+  "MEDICAL-DIAGNOSTIC": [
+    "N"
+  ],
+  "CAUSE-INTERACT": [
+    "N",
+    "V"
+  ],
+  "CONTENT": [
+    "N"
+  ],
+  "SHARP-TEXTURE-SCALE": [
+    "N"
+  ],
+  "MEDICAL-EVENT": [
+    "N"
+  ],
+  "YEAR-DURATION": [
+    "N"
+  ],
+  "LANE": [
+    "N"
+  ],
+  "KNOW": [
+    "N",
+    "V"
+  ],
+  "POSSIBLY-TRUE": [
+    "N",
+    "V"
+  ],
+  "INCUR-INHERIT-RECEIVE": [
+    "N",
+    "V"
+  ],
+  "VISUAL-CLARITY-SCALE": [
+    "N"
+  ],
+  "PHYS-SHAPE": [
+    "N"
+  ],
+  "URGENT-VAL": [
+    "ADJ"
+  ],
+  "INSULT": [
+    "V"
+  ],
+  "SIMILAR": [
+    "ADJ"
+  ],
+  "GROW": [
+    "N",
+    "V"
+  ],
+  "FOOD-GRAINS": [
+    "N"
+  ],
+  "PIVOT": [
+    "ADV"
+  ],
+  "LOSE-COMPETE": [
+    "N",
+    "V"
+  ],
+  "PLEASANT": [
+    "ADJ"
+  ],
+  "HINT": [
+    "V"
+  ],
+  "STIR": [
+    "N",
+    "V"
+  ],
+  "IN-RELATION": [
+    "V"
+  ],
+  "RANDOM-VAL": [
+    "ADJ"
+  ],
+  "REVEAL": [
+    "V"
+  ],
+  "UGLY-SCALE": [
+    "N"
+  ],
+  "PRODUCE": [
+    "N"
+  ],
+  "NOT-TASTEFUL-VAL": [
+    "ADJ"
+  ],
+  "SURPLUS": [
+    "N"
+  ],
+  "STARTPOINT": [
+    "N"
+  ],
+  "PULL-OFF": [
+    "V"
+  ],
+  "LEGAL-ORGANIZATION": [
+    "N"
+  ],
+  "FLUTTER": [
+    "V"
+  ],
+  "CERTAIN": [
+    "ADV",
+    "ADJ"
+  ],
+  "BRAIN-DISEASE": [
+    "N"
+  ],
+  "MOVE-TOWARD": [
+    "V"
+  ],
+  "NEG": [
+    "ADJ",
+    "ADV"
+  ],
+  "EDEMA": [
+    "N"
+  ],
+  "RESULTING-STATE": [
+    "ADV"
+  ],
+  "COAT-FOOD": [
+    "V"
+  ],
+  "EXCRETE": [
+    "V"
+  ],
+  "OBJECT": [
+    "N",
+    "V"
+  ],
+  "CAUSE-OFF": [
+    "V"
+  ],
+  "REPLACEABILITY-VAL": [
+    "ADJ"
+  ],
+  "TYPICAL-VAL": [
+    "ADJ"
+  ],
+  "REFRIGERATOR": [
+    "N"
+  ],
+  "NOT-CREDIBLE-VAL": [
+    "ADJ"
+  ],
+  "BLAME": [
+    "N",
+    "V"
+  ],
+  "MANAGING": [
+    "N",
+    "V"
+  ],
+  "PURPOSE": [
+    "ADV"
+  ],
+  "BOOK": [
+    "N"
+  ],
+  "LENGTH-UNIT": [
+    "N"
+  ],
+  "MEMBER": [
+    "N"
+  ],
+  "DANCE": [
+    "N",
+    "V"
+  ],
+  "MEDICAL-CONDITION": [
+    "N"
+  ],
+  "SHORE": [
+    "N"
+  ],
+  "DURATION-SCALE": [
+    "N"
+  ],
+  "SHAPE-OBJECT": [
+    "N"
+  ],
+  "FLIGHT": [
+    "N"
+  ],
+  "ENDURANCE-SCALE": [
+    "N"
+  ],
+  "ANEURYSM": [
+    "N"
+  ],
+  "CORRECT": [
+    "ADJ"
+  ],
+  "INCOMPLETE": [
+    "ADJ"
+  ],
+  "DISPERSE": [
+    "N",
+    "V"
+  ],
+  "HEARTBURN": [
+    "N"
+  ],
+  "ORIENTATION-VAL": [
+    "ADJ"
+  ],
+  "COPY": [
+    "N"
+  ],
+  "SCOUT": [
+    "N"
+  ],
+  "DAY": [
+    "N"
+  ],
+  "EARNING": [
+    "V"
+  ],
+  "SCRIPTED-SAY": [
+    "N",
+    "V"
+  ],
+  "ICON": [
+    "N"
+  ],
+  "PROPEL": [
+    "N",
+    "V"
+  ],
+  "VALUE": [
+    "N"
+  ],
+  "IN-WORKING-ORDER-VAL": [
+    "ADJ"
+  ],
+  "ACCOMMODATION": [
+    "N"
+  ],
+  "COMPUTER-NETWORK": [
+    "N"
+  ],
+  "NARROW-VAL": [
+    "ADJ"
+  ],
+  "AVAILABILITY-SCALE": [
+    "N"
+  ],
+  "DIFFICULT": [
+    "ADJ"
+  ],
+  "LOUDNESS-SCALE": [
+    "N"
+  ],
+  "REQUIREMENTS": [
+    "N"
+  ],
+  "STUPID": [
+    "ADJ"
+  ],
+  "FIREARM": [
+    "N"
+  ],
+  "SEQUENTIAL-VAL": [
+    "ADJ"
+  ],
+  "FINANCIAL-STATEMENT": [
+    "N"
+  ],
+  "MESSY-VAL": [
+    "ADJ"
+  ],
+  "LONG-TERM-CONTROL-DRUG": [
+    "N"
+  ],
+  "NATURAL-OBJECT": [
+    "N"
+  ],
+  "NOT-PLEASING-VAL": [
+    "ADJ"
+  ],
+  "INTERFERENCE-VAL": [
+    "ADJ"
+  ],
+  "YOUNG-VAL": [
+    "ADJ"
+  ],
+  "PART": [
+    "N"
+  ],
+  "MUSCLE-CONTRACTION": [
+    "N"
+  ],
+  "FINANCIAL-ORGANIZATION": [
+    "N"
+  ],
+  "UNDERWEIGHT": [
+    "ADJ"
+  ],
+  "LODGING": [
+    "N"
+  ],
+  "SWEETNESS-SCALE": [
+    "N"
+  ],
+  "DEFECTIVE-VAL": [
+    "ADJ"
+  ],
+  "BOARD-GAME": [
+    "N"
+  ],
+  "REMAINING-VAL": [
+    "ADJ"
+  ],
+  "GENE-EXPRESSION": [
+    "N",
+    "V"
+  ],
+  "COMPANY": [
+    "N"
+  ],
+  "COMPARISON": [
+    "N"
+  ],
+  "SHORTEN-TIME": [
+    "V"
+  ],
+  "DAY-NAME": [
+    "NAME"
+  ],
+  "BODY-SYSTEM-VAL": [
+    "ADV",
+    "ADJ"
+  ],
+  "SOLVE": [
+    "V"
+  ],
+  "CHART": [
+    "N"
+  ],
+  "OUTGOING": [
+    "ADJ"
+  ],
+  "EATING-PLAN": [
+    "N"
+  ],
+  "DRINKING-ESTABLISHMENT": [
+    "N"
+  ],
+  "MOVE-RAPIDLY": [
+    "N",
+    "V"
+  ],
+  "COMA": [
+    "N"
+  ],
+  "COGITATION": [
+    "N",
+    "V"
+  ],
+  "INACTIVE-CLOSED": [
+    "ADJ"
+  ],
+  "COMPLETELY": [
+    "ADV"
+  ],
+  "TO-LOC": [
+    "ADV"
+  ],
+  "GAME": [
+    "N"
+  ],
+  "BODY-PART": [
+    "N"
+  ],
+  "TAKE-EXECUTE": [
+    "V"
+  ],
+  "AT-SCALE-VALUE": [
+    "ADV"
+  ],
+  "VISUAL-DISPLAY": [
+    "N",
+    "V"
+  ],
+  "HYPOGLYCEMIA": [
+    "N"
+  ],
+  "IO-DEVICE": [
+    "N"
+  ],
+  "FIT": [
+    "V"
+  ],
+  "KEY": [
+    "N"
+  ],
+  "ALERT-VAL": [
+    "ADJ"
+  ],
+  "TIGHTEN": [
+    "N",
+    "V"
+  ],
+  "BAKE": [
+    "V"
+  ],
+  "INTENSE": [
+    "ADJ"
+  ],
+  "ORDERING": [
+    "N",
+    "V"
+  ],
+  "CONTRA": [
+    "ADV"
+  ],
+  "COOK": [
+    "V"
+  ],
+  "REMAINING-PART": [
+    "N"
+  ],
+  "CONCENTRIC-VAL": [
+    "ADJ"
+  ],
+  "PREVENT": [
+    "N",
+    "V"
+  ],
+  "COVERING": [
+    "N"
+  ],
+  "ENFORCEABLE-VAL": [
+    "ADJ"
+  ],
+  "LINEAR-EXTENT-SCALE": [
+    "N"
+  ],
+  "NOT-FRIENDLY-VAL": [
+    "ADJ"
+  ],
+  "USER": [
+    "N"
+  ],
+  "DIRECT-AT": [
+    "V"
+  ],
+  "FRIENDLY-VAL": [
+    "ADJ"
+  ],
+  "MAGENTA": [
+    "ADJ"
+  ],
+  "UNDERGO-ACTION": [
+    "V"
+  ],
+  "POT": [
+    "N"
+  ],
+  "BAD": [
+    "ADV",
+    "ADJ"
+  ],
+  "RESTAURANT": [
+    "N"
+  ],
+  "NUTS-SEEDS": [
+    "N"
+  ],
+  "CATEGORIZATION": [
+    "N",
+    "V"
+  ],
+  "STRETCHER": [
+    "N"
+  ],
+  "DIETARY-VAL": [
+    "ADJ"
+  ],
+  "DEHYDRATED-VAL": [
+    "ADJ"
+  ],
+  "HARMFUL-VAL": [
+    "ADJ"
+  ],
+  "TRANSFER-EVENT": [
+    "N"
+  ],
+  "CONVENIENCE-SCALE": [
+    "N"
+  ],
+  "CONDIMENTS": [
+    "N"
+  ],
+  "PUNISH": [
+    "N",
+    "V"
+  ],
+  "SHORT-VAL": [
+    "ADJ"
+  ],
+  "STOP": [
+    "N",
+    "V"
+  ],
+  "ASSIGN": [
+    "N",
+    "V"
+  ],
+  "NOT-LOOSE-VAL": [
+    "ADJ"
+  ],
+  "USERNAME": [
+    "N"
+  ],
+  "SEQUENCE-VAL-NEXT": [
+    "ADJ"
+  ],
+  "ACHIEVE": [
+    "N",
+    "V"
+  ],
+  "COSTS": [
+    "V"
+  ],
+  "GENERAL-VAL": [
+    "ADJ"
+  ],
+  "DISTRESSING-VAL": [
+    "ADJ"
+  ],
+  "EBOLA": [
+    "N"
+  ],
+  "REASON-FOR": [
+    "ADV"
+  ],
+  "REACH": [
+    "V"
+  ],
+  "RECIPE": [
+    "N"
+  ],
+  "FORGET": [
+    "V"
+  ],
+  "GENERAL-STRUCTURE": [
+    "N"
+  ],
+  "FRIEND": [
+    "N"
+  ],
+  "CITY": [
+    "N"
+  ],
+  "SENSITIVITY-SCALE": [
+    "N"
+  ],
+  "MODE": [
+    "ADJ",
+    "N"
+  ],
+  "NOT-FREE-VAL": [
+    "ADJ"
+  ],
+  "MEAT": [
+    "N"
+  ],
+  "TALK": [
+    "N",
+    "V"
+  ],
+  "GENDER-SCALE": [
+    "N"
+  ],
+  "PUBLIC-VAL": [
+    "ADJ"
+  ],
+  "PINK": [
+    "ADJ"
+  ],
+  "THIRSTY-VAL": [
+    "ADJ"
+  ],
+  "PAINED-VAL": [
+    "ADJ"
+  ],
+  "EVOKE-BOREDOM": [
+    "V"
+  ],
+  "KISSING": [
+    "N",
+    "V"
+  ],
+  "TRANSPORT": [
+    "N",
+    "V"
+  ],
+  "NOT-CERTAIN-SCALE": [
+    "N"
+  ],
+  "UNRELIABLE": [
+    "ADJ"
+  ],
+  "WEBSITE": [
+    "N"
+  ],
+  "LOCAL-VAL": [
+    "ADJ"
+  ],
+  "LETTER-SYMBOL": [
+    "N",
+    "VALUE"
+  ],
+  "QUALIFICATION": [
+    "ADV"
+  ],
+  "TASTEFUL-VAL": [
+    "ADJ"
+  ],
+  "ACT-BEHAVE": [
+    "N",
+    "V"
+  ],
+  "LUCKINESS-SCALE": [
+    "N"
+  ],
+  "CONVINCE": [
+    "V"
+  ],
+  "DISAPPEAR": [
+    "N",
+    "V"
+  ],
+  "SOUTH-RELN": [
+    "ADV",
+    "ADJ"
+  ],
+  "ACTIVITY-ONGOING": [
+    "N",
+    "V"
+  ],
+  "FOOD": [
+    "N"
+  ],
+  "EVOKE-DISGUST": [
+    "V"
+  ],
+  "NUMBER-OBJECT": [
+    "N"
+  ],
+  "CLEAR": [
+    "ADJ"
+  ],
+  "ACROSS": [
+    "ADJ",
+    "ADV"
+  ],
+  "CONTAIN-RELN": [
+    "ADV"
+  ],
+  "INTENTIONAL-VAL": [
+    "ADV",
+    "ADJ"
+  ],
+  "EFFICIENT-VAL": [
+    "ADJ"
+  ],
+  "PHASE": [
+    "N"
+  ],
+  "GIST": [
+    "N"
+  ],
+  "HYDROXYLATION": [
+    "N",
+    "V"
+  ],
+  "SCRUTINY": [
+    "N",
+    "V"
+  ],
+  "UTILITY": [
+    "N"
+  ],
+  "DIRECTION": [
+    "N",
+    "ADV"
+  ],
+  "BELIEVE": [
+    "N",
+    "V"
+  ],
+  "MANAGEABLE": [
+    "ADJ"
+  ],
+  "ACCIDENTAL": [
+    "N"
+  ],
+  "REFUTE": [
+    "N",
+    "V"
+  ],
+  "APPROPRIATE-VAL": [
+    "ADJ"
+  ],
+  "SENSORY-MODE-VAL": [
+    "ADJ"
+  ],
+  "APPLY-ON-SURFACE": [
+    "N",
+    "V"
+  ],
+  "ACTIVE-PERCEPTION": [
+    "N",
+    "V"
+  ],
+  "MISINFORM": [
+    "V"
+  ],
+  "VEHICLE-PART": [
+    "N"
+  ],
+  "PASSWORD": [
+    "N"
+  ],
+  "SYSTEM": [
+    "N"
+  ],
+  "STATUS-VAL": [
+    "ADJ"
+  ],
+  "ADAPT": [
+    "V"
+  ],
+  "PROVOKE": [
+    "N",
+    "V"
+  ],
+  "DAY-DURATION": [
+    "N"
+  ],
+  "DISCUSS": [
+    "N",
+    "V"
+  ],
+  "PERIPHERAL-VAL": [
+    "ADJ"
+  ],
+  "ACCOUNT": [
+    "N"
+  ],
+  "EVOKE-COMPLIANCE": [
+    "V"
+  ],
+  "DRAWER": [
+    "N"
+  ],
+  "INTANGIBILITY-VAL": [
+    "ADJ"
+  ],
+  "HOMOGENEOUS-VAL": [
+    "ADJ"
+  ],
+  "INDUSTRIAL-VAL": [
+    "ADJ"
+  ],
+  "COMMERCE-SELL": [
+    "V"
+  ],
+  "EVOKE-JOY": [
+    "N",
+    "V"
+  ],
+  "SUBSTANDARD-VAL": [
+    "ADJ"
+  ],
+  "INFAMOUS-VAL": [
+    "ADJ"
+  ],
+  "POLITENESS": [
+    "ADV"
+  ],
+  "ABILITY-TO-HEAR": [
+    "N"
+  ],
+  "COUNTRY": [
+    "NAME",
+    "N"
+  ],
+  "SWITCH": [
+    "N"
+  ],
+  "IRREGULAR": [
+    "ADJ"
+  ],
+  "HONEST-VAL": [
+    "ADJ"
+  ],
+  "COMPARE": [
+    "N",
+    "V"
+  ],
+  "SOON": [
+    "ADV"
+  ],
+  "WITHOUT": [
+    "ADV"
+  ],
+  "OBJECT-DEPENDENT-LOCATION": [
+    "N"
+  ],
+  "EMAIL": [
+    "N"
+  ],
+  "BIT-RATE-SCALE": [
+    "N"
+  ],
+  "PURPLE": [
+    "ADJ"
+  ],
+  "USABLE-VAL": [
+    "ADJ"
+  ],
+  "SADNESS-SCALE": [
+    "N"
+  ],
+  "FINANCIAL-INSTITUTION": [
+    "N"
+  ],
+  "VERIFIABLE-VAL": [
+    "ADJ"
+  ],
+  "WITH-INSTRUMENT": [
+    "ADV"
+  ],
+  "EXPANDABLE-VAL": [
+    "ADJ"
+  ],
+  "DOWNTOWN": [
+    "ADV"
+  ],
+  "BODY-PROPERTY": [
+    "N"
+  ],
+  "CALC-DIVIDE": [
+    "N",
+    "V"
+  ],
+  "NEVER": [
+    "ADV"
+  ],
+  "MOUNTAIN": [
+    "N"
+  ],
+  "FEMALE-CHILD": [
+    "N"
+  ],
+  "CHILD": [
+    "N"
+  ],
+  "ENSURE": [
+    "V"
+  ],
+  "CONGENITAL-VAL": [
+    "ADJ"
+  ],
+  "FAST-FOOD": [
+    "N"
+  ],
+  "FOLLOW-PATH": [
+    "V"
+  ],
+  "LOCATION-OF-LIGHT": [
+    "V"
+  ],
+  "CAUSE-BODY-EFFECT": [
+    "N",
+    "V"
+  ],
+  "CRITICIZE": [
+    "N",
+    "V"
+  ],
+  "BEVERAGES": [
+    "N"
+  ],
+  "PRODUCTION-FACILITY": [
+    "N"
+  ],
+  "COMPETITION": [
+    "N"
+  ],
+  "LIFE-PROCESS": [
+    "N"
+  ],
+  "MAKE-IT-SO": [
+    "V"
+  ],
+  "GRAPHIC-SYMBOL": [
+    "N"
+  ],
+  "ELECTRIC-MEASURE-SCALE": [
+    "N"
+  ],
+  "SOCIAL-CONTRACT": [
+    "N"
+  ],
+  "SPEEDY": [
+    "ADV",
+    "ADJ"
+  ],
+  "TANGIBILITY-VAL": [
+    "ADJ"
+  ],
+  "LIQUEFY": [
+    "V"
+  ],
+  "SORT": [
+    "V"
+  ],
+  "SHARPEN": [
+    "V"
+  ],
+  "REGULAR": [
+    "ADJ"
+  ],
+  "MANAGING-RESOURCES": [
+    "V"
+  ],
+  "NOT-ATTRACTIVE-SCALE": [
+    "N"
+  ],
+  "BODY-TIGHTNESS": [
+    "N"
+  ],
+  "CHICKEN": [
+    "N"
+  ],
+  "SMOOTHNESS-SCALE": [
+    "N"
+  ],
+  "HEALTH-CARE-FACILITY": [
+    "N"
+  ],
+  "UNSTEADY-MOVE": [
+    "V"
+  ],
+  "OBLIGATORY-VAL": [
+    "ADJ"
+  ],
+  "RELATIVE-LOCATION": [
+    "N"
+  ],
+  "MOVE-AWAY": [
+    "N",
+    "V"
+  ],
+  "PRESENTATION": [
+    "N"
+  ],
+  "DIRECTION-WRT-ENTITY": [
+    "ADV"
+  ],
+  "WEIGHT-SCALE": [
+    "N"
+  ],
+  "LIFECYCLE-STAGE": [
+    "N"
+  ],
+  "REMOTE": [
+    "ADJ"
+  ],
+  "ALCOHOL": [
+    "N"
+  ],
+  "DIRECTION-IN": [
+    "ADV"
+  ],
+  "QUICK-RELIEF-DRUG": [
+    "N"
+  ],
+  "COMPUTER-TYPE": [
+    "N"
+  ],
+  "TRAVEL": [
+    "N"
+  ],
+  "GEOMETRIC-RELATIONSHIP-VAL": [
+    "ADJ"
+  ],
+  "SHAPE": [
+    "N"
+  ],
+  "HIDE": [
+    "V"
+  ],
+  "UTILITY-SCALE": [
+    "N"
+  ],
+  "RESPONSIBLE-VAL": [
+    "ADJ"
+  ],
+  "NONHUMAN-ANIMAL": [
+    "N"
+  ],
+  "SIDE-LOCATION": [
+    "N"
+  ],
+  "ABSTRACT-INFORMATION-PROPERTY-VAL": [
+    "ADJ"
+  ],
+  "HOLE": [
+    "N"
+  ],
+  "PLEASANTNESS-SCALE": [
+    "N"
+  ],
+  "COMMUNICATION-PARTY": [
+    "N"
+  ],
+  "JAUNDICE": [
+    "N"
+  ],
+  "OFFENSIVE-VAL": [
+    "ADJ"
+  ],
+  "BECOMING-AWARE": [
+    "N",
+    "V"
+  ],
+  "CUPBOARD": [
+    "N"
+  ],
+  "RESPONSIBILITY-SCALE": [
+    "N"
+  ],
+  "AVOID-LOCATION": [
+    "V"
+  ],
+  "SEEK": [
+    "V"
+  ],
+  "POSSIBILITY": [
+    "V"
+  ],
+  "NATURAL-LIQUID-SUBSTANCE": [
+    "N"
+  ],
+  "COLUMN-FORMATION": [
+    "N"
+  ],
+  "SOURNESS-SCALE": [
+    "N"
+  ],
+  "INCREASE": [
+    "N",
+    "V"
+  ],
+  "QUAIL": [
+    "N"
+  ],
+  "BREAK-OBJECT": [
+    "N",
+    "V"
+  ],
+  "GOLD": [
+    "ADJ"
+  ],
+  "PERCEIVABLE-TASTE-PROPERTY": [
+    "N"
+  ],
+  "GOOD-AESTHETIC-JUDGEMENT-VAL": [
+    "ADJ"
+  ],
+  "ARGUE": [
+    "N",
+    "V"
+  ],
+  "JOKE": [
+    "N",
+    "V"
+  ],
+  "SEIZURE": [
+    "N"
+  ],
+  "COMPUTER-FIRMWARE": [
+    "N"
+  ],
+  "PREDEFINED-SIZE-VAL": [
+    "ADJ"
+  ],
+  "CLICK": [
+    "V",
+    "N"
+  ],
+  "START-OBJECT": [
+    "V"
+  ],
+  "NOT-ROBUST-VAL": [
+    "ADJ"
+  ],
+  "MOVE-UPWARD": [
+    "N",
+    "V"
+  ],
+  "REPETITION": [
+    "ADJ",
+    "ADV"
+  ],
+  "FAMILIAR": [
+    "N",
+    "V"
+  ],
+  "PUSH": [
+    "V"
+  ],
+  "COORDINATE": [
+    "N"
+  ],
+  "SOUTH": [
+    "ADJ"
+  ],
+  "RECOMMENDABLE-VAL": [
+    "ADJ"
+  ],
+  "OPTICAL-DEVICE": [
+    "N"
+  ],
+  "UNFILLED": [
+    "ADJ"
+  ],
+  "ARRHYTHMIA": [
+    "N"
+  ],
+  "CERTAIN-SCALE": [
+    "N"
+  ],
+  "WILLING": [
+    "ADJ"
+  ],
+  "SPAN": [
+    "V"
+  ],
+  "TERMINUS": [
+    "N"
+  ],
+  "TEACH-TRAIN": [
+    "V"
+  ],
+  "FUNCTION": [
+    "V"
+  ],
+  "WEAPON": [
+    "N"
+  ],
+  "SMOKING": [
+    "V"
+  ],
+  "NOT-APPROPRIATE-VAL": [
+    "ADJ"
+  ],
+  "COMPUTER-PART": [
+    "N"
+  ],
+  "REPLACEMENT": [
+    "V",
+    "N"
+  ],
+  "HESITATE": [
+    "V"
+  ],
+  "FILE-FORMAT": [
+    "N"
+  ],
+  "DISTRICT": [
+    "N"
+  ],
+  "GUIDING": [
+    "N",
+    "V"
+  ],
+  "MUSIC-COMPOSITION-TYPE": [
+    "N"
+  ],
+  "PRACTICING": [
+    "V"
+  ],
+  "EXPERIENCER-EMOTION": [
+    "N",
+    "V"
+  ],
+  "REMIND": [
+    "N",
+    "V"
+  ],
+  "FLOODING": [
+    "V",
+    "N"
+  ],
+  "READ": [
+    "V"
+  ],
+  "ACCOMMODATE-ALLOW": [
+    "N",
+    "V"
+  ],
+  "AUDIBILITY-VAL": [
+    "ADJ"
+  ],
+  "LAMB": [
+    "N"
+  ],
+  "EPILEPSY": [
+    "N"
+  ],
+  "FRIGHTENING-VAL": [
+    "ADJ"
+  ],
+  "GENE-TRANSLATION": [
+    "N",
+    "V"
+  ],
+  "EVENT-TYPE": [
+    "N"
+  ],
+  "ATTACK": [
+    "N",
+    "V"
+  ],
+  "FATS-OILS": [
+    "N"
+  ],
+  "TIME-SPAN-REL": [
+    "ADV"
+  ],
+  "DOCILE-VAL": [
+    "ADJ"
+  ],
+  "BEAUTIFUL": [
+    "ADJ"
+  ],
+  "MUG": [
+    "N"
+  ],
+  "TOWARDS": [
+    "ADV"
+  ],
+  "SECOND-DURATION": [
+    "N"
+  ],
+  "TECHNOLOGY": [
+    "N"
+  ],
+  "WASTE": [
+    "N"
+  ],
+  "PREFERRED-VAL": [
+    "ADV"
+  ],
+  "SOUND-EXPRESSION": [
+    "N",
+    "V"
+  ],
+  "EXISTS": [
+    "V"
+  ],
+  "RELIABLE": [
+    "ADJ"
+  ],
+  "FORGIVE": [
+    "V"
+  ],
+  "SELDOM": [
+    "ADV"
+  ],
+  "BODY-MANIPULATION": [
+    "N",
+    "V"
+  ],
+  "UNPLEASANT-SMELLING-VAL": [
+    "ADJ"
+  ],
+  "FACILITY": [
+    "N"
+  ],
+  "RETIRE": [
+    "V"
+  ],
+  "BODY-PART-VAL": [
+    "ADJ"
+  ],
+  "REVISE": [
+    "N",
+    "V"
+  ],
+  "PLANT-PART": [
+    "N"
+  ],
+  "EASY-SCALE": [
+    "N"
+  ],
+  "IMPROVE": [
+    "V",
+    "N"
+  ],
+  "LOC-AS-AREA": [
+    "N"
+  ],
+  "BEEF": [
+    "N"
+  ],
+  "EXPLODE": [
+    "N",
+    "V"
+  ],
+  "HELP": [
+    "N",
+    "V"
+  ],
+  "INHABITANT": [
+    "N"
+  ],
+  "REQUIREMENT-SCALE": [
+    "N"
+  ],
+  "PRODUCTIVE-VAL": [
+    "ADJ"
+  ],
+  "TIME-CLOCK-REL": [
+    "ADV"
+  ],
+  "HIGHLIGHT": [
+    "V"
+  ],
+  "RELATE": [
+    "N",
+    "V"
+  ],
+  "CARDIAC-VAL": [
+    "ADJ"
+  ],
+  "NOT-PREDICTABLE-VAL": [
+    "ADJ"
+  ],
+  "RELIGIOUS-REGION": [
+    "N"
+  ],
+  "ASSERT": [
+    "N",
+    "V"
+  ],
+  "MEDICAL-DEHYDRATION-VAL": [
+    "ADJ"
+  ],
+  "NOT-USABLE-VAL": [
+    "ADJ"
+  ],
+  "DESIRABLE-VAL": [
+    "ADJ"
+  ],
+  "BEDANDBREAKFAST": [
+    "N"
+  ],
+  "INTERNAL-COMPUTER-STORAGE": [
+    "N"
+  ],
+  "ADMIT": [
+    "N",
+    "V"
+  ],
+  "ATTRACTIVE-SCALE": [
+    "N"
+  ],
+  "DEEP-VAL": [
+    "ADJ"
+  ],
+  "STRETCH": [
+    "V"
+  ],
+  "RESERVE": [
+    "N",
+    "V"
+  ],
+  "PLANNING": [
+    "N",
+    "V"
+  ],
+  "ATHLETIC-FACILITY": [
+    "N"
+  ],
+  "PULL-OUT-OF": [
+    "N",
+    "V"
+  ],
+  "FUNCTIONAL-PHYS-OBJECT": [
+    "N"
+  ],
+  "PHYSICAL-PHENOMENON": [
+    "N"
+  ],
+  "TEMPERATURE-UNIT": [
+    "ADJ",
+    "N"
+  ],
+  "SURROUND": [
+    "N",
+    "V"
+  ],
+  "LEASE-HIRE": [
+    "N",
+    "V"
+  ],
+  "AMBITIOUSNESS-SCALE": [
+    "N"
+  ],
+  "NOT-LIKELY-VAL": [
+    "ADJ"
+  ],
+  "CIRCULAR-MOVE": [
+    "V"
+  ],
+  "NOT-RELEVANT-VAL": [
+    "ADJ"
+  ],
+  "ORGANIZING": [
+    "N",
+    "V"
+  ],
+  "COME-OUT-OF": [
+    "V"
+  ],
+  "UNCONTROLLED-BODY-MOTION": [
+    "N",
+    "V"
+  ],
+  "DISCONTINUOUS": [
+    "ADJ"
+  ],
+  "POSSIBLE": [
+    "ADJ"
+  ],
+  "DENT": [
+    "V"
+  ],
+  "FLAVOR": [
+    "V"
+  ],
+  "DISGUSTED": [
+    "ADJ"
+  ],
+  "MACHINE": [
+    "N"
+  ],
+  "LOOSEN": [
+    "V"
+  ],
+  "MANUAL-VAL": [
+    "ADJ"
+  ],
+  "CANCEL": [
+    "V"
+  ],
+  "ATTENTIVE-VAL": [
+    "ADV",
+    "ADJ"
+  ],
+  "PROCREATE": [
+    "V"
+  ],
+  "RENDER-INEFFECTIVE": [
+    "N",
+    "V"
+  ],
+  "CALMING-VAL": [
+    "ADJ"
+  ],
+  "AFRAID": [
+    "ADJ"
+  ],
+  "QUESTIONABLE-VAL": [
+    "ADJ"
+  ],
+  "TANGIBILITY-SCALE": [
+    "N"
+  ],
+  "LINK": [
+    "N"
+  ],
+  "EMIT-GIVEOFF-DISCHARGE": [
+    "N",
+    "V"
+  ],
+  "AGRICULTURE": [
+    "N"
+  ],
+  "EVOKE-TIREDNESS": [
+    "N",
+    "V"
+  ],
+  "NATURAL": [
+    "ADJ"
+  ],
+  "TEA": [
+    "N"
+  ],
+  "DOSE": [
+    "N"
+  ],
+  "BODILY-FLUID": [
+    "N"
+  ],
+  "PAIN-SCALE": [
+    "N"
+  ],
+  "STEREOTYPICAL-VAL": [
+    "ADJ"
+  ],
+  "TIME-UNIT": [
+    "N"
+  ],
+  "RURAL-VAL": [
+    "ADJ"
+  ],
+  "ROW-FORMATION": [
+    "N"
+  ],
+  "CLEVER-VAL": [
+    "ADJ"
+  ],
+  "FUEL": [
+    "N"
+  ],
+  "NAME": [
+    "N"
+  ],
+  "MONTH-NAME": [
+    "NAME"
+  ],
+  "DECREASE": [
+    "N",
+    "V"
+  ],
+  "TRY": [
+    "N",
+    "V"
+  ],
+  "DISTANCE-SCALE": [
+    "N"
+  ],
+  "CAUSE-COVER": [
+    "V"
+  ],
+  "BRONCHODILATOR": [
+    "N"
+  ],
+  "MEANINGFUL-VAL": [
+    "ADJ"
+  ],
+  "TIME-DEFINED-BY-DURATION": [
+    "N"
+  ],
+  "GATHERING-EVENT": [
+    "N"
+  ],
+  "MONEY-UNIT": [
+    "N"
+  ],
+  "TANKER": [
+    "N"
+  ],
+  "SIDE-LOCATION-VAL": [
+    "ADJ"
+  ],
+  "INTANGIBILITY-SCALE": [
+    "N"
+  ],
+  "FLY": [
+    "N",
+    "V"
+  ],
+  "SWIM": [
+    "N",
+    "V"
+  ],
+  "DISLIKING": [
+    "V"
+  ],
+  "EVOKE-WORRY": [
+    "V"
+  ],
+  "VISUAL-DULLNESS-SCALE": [
+    "N"
+  ],
+  "COMPUTER-MONITOR": [
+    "N"
+  ],
+  "ASK-QUESTION": [
+    "N",
+    "V"
+  ],
+  "POOR-VAL": [
+    "ADJ"
+  ],
+  "CREATE": [
+    "N",
+    "V"
+  ],
+  "ELECTRICAL": [
+    "ADJ"
+  ],
+  "TRANSLOCATE": [
+    "N",
+    "V"
+  ],
+  "OFFICIAL-DOCUMENT": [
+    "N"
+  ],
+  "WIN-COMPETE": [
+    "V"
+  ],
+  "APPEAL-APPLY-DEMAND": [
+    "N",
+    "V"
+  ],
+  "EXTERNAL": [
+    "ADJ"
+  ],
+  "MEASURE-SCALE": [
+    "N"
+  ],
+  "DEGREE-MODIFIER-HIGH-EVENT": [
+    "ADV"
+  ],
+  "AWARENESS-SCALE": [
+    "N"
+  ],
+  "ACTIVE-ON": [
+    "ADJ"
+  ],
+  "CLEAR-WEATHER": [
+    "ADJ"
+  ],
+  "EXPECTORATE": [
+    "V"
+  ],
+  "COMBINE-OBJECTS": [
+    "N",
+    "V"
+  ],
+  "TAKE-IN": [
+    "N",
+    "V"
+  ],
+  "ALGA": [
+    "N"
+  ],
+  "REASON-INFORMAL": [
+    "ADV"
+  ],
+  "HEREDITARY-VAL": [
+    "ADJ"
+  ],
+  "RED": [
+    "ADJ"
+  ],
+  "ALWAYS": [
+    "ADV"
+  ],
+  "EVOKE-SURPRISE": [
+    "N",
+    "V"
+  ],
+  "COLOR-SCALE": [
+    "N"
+  ],
+  "PORTRAIT-VAL": [
+    "ADJ"
+  ],
+  "MEASURE-UNIT": [
+    "N"
+  ],
+  "PHOSPHORYLATION": [
+    "N",
+    "V"
+  ],
+  "SAFE": [
+    "ADJ"
+  ],
+  "SEND": [
+    "N",
+    "V"
+  ],
+  "NATURAL-GAS-SUBSTANCE": [
+    "N"
+  ],
+  "GRIEVOUS-VAL": [
+    "ADJ"
+  ],
+  "CHANGE": [
+    "N",
+    "V"
+  ],
+  "PERSISTENT": [
+    "ADJ"
+  ],
+  "TIME-IN-REL": [
+    "ADV"
+  ],
+  "COMMERCIAL-ACTIVITY": [
+    "N"
+  ],
+  "OVERCOME": [
+    "V"
+  ],
+  "FREQUENT": [
+    "ADJ"
+  ],
+  "MINUTE-DURATION": [
+    "N"
+  ],
+  "MATH-RELATED-PROPERTY-VAL": [
+    "ADJ"
+  ],
+  "BLOW": [
+    "V"
+  ],
+  "SPLIT-VAL": [
+    "ADJ"
+  ],
+  "BAD-AESTHETIC-JUDGEMENT-VAL": [
+    "ADJ"
+  ],
+  "MANNER-SAY": [
+    "N",
+    "V"
+  ],
+  "BINDING-VAL": [
+    "ADV"
+  ],
+  "GRIEF-SCALE": [
+    "N"
+  ],
+  "PLANT": [
+    "N"
+  ],
+  "SUPPLEMENTAL-VAL": [
+    "ADJ"
+  ],
+  "SUMMER": [
+    "N"
+  ],
+  "THICK-VAL": [
+    "ADJ"
+  ],
+  "GOODNESS-SCALE": [
+    "N"
+  ],
+  "TIME-DEADLINE-REL": [
+    "ADV"
+  ],
+  "ADVISE": [
+    "V"
+  ],
+  "SMALL": [
+    "ADJ"
+  ],
+  "TAKE-TIME": [
+    "V"
+  ],
+  "ENJOYABLE-VAL": [
+    "ADJ"
+  ],
+  "ORANGE": [
+    "ADJ"
+  ],
+  "RATE-SCALE": [
+    "N"
+  ],
+  "TOP-LOCATION": [
+    "N"
+  ],
+  "DEGREE-MODIFIER-VERYHIGH": [
+    "ADV"
+  ],
+  "OLD-VAL": [
+    "ADJ"
+  ],
+  "OMIT": [
+    "N",
+    "V"
+  ],
+  "BOOT-UP": [
+    "V"
+  ],
+  "PUBLICATION": [
+    "N"
+  ],
+  "REMOVABLE-VAL": [
+    "ADJ"
+  ],
+  "LINGUISTIC-OBJECT": [
+    "N"
+  ],
+  "POLLUTION": [
+    "N"
+  ],
+  "OVERWEIGHT": [
+    "ADJ"
+  ],
+  "COMMUNICATION": [
+    "N",
+    "V"
+  ],
+  "ETCETERA": [
+    "ADV"
+  ],
+  "LEARN": [
+    "V"
+  ],
+  "CLOUD-OBJECT": [
+    "N"
+  ],
+  "PRECIPITATING-VAL": [
+    "ADJ"
+  ],
+  "GO-ON": [
+    "V"
+  ],
+  "OSTEOPOROSIS": [
+    "N"
+  ],
+  "ARROGANT-VAL": [
+    "ADJ"
+  ],
+  "REPRESENT": [
+    "V"
+  ],
+  "AUTHOR-WRITE-BURN-PRINT_REPRINT_TYPE_RETYPE_MISTYPE": [
+    "N",
+    "V"
+  ],
+  "MENTAL-ATTITUDE": [
+    "N"
+  ],
+  "BUTTON": [
+    "N"
+  ],
+  "CARE": [
+    "N",
+    "V"
+  ],
+  "GENE": [
+    "N"
+  ],
+  "ANGINA": [
+    "N"
+  ],
+  "MAIL": [
+    "N"
+  ],
+  "IMITATE-SIMULATE": [
+    "N",
+    "V"
+  ],
+  "ACCEPT-AGREE": [
+    "V",
+    "N"
+  ],
+  "CONTINUOUS": [
+    "ADJ"
+  ],
+  "PROTOCOL": [
+    "N"
+  ],
+  "THIN": [
+    "V"
+  ],
+  "POPULATION-SCALE": [
+    "N"
+  ],
+  "EXAMPLE": [
+    "N"
+  ],
+  "UNFORTUNATE": [
+    "N"
+  ],
+  "ATTRIBUTE-IMPUTE": [
+    "V"
+  ],
+  "WILD-GAME": [
+    "N"
+  ],
+  "EVALUATION-SCALE": [
+    "N"
+  ],
+  "NUMBER-RESULT": [
+    "N"
+  ],
+  "EXCITED": [
+    "ADJ"
+  ],
+  "FAMILIAR-VAL": [
+    "ADJ"
+  ],
+  "INFECTION": [
+    "N"
+  ],
+  "LIKELY-VAL": [
+    "ADV",
+    "ADJ"
+  ],
+  "PULSE": [
+    "N"
+  ],
+  "CANCER": [
+    "N"
+  ],
+  "GEO-FORMATION": [
+    "N"
+  ],
+  "WARN": [
+    "N",
+    "V"
+  ],
+  "FRUIT": [
+    "N"
+  ],
+  "SHOULD-BE-AT": [
+    "V"
+  ],
+  "NOT-AVAILABLE-VAL": [
+    "ADJ"
+  ],
+  "ROUTE-TOPOLOGY-VAL": [
+    "ADJ"
+  ],
+  "NOW": [
+    "ADV"
+  ],
+  "ON": [
+    "ADV"
+  ],
+  "WILDTYPE-OBJ": [
+    "N"
+  ],
+  "COMPUTER-SOFTWARE": [
+    "N"
+  ],
+  "SWEAT": [
+    "V"
+  ],
+  "DEPART": [
+    "N",
+    "V"
+  ],
+  "TOUR": [
+    "N"
+  ],
+  "RHYTHMIC-MOTION": [
+    "N",
+    "V"
+  ],
+  "RECORDING-DEVICE": [
+    "N"
+  ],
+  "COLLECT": [
+    "V"
+  ],
+  "CAUSE-OUT-OF": [
+    "N",
+    "V"
+  ],
+  "LOCATION-DISTANCE-MODIFIER": [
+    "ADV"
+  ],
+  "ASSISTANT": [
+    "N"
+  ],
+  "VERB": [
+    "V"
+  ],
+  "DIG-SCOOP": [
+    "V"
+  ],
+  "STAND": [
+    "N"
+  ],
+  "LIGHTNESS-SCALE": [
+    "N"
+  ],
+  "RETRIEVE": [
+    "N",
+    "V"
+  ],
+  "WELCOME": [
+    "N",
+    "V"
+  ],
+  "SOURCE": [
+    "N"
+  ],
+  "MOVE-BY-MEANS": [
+    "V"
+  ],
+  "COMPUTER-LANGUAGE": [
+    "N"
+  ],
+  "INFO-MEDIUM": [
+    "N"
+  ],
+  "HUMID-WARM-VAL": [
+    "ADJ"
+  ],
+  "WHITE": [
+    "ADJ"
+  ],
+  "FAKE-VAL": [
+    "ADJ"
+  ],
+  "PREVIOUS-VAL": [
+    "ADJ"
+  ],
+  "ASSETS": [
+    "N"
+  ],
+  "SUPPLY": [
+    "N",
+    "V"
+  ],
+  "MEASURE": [
+    "V"
+  ],
+  "BEANS-PEAS": [
+    "N"
+  ],
+  "CLOUDY": [
+    "ADJ"
+  ],
+  "TURKEY": [
+    "N"
+  ],
+  "MIDDLE-LOCATION-VAL": [
+    "ADJ"
+  ],
+  "NOT-AFFIXED-VAL": [
+    "ADJ"
+  ],
+  "ADDITIONAL-VAL": [
+    "ADJ"
+  ],
+  "YELLOW": [
+    "ADJ"
+  ],
+  "CONCEPT-NOTION": [
+    "N"
+  ],
+  "CONTEST": [
+    "N",
+    "V"
+  ],
+  "DIM-VAL": [
+    "ADJ"
+  ],
+  "CONFINE": [
+    "V"
+  ],
+  "SILVER": [
+    "ADJ"
+  ],
+  "SENSITIVITY-VAL": [
+    "ADJ"
+  ],
+  "MISUNDERSTAND": [
+    "V"
+  ],
+  "NOT-FLEXIBLE-VAL": [
+    "ADJ"
+  ],
+  "NOT-CURRENT-VAL": [
+    "ADJ"
+  ],
+  "DEGREE-OF-BELIEF": [
+    "ADV"
+  ],
+  "POSSESSOR-RELN": [
+    "N"
+  ],
+  "ATYPICAL-VAL": [
+    "ADJ"
+  ],
+  "OFTEN": [
+    "ADV"
+  ],
+  "FOLD": [
+    "N",
+    "V"
+  ],
+  "SPEND-TIME": [
+    "V"
+  ],
+  "WORTHY-VAL": [
+    "ADJ"
+  ],
+  "ADAPTABILITY-SCALE": [
+    "N"
+  ],
+  "DIFFERENT": [
+    "ADV",
+    "ADJ"
+  ],
+  "STRESS-SCALE": [
+    "N"
+  ],
+  "PUSH-OUT-OF": [
+    "N",
+    "V"
+  ],
+  "NUMBER-RELATED-PROPERTY-VAL": [
+    "ADJ"
+  ],
+  "COFFEE-SHOP": [
+    "N"
+  ],
+  "COMMERCIAL-FACILITY": [
+    "N"
+  ],
+  "GOAL-AS-ON": [
+    "ADV"
+  ],
+  "FEEBLENESS-SCALE": [
+    "N"
+  ],
+  "NOT-VERIFIED-VAL": [
+    "ADJ"
+  ],
+  "GOAL-AS-CONTAINMENT": [
+    "ADV"
+  ],
+  "BACK": [
+    "ADV"
+  ],
+  "DEFAME": [
+    "V"
+  ],
+  "SHOULD": [
+    "V"
+  ],
+  "AWAY": [
+    "ADV"
+  ],
+  "ECONOMIC-VAL": [
+    "ADJ"
+  ],
+  "NOT-EFFECTIVE-VAL": [
+    "ADJ"
+  ],
+  "UNMANAGEABLE": [
+    "ADJ"
+  ],
+  "COMMITMENT": [
+    "N"
+  ],
+  "INDEPENDENT": [
+    "ADJ"
+  ],
+  "NOSEBLEED": [
+    "N"
+  ],
+  "RESULT": [
+    "N"
+  ],
+  "NOT-TOLERABLE-VAL": [
+    "ADV",
+    "ADJ"
+  ],
+  "TABLEWARE": [
+    "N"
+  ],
+  "HOUR-DURATION": [
+    "N"
+  ],
+  "EXPENSIVE-VAL": [
+    "ADJ"
+  ],
+  "NECESSITY": [
+    "N",
+    "V"
+  ],
+  "FATIGUED-VAL": [
+    "ADJ"
+  ],
+  "ANALOG": [
+    "ADJ"
+  ],
+  "COMPUTER-PROCESSOR": [
+    "N"
+  ],
+  "NARROW": [
+    "V"
+  ],
+  "UNWILLING": [
+    "ADJ"
+  ],
+  "FLUCTUATE": [
+    "N",
+    "V"
+  ],
+  "VOLTAGE-SCALE": [
+    "N"
+  ],
+  "ENERGIZED-VAL": [
+    "ADJ"
+  ],
+  "LEAVE-BEHIND": [
+    "N",
+    "V"
+  ],
+  "MAMMAL": [
+    "N"
+  ],
+  "ELEMENT": [
+    "N"
+  ],
+  "SKINNY-VAL": [
+    "ADJ"
+  ],
+  "OPTION": [
+    "N"
+  ],
+  "DIRECTION-UP-GROUND": [
+    "ADJ",
+    "ADV"
+  ],
+  "REPRIMAND": [
+    "N",
+    "V"
+  ],
+  "DONATE-GIVE": [
+    "N",
+    "V"
+  ],
+  "CARDIOPULMONARY-EXERCISE": [
+    "N"
+  ],
+  "AWARENESS": [
+    "N"
+  ],
+  "MANIA": [
+    "N"
+  ],
+  "PROPOSAL": [
+    "N"
+  ],
+  "INSANITY": [
+    "N"
+  ],
+  "MUST": [
+    "V"
+  ],
+  "LIGHT-IN-COLOR-VAL": [
+    "ADJ"
+  ],
+  "COOKIES": [
+    "N"
+  ],
+  "INTERNAL-ENCLOSURE": [
+    "N"
+  ],
+  "ANIMAL": [
+    "N"
+  ],
+  "UNHAPPY": [
+    "ADJ"
+  ],
+  "VERSION": [
+    "N"
+  ],
+  "THANK": [
+    "V"
+  ],
+  "NOISY": [
+    "ADJ"
+  ],
+  "STAIRS": [
+    "N"
+  ],
+  "DISABILITY": [
+    "N"
+  ],
+  "YOGURT": [
+    "N"
+  ],
+  "DUCK": [
+    "N"
+  ],
+  "NONACTUAL": [
+    "ADJ"
+  ],
+  "PREDICT": [
+    "N",
+    "V"
+  ],
+  "ARTHRITIS": [
+    "N"
+  ],
+  "ASSOC-WITH": [
+    "ADV"
+  ],
+  "HEAVY": [
+    "ADJ"
+  ],
+  "DIRTY-VAL": [
+    "ADJ"
+  ],
+  "GOOSE": [
+    "N"
+  ],
+  "HARMFUL-AGENCY": [
+    "N"
+  ],
+  "NOT-CLOTHED-VAL": [
+    "ADJ"
+  ],
+  "INTENSIFIER": [
+    "ADV"
+  ],
+  "LEFT-LOC": [
+    "N"
+  ],
+  "ENVIOUS": [
+    "ADJ"
+  ],
+  "CONDITIONAL": [
+    "V"
+  ],
+  "ARTIFICIAL": [
+    "ADJ"
+  ],
+  "LENGTHEN": [
+    "V"
+  ],
+  "PERFORMANCE-PLAY": [
+    "N"
+  ],
+  "CAUSE-PRODUCE-REPRODUCE": [
+    "N",
+    "V"
+  ],
+  "TINY": [
+    "ADJ"
+  ],
+  "TEXTURE-VAL": [
+    "ADJ"
+  ],
+  "LIGHTHEADEDNESS": [
+    "N"
+  ],
+  "W-ABLE-VAL": [
+    "ADJ"
+  ],
+  "TURN-OFF": [
+    "V"
+  ],
+  "SCIENCE-DISCIPLINE": [
+    "N"
+  ],
+  "UPTOWN": [
+    "ADV"
+  ],
+  "LIMITED": [
+    "ADJ"
+  ],
+  "MILK": [
+    "N"
+  ],
+  "SOCIAL-PRACTICE": [
+    "N"
+  ],
+  "SANITY-SCALE": [
+    "N"
+  ],
+  "RESTRICTION": [
+    "ADV"
+  ],
+  "COLD-SCALE": [
+    "N"
+  ],
+  "DEAD": [
+    "ADJ"
+  ],
+  "BODY-MOVEMENT-PLACE": [
+    "N",
+    "V"
+  ],
+  "PRESERVATIVES": [
+    "N"
+  ],
+  "BOMB": [
+    "N"
+  ],
+  "HEALTH-SCALE": [
+    "N"
+  ],
+  "COOK-RESULT": [
+    "V"
+  ],
+  "CURRENT-VAL": [
+    "ADJ"
+  ],
+  "NOT-AWARE-VAL": [
+    "ADJ"
+  ],
+  "WHOLE-STEP": [
+    "N"
+  ],
+  "TOW-TRUCK": [
+    "N"
+  ],
+  "NUTRITIONAL-VAL": [
+    "ADJ"
+  ],
+  "CELL-LINE": [
+    "N"
+  ],
+  "PHEASANT": [
+    "N"
+  ],
+  "UNEASY": [
+    "ADJ"
+  ],
+  "CRUSH": [
+    "V"
+  ],
+  "EVENT-EVENT-TIME": [
+    "ADV"
+  ],
+  "GREET": [
+    "N",
+    "V"
+  ],
+  "FEVER": [
+    "N"
+  ],
+  "OBSTRUCTED": [
+    "ADJ"
+  ],
+  "COMPENSATE": [
+    "N",
+    "V"
+  ],
+  "THEORETICAL-VAL": [
+    "ADJ"
+  ],
+  "ATHLETE": [
+    "N"
+  ],
+  "POSITION-RELN": [
+    "ADV"
+  ],
+  "DARK-VAL": [
+    "ADJ"
+  ],
+  "REPTILE": [
+    "N"
+  ],
+  "FEVERISH-VAL": [
+    "ADJ"
+  ],
+  "MOLECULAR-DOMAIN": [
+    "N"
+  ],
+  "STATE-OF-WORRYING": [
+    "V"
+  ],
+  "EVOKE-SADNESS": [
+    "N",
+    "V"
+  ],
+  "MUSICAL-INSTRUMENT": [
+    "N"
+  ],
+  "SPORT": [
+    "N"
+  ],
+  "DARK-IN-COLOR-VAL": [
+    "ADJ"
+  ],
+  "TOTAL-SCALE": [
+    "N"
+  ],
+  "STARTOFF-BEGIN-COMMENCE-START": [
+    "N",
+    "V"
+  ],
+  "N-PLEX-VAL": [
+    "ADJ"
+  ],
+  "EXPLAIN": [
+    "N",
+    "V"
+  ],
+  "CONSISTENT": [
+    "ADJ"
+  ],
+  "VOLUME-SCALE": [
+    "N"
+  ],
+  "PREDICATE": [
+    "ADV"
+  ],
+  "PHOBIA": [
+    "N"
+  ],
+  "UNCERTAIN": [
+    "ADJ"
+  ],
+  "DESCRIBE": [
+    "N",
+    "V"
+  ],
+  "DIRECTION-RIGHTWARD": [
+    "ADV"
+  ],
+  "REFERENTIAL-SEM": [
+    "N",
+    "PRO"
+  ],
+  "ROTATE": [
+    "N",
+    "V"
+  ],
+  "HAVE": [
+    "N",
+    "V"
+  ],
+  "NAUSEA": [
+    "N"
+  ],
+  "BLACK": [
+    "ADJ"
+  ],
+  "SHARE": [
+    "V"
+  ],
+  "ABILITY-TO-TOUCH": [
+    "N"
+  ],
+  "POS-WRT-SPEAKER-RELN": [
+    "ADV"
+  ],
+  "ABLE": [
+    "ADJ"
+  ],
+  "CHARGEABLE-VAL": [
+    "ADJ"
+  ],
+  "PLACE-IN-POSITION": [
+    "V"
+  ],
+  "MEDICAL-SYMPTOM": [
+    "N"
+  ],
+  "WINTER": [
+    "N"
+  ],
+  "COME": [
+    "V"
+  ],
+  "SIZE-SCALE": [
+    "N"
+  ],
+  "COMMODITY": [
+    "N"
+  ],
+  "COMPLETE": [
+    "V"
+  ],
+  "PRECISE": [
+    "ADJ"
+  ],
+  "SMELLABILITY-VAL": [
+    "ADJ"
+  ],
+  "LIE-DORMANT": [
+    "N",
+    "V"
+  ],
+  "EVOKE-CONFUSION": [
+    "N",
+    "V"
+  ],
+  "HEAT": [
+    "V"
+  ],
+  "FEELING": [
+    "N"
+  ],
+  "SINK": [
+    "N"
+  ],
+  "SOCIAL-GROUP": [
+    "N"
+  ],
+  "LOOK-UP": [
+    "V"
+  ],
+  "PLAIN-VAL": [
+    "ADJ"
+  ],
+  "TOMORROW": [
+    "N"
+  ],
+  "APPEARS-TO-HAVE-PROPERTY": [
+    "N",
+    "V"
+  ],
+  "GRAINS": [
+    "N"
+  ],
+  "BEDDING": [
+    "N"
+  ],
+  "HARD-VAL": [
+    "ADJ"
+  ],
+  "DIE": [
+    "N",
+    "V"
+  ],
+  "BREATHING-DISORDER": [
+    "N"
+  ],
+  "MEMBERSHIP": [
+    "V"
+  ],
+  "BECOMING-AWARE-OF-VALUE": [
+    "N",
+    "V"
+  ],
+  "STRUCTURE-INTERNAL-COMPONENT": [
+    "N"
+  ],
+  "EVOKE-ATTRACTION": [
+    "V"
+  ],
+  "COOK-IN-STEAM": [
+    "V"
+  ],
+  "NOT-PRECISE-VAL": [
+    "ADV",
+    "ADJ"
+  ],
+  "RELAXED-VAL": [
+    "ADJ"
+  ],
+  "ENCOURAGE": [
+    "N",
+    "V"
+  ],
+  "FLATTEN": [
+    "V"
+  ],
+  "POLICY": [
+    "N"
+  ],
+  "INHALE": [
+    "N",
+    "V"
+  ],
+  "MEDIUM": [
+    "ADJ"
+  ],
+  "UNTIL": [
+    "ADV"
+  ],
+  "GREEN": [
+    "ADJ"
+  ],
+  "REBOOT": [
+    "V"
+  ],
+  "NERVOUSNESS-SCALE": [
+    "N"
+  ],
+  "PUSH-LIQUID": [
+    "N",
+    "V"
+  ],
+  "LOC-DEF-BY-GOAL": [
+    "N"
+  ],
+  "ORIENTS-TO": [
+    "ADV"
+  ],
+  "VISIBILITY-VAL": [
+    "ADJ"
+  ],
+  "NOT-BOLD-VAL": [
+    "ADJ"
+  ],
+  "AWFUL-VAL": [
+    "ADV",
+    "ADJ"
+  ],
+  "ASLEEP-VAL": [
+    "ADJ"
+  ],
+  "HORIZONTAL": [
+    "ADJ"
+  ],
+  "LOC-DEF-BY-INTERSECTION": [
+    "N"
+  ],
+  "REGIONAL-IDENTITY-VAL": [
+    "ADJ"
+  ],
+  "REGION-FOR-ACTIVITY": [
+    "N"
+  ],
+  "COMPRISE": [
+    "V"
+  ],
+  "CRUSTACEANS": [
+    "N"
+  ],
+  "HUNGRY": [
+    "ADJ"
+  ],
+  "PLEASANT-SMELLING-VAL": [
+    "ADJ"
+  ],
+  "PARTIAL-INCOMPLETE": [
+    "ADJ",
+    "ADV"
+  ],
+  "CHANGE-FORMAT": [
+    "N",
+    "V"
+  ],
+  "UNLUCKY": [
+    "ADJ"
+  ],
+  "ANEMIA": [
+    "N"
+  ],
+  "EXHALE": [
+    "N",
+    "V"
+  ],
+  "FOOD-MEASURE-UNIT": [
+    "N"
+  ],
+  "INTENTION": [
+    "N",
+    "V"
+  ],
+  "BE-AT-LOC": [
+    "N",
+    "V"
+  ],
+  "BOTTOM-LOCATION": [
+    "N"
+  ],
+  "OPINION": [
+    "N"
+  ],
+  "STRANGE": [
+    "ADJ"
+  ],
+  "PRESCRIBING": [
+    "V"
+  ],
+  "EAST": [
+    "ADJ"
+  ],
+  "DEVICE-ADJUST": [
+    "N",
+    "V"
+  ],
+  "COOL": [
+    "V"
+  ],
+  "FAT-SCALE": [
+    "N"
+  ],
+  "EVOKE-ANNOYANCE": [
+    "N",
+    "V"
+  ],
+  "LACKING": [
+    "N",
+    "V"
+  ],
+  "NOT-ABLE-SCALE": [
+    "N"
+  ],
+  "DEGREE-MODIFIER-VERYLOW": [
+    "ADV"
+  ],
+  "UNLOAD": [
+    "V"
+  ],
+  "FATIGUE-SCALE": [
+    "N"
+  ],
+  "PATIENT": [
+    "N"
+  ],
+  "INDICT": [
+    "N",
+    "V"
+  ],
+  "AIRPORT": [
+    "N"
+  ],
+  "THINNESS-SCALE": [
+    "N"
+  ],
+  "TAKE-BY-DECEPTION": [
+    "V"
+  ],
+  "CONDUCTOR": [
+    "N"
+  ],
+  "EVENT-TIME-REL": [
+    "PRO",
+    "ADJ",
+    "ADV"
+  ],
+  "RIGHT-LOC": [
+    "N"
+  ],
+  "DUST": [
+    "N"
+  ],
+  "EVOKE-DISTRESS": [
+    "N",
+    "V"
+  ],
+  "MOVE-QUICKLY": [
+    "N",
+    "V"
+  ],
+  "FLOAT": [
+    "V"
+  ],
+  "AGENT": [
+    "N"
+  ],
+  "UBIQUITINATION": [
+    "N",
+    "V"
+  ],
+  "FAVORABLE-CONDITION": [
+    "N"
+  ],
+  "RIBOSYLATION": [
+    "N",
+    "V"
+  ],
+  "RELY": [
+    "N",
+    "V"
+  ],
+  "SYMBOLIC-REPRESENTATION": [
+    "N"
+  ],
+  "PORK": [
+    "N"
+  ],
+  "MALE-CHILD": [
+    "N"
+  ],
+  "SHRINK": [
+    "N",
+    "V"
+  ],
+  "CONJUNCT": [
+    "ADV"
+  ],
+  "COMMUNICATION-CHANNEL": [
+    "N"
+  ],
+  "OWE": [
+    "V"
+  ],
+  "IMPERCEPTIBILITY-VAL": [
+    "ADJ"
+  ],
+  "PHYS-OBJECT": [
+    "N"
+  ],
+  "MANNER-UNDO": [
+    "ADJ",
+    "ADV"
+  ],
+  "SITUATION": [
+    "N"
+  ],
+  "STEAL": [
+    "N",
+    "V"
+  ],
+  "MODERN-VAL": [
+    "ADJ"
+  ],
+  "BOX": [
+    "N"
+  ],
+  "SING": [
+    "V"
+  ],
+  "MUSIC": [
+    "N"
+  ],
+  "BOIL": [
+    "V"
+  ],
+  "ATTRIBUTED-INFORMATION": [
+    "ADV"
+  ],
+  "WEIGHT-UNIT": [
+    "N"
+  ],
+  "SINGULARITY-VAL": [
+    "ADV",
+    "ADJ"
+  ],
+  "FILL-CONTAINER": [
+    "V"
+  ],
+  "TEMPORARY": [
+    "ADJ"
+  ],
+  "DIABETES": [
+    "N"
+  ],
+  "BLOCK": [
+    "N"
+  ],
+  "ADJACENT": [
+    "ADV",
+    "ADJ"
+  ],
+  "ORIGINAL-MATERIAL": [
+    "ADV"
+  ],
+  "LANGUAGE": [
+    "NAME"
+  ],
+  "PRIDE-SCALE": [
+    "N"
+  ],
+  "THEREFORE": [
+    "ADV"
+  ],
+  "VEGETABLE": [
+    "N"
+  ],
+  "MELODY": [
+    "N"
+  ],
+  "DISPLAY": [
+    "N"
+  ],
+  "PUBLIC-SERVICE-FACILITY": [
+    "N"
+  ],
+  "WEEK-DURATION": [
+    "N"
+  ],
+  "PROCEDURE": [
+    "N"
+  ],
+  "EAT": [
+    "V"
+  ],
+  "AUDIO": [
+    "N"
+  ],
+  "DUPLICATE-VAL": [
+    "ADJ"
+  ],
+  "ABILITY-TO-SEE": [
+    "N"
+  ],
+  "BALANCE-SCALE": [
+    "N"
+  ],
+  "RESTLESS-VAL": [
+    "ADJ"
+  ],
+  "HIDDEN": [
+    "ADJ"
+  ],
+  "COMMAND": [
+    "N",
+    "V"
+  ],
+  "ACOUSTIC-UNIT": [
+    "N"
+  ],
+  "HAVE-INFLUENCE": [
+    "V"
+  ],
+  "DATA-STRUCTURE": [
+    "N"
+  ],
+  "MOVE": [
+    "N",
+    "V"
+  ],
+  "MOLLUSKS": [
+    "N"
+  ],
+  "OTHER": [
+    "ADJ",
+    "N"
+  ],
+  "DYNAMIC-VAL": [
+    "ADJ"
+  ],
+  "NOT-NECESSARY-VAL": [
+    "ADJ"
+  ],
+  "NUCLEAR-VAL": [
+    "ADJ"
+  ],
+  "PITCH-INTERVAL": [
+    "N"
+  ],
+  "POLARITY-VAL-POSITIVE": [
+    "ADJ"
+  ],
+  "PRIVATE": [
+    "ADJ"
+  ],
+  "SOMETIMES": [
+    "ADV"
+  ],
+  "YEAR": [
+    "N"
+  ],
+  "CLASSIFY": [
+    "N",
+    "V"
+  ],
+  "CORNER": [
+    "N"
+  ],
+  "NERVOUS-DISORDER": [
+    "N"
+  ],
+  "CELL": [
+    "N"
+  ],
+  "CORRECTNESS-SCALE": [
+    "N"
+  ],
+  "FUNCTION-OBJECT": [
+    "N"
+  ],
+  "CREDIT-CARD": [
+    "N"
+  ],
+  "CONFUSE": [
+    "N",
+    "V"
+  ],
+  "COMFORT-SCALE": [
+    "N"
+  ],
+  "TROUBLE": [
+    "N"
+  ],
+  "FREQUENCY": [
+    "ADV"
+  ],
+  "NONVERBAL-SAY": [
+    "V"
+  ],
+  "UNDERSTANDING": [
+    "N"
+  ],
+  "RELY-DEPEND": [
+    "N",
+    "V"
+  ],
+  "DOUBLE": [
+    "V"
+  ],
+  "INTERJECTION": [
+    "ADV"
+  ],
+  "CONNECTED": [
+    "N",
+    "V"
+  ],
+  "BORING": [
+    "ADJ"
+  ],
+  "RESTART": [
+    "N",
+    "V"
+  ],
+  "SWELL": [
+    "V"
+  ],
+  "SUNNY-VAL": [
+    "ADJ"
+  ],
+  "AUTHOR": [
+    "N"
+  ],
+  "BLURRINESS-SCALE": [
+    "N"
+  ],
+  "LISTING": [
+    "V"
+  ],
+  "SURRENDER": [
+    "V"
+  ],
+  "MAXIMIZE": [
+    "N",
+    "V"
+  ],
+  "EVOKE-FEAR": [
+    "N",
+    "V"
+  ],
+  "TAKE-INCREMENTALLY": [
+    "N",
+    "V"
+  ],
+  "LONG": [
+    "ADJ"
+  ],
+  "RATIO-SCALE": [
+    "N"
+  ],
+  "STATE": [
+    "N"
+  ],
+  "ROBUST-VAL": [
+    "ADJ"
+  ],
+  "PS-OBJECT": [
+    "N"
+  ],
+  "LIQUID-SUBSTANCE": [
+    "N"
+  ],
+  "DUNK": [
+    "V"
+  ],
+  "NUMBNESS": [
+    "N"
+  ],
+  "CONTAINER": [
+    "N"
+  ],
+  "DESTROY-PART-OF-WHOLE": [
+    "V"
+  ],
+  "EVOKE-ILL-BEING": [
+    "V"
+  ],
+  "INSANE": [
+    "ADJ"
+  ],
+  "FOREIGNER": [
+    "N"
+  ],
+  "NO-COST-VAL": [
+    "ADJ"
+  ],
+  "NEG-CONDITION": [
+    "ADV"
+  ],
+  "WEATHER": [
+    "N"
+  ],
+  "GOAL": [
+    "N"
+  ],
+  "BACKACHE": [
+    "N"
+  ],
+  "PROBLEM": [
+    "N"
+  ],
+  "CHANGE-SKIN-COLOR": [
+    "N",
+    "V"
+  ],
+  "DEHYDRATE": [
+    "V"
+  ],
+  "ANTIBIOTIC": [
+    "N"
+  ],
+  "SPECIFIED-PERIOD-VAL": [
+    "ADJ"
+  ],
+  "ARTERIOSCLEROSIS": [
+    "N"
+  ],
+  "TRIP": [
+    "N"
+  ],
+  "AILING-VAL": [
+    "ADJ"
+  ],
+  "APPEAR": [
+    "N",
+    "V"
+  ],
+  "HITTING": [
+    "N",
+    "V"
+  ],
+  "DROWSE": [
+    "V"
+  ],
+  "MAKE-SOUND": [
+    "V",
+    "N"
+  ],
+  "TRANSFER": [
+    "V"
+  ],
+  "MEASURE-RELATED-PROPERTY-VAL": [
+    "ADJ"
+  ],
+  "FITNESS-SCALE": [
+    "N"
+  ],
+  "HAIR-PROCESS": [
+    "V"
+  ],
+  "ATTRIBUTIVE-SCALE": [
+    "N"
+  ],
+  "HABITUAL": [
+    "V"
+  ],
+  "TEXTURE-SCALE": [
+    "N"
+  ],
+  "CONFIDENTIALITY-SCALE": [
+    "N"
+  ],
+  "TRI-VAL": [
+    "ADJ",
+    "ADV"
+  ],
+  "BODY-OF-WATER": [
+    "N"
+  ],
+  "DAY-STAGE": [
+    "N"
+  ],
+  "DELAY": [
+    "N",
+    "V"
+  ],
+  "DIARRHEA": [
+    "N"
+  ],
+  "REVENUE": [
+    "N"
+  ],
+  "RETAIN": [
+    "N",
+    "V"
+  ],
+  "PRESSURE-SCALE": [
+    "N"
+  ],
+  "POWER": [
+    "N"
+  ],
+  "REGULAR-SCALE": [
+    "N"
+  ],
+  "COOK-IN-FAT": [
+    "V"
+  ],
+  "GENE-TRANSCRIPTION": [
+    "N",
+    "V"
+  ],
+  "WEB-BROWSER": [
+    "N"
+  ],
+  "REFERENCE-WORK": [
+    "N"
+  ],
+  "PREPARE": [
+    "V"
+  ],
+  "SQUARE-VAL": [
+    "ADJ"
+  ],
+  "FIRE-TRUCK": [
+    "N"
+  ],
+  "OCTAVE": [
+    "N"
+  ],
+  "MORE-VAL": [
+    "ADV",
+    "QUAN",
+    "ADJ"
+  ],
+  "HIGHWAY": [
+    "N"
+  ],
+  "LOOSE-VAL": [
+    "ADJ"
+  ],
+  "ADDICTION": [
+    "N"
+  ],
+  "DESIROUS": [
+    "ADJ"
+  ],
+  "DISABLE": [
+    "V"
+  ],
+  "CONTAINER-LOAD": [
+    "N"
+  ],
+  "REPRESENTATION": [
+    "N"
+  ],
+  "AFFILIATE": [
+    "N"
+  ],
+  "TERMINATE": [
+    "V"
+  ],
+  "FAME-VAL": [
+    "ADJ"
+  ],
+  "LIVE": [
+    "N",
+    "V"
+  ],
+  "BECOME": [
+    "N",
+    "V"
+  ],
+  "REPETITIVE-VAL": [
+    "ADJ"
+  ],
+  "DIVERT": [
+    "V"
+  ],
+  "FRESH-VAL": [
+    "ADJ"
+  ],
+  "ADDITIVE": [
+    "ADV"
+  ],
+  "WRITING-IMPLEMENT": [
+    "N"
+  ],
+  "SEMANTIC-VAL": [
+    "ADJ"
+  ],
+  "AREA-UNIT": [
+    "N"
+  ],
+  "RECURRING-EVENT": [
+    "N"
+  ],
+  "SLEEP": [
+    "N",
+    "V"
+  ],
+  "DISTRESS-SCALE": [
+    "N"
+  ],
+  "OUTCOME": [
+    "N"
+  ],
+  "ABLE-SCALE": [
+    "N"
+  ],
+  "CLIMATE": [
+    "N"
+  ],
+  "SLOW-VAL": [
+    "ADJ"
+  ],
+  "DAZED-VAL": [
+    "ADJ"
+  ],
+  "REGISTER": [
+    "V"
+  ],
+  "WEAR": [
+    "V"
+  ],
+  "PURCHASE": [
+    "N",
+    "V"
+  ],
+  "DEMANDING-VAL": [
+    "ADJ"
+  ],
+  "CUP": [
+    "N"
+  ],
+  "STROKE": [
+    "N"
+  ],
+  "EXEMPLIFIES": [
+    "ADJ"
+  ],
+  "PRESCRIPTION": [
+    "N"
+  ],
+  "USE": [
+    "N",
+    "V"
+  ],
+  "COULD-BE-AT": [
+    "V"
+  ],
+  "SEQUENCE": [
+    "N"
+  ],
+  "FLAG": [
+    "N"
+  ],
+  "JUNCTION": [
+    "N"
+  ],
+  "LOCUTION": [
+    "N",
+    "V"
+  ],
+  "RIGHT": [
+    "ADJ"
+  ],
+  "WEAK": [
+    "ADJ"
+  ],
+  "MANGLE": [
+    "N",
+    "V"
+  ],
+  "ON-SITE-VAL": [
+    "ADJ"
+  ],
+  "SIMILAR-SCALE": [
+    "N"
+  ],
+  "INVISIBILITY-VAL": [
+    "ADJ"
+  ],
+  "EXTEND-TIME": [
+    "V"
+  ],
+  "INSTITUTION": [
+    "N"
+  ],
+  "FACIAL-EXPRESSION": [
+    "N",
+    "V"
+  ],
+  "TRUST": [
+    "N",
+    "V"
+  ],
+  "SOLIDIFY": [
+    "N",
+    "V"
+  ],
+  "METABOLIZE": [
+    "N"
+  ],
+  "SHAPE-VAL": [
+    "ADJ"
+  ],
+  "PUT-AWAY": [
+    "N",
+    "V"
+  ],
+  "ACQUIRED-IMMUNE-DEFICIENCY-SYNDROME": [
+    "N"
+  ],
+  "AUTHENTIC-VAL": [
+    "ADJ"
+  ],
+  "ABILITY-TO-SMELL": [
+    "N"
+  ],
+  "QUESTION": [
+    "N"
+  ],
+  "RECENT": [
+    "ADV",
+    "ADJ"
+  ],
+  "NOT-TYPICAL-SCALE": [
+    "N"
+  ],
+  "MEMBER-RELN": [
+    "N"
+  ],
+  "ITERATION-PERIOD": [
+    "ADV"
+  ],
+  "PAIN": [
+    "N"
+  ],
+  "FIND": [
+    "V"
+  ],
+  "FALSE-VAL": [
+    "ADJ"
+  ],
+  "SOCIAL-INTERACTION-VAL": [
+    "ADJ"
+  ],
+  "SKEPTICAL-VAL": [
+    "ADJ"
+  ],
+  "BOLD-VAL": [
+    "ADJ"
+  ],
+  "MEDICINAL-VAL": [
+    "ADJ"
+  ],
+  "EXCITEMENT-SCALE": [
+    "N"
+  ],
+  "NORTH": [
+    "ADJ"
+  ],
+  "GEO-FEATURE-VAL": [
+    "ADJ"
+  ],
+  "LARGE": [
+    "ADJ"
+  ],
+  "NAVIGATIONAL-RELN": [
+    "ADJ"
+  ],
+  "LIGHT": [
+    "N"
+  ],
+  "DIETING": [
+    "V"
+  ],
+  "KILL": [
+    "N",
+    "V"
+  ],
+  "TOOL": [
+    "N"
+  ],
+  "SUBDUING": [
+    "V"
+  ],
+  "NOT-POSSIBLE-SCALE": [
+    "N"
+  ],
+  "ANSWER": [
+    "V",
+    "N"
+  ],
+  "UNNOTICEABLE": [
+    "ADJ"
+  ],
+  "MARRY": [
+    "N",
+    "V"
+  ],
+  "EXECUTE": [
+    "N",
+    "V"
+  ],
+  "CLOTHED-VAL": [
+    "ADJ"
+  ],
+  "GROUPING": [
+    "N"
+  ],
+  "NOT-SMOOTH-VAL": [
+    "ADJ"
+  ],
+  "NOT-LIMITED-VAL": [
+    "ADJ"
+  ],
+  "COMPATIBLE-VAL": [
+    "ADJ"
+  ],
+  "MEDICAL-INSTRUMENT": [
+    "N"
+  ],
+  "FARM": [
+    "N"
+  ],
+  "AMONG": [
+    "ADV"
+  ],
+  "DAMAGE": [
+    "V"
+  ],
+  "BREAD": [
+    "N"
+  ],
+  "NOT-SATIATED-VAL": [
+    "ADJ"
+  ],
+  "DECREASE-SPEED": [
+    "V"
+  ],
+  "ANGINA-DISEASE": [
+    "N"
+  ],
+  "ROLL": [
+    "V"
+  ],
+  "TRUTH-SCALE": [
+    "N"
+  ],
+  "STORM": [
+    "N"
+  ],
+  "RETURN": [
+    "N",
+    "V"
+  ],
+  "SILENT-VAL": [
+    "ADJ"
+  ],
+  "INGREDIENTS": [
+    "N"
+  ],
+  "AMUSED": [
+    "ADJ"
+  ],
+  "PULL": [
+    "V"
+  ],
+  "BEAT": [
+    "N"
+  ],
+  "TACTILE-SOFTNESS-SCALE": [
+    "N"
+  ],
+  "FIXTURE": [
+    "N"
+  ],
+  "EVENT-OF-CHANGE": [
+    "N",
+    "V"
+  ],
+  "TALL-VAL": [
+    "ADJ"
+  ],
+  "SURPRISED": [
+    "ADJ"
+  ],
+  "DUPLICATE": [
+    "N",
+    "V"
+  ],
+  "GOVERNING": [
+    "N",
+    "V"
+  ],
+  "EMPTY": [
+    "V"
+  ],
+  "OFF": [
+    "ADV"
+  ],
+  "ARCHIVE": [
+    "N",
+    "V"
+  ],
+  "NOT-ENFORCEABLE-VAL": [
+    "ADJ"
+  ],
+  "DRY": [
+    "V"
+  ],
+  "DIGEST": [
+    "V"
+  ],
+  "ENABLE": [
+    "N",
+    "V"
+  ],
+  "MOLECULE": [
+    "N"
+  ],
+  "SUBMIT": [
+    "N",
+    "V"
+  ],
+  "ORIGINATOR": [
+    "ADV"
+  ],
+  "APOLOGIZE": [
+    "V",
+    "ADJ"
+  ],
+  "SOFTWARE-FEATURE": [
+    "N"
+  ],
+  "NOT-FRESH-VAL": [
+    "ADJ"
+  ],
+  "SOCIAL-RELATIONSHIP": [
+    "N"
+  ],
+  "STAY": [
+    "N",
+    "V"
+  ],
+  "DEEPEN": [
+    "V"
+  ],
+  "SUITABILITY-SCALE": [
+    "N"
+  ],
+  "SALTY-VAL": [
+    "ADJ"
+  ],
+  "ADJUST": [
+    "N",
+    "V"
+  ],
+  "IMMERSE": [
+    "V"
+  ],
+  "NOT-RELATIVE-VAL": [
+    "ADV",
+    "ADJ"
+  ],
+  "SPEAKERSTATUS": [
+    "ADV"
+  ],
+  "NOT-GRATEFUL-VAL": [
+    "ADJ"
+  ],
+  "ENERGY-UNIT": [
+    "N"
+  ],
+  "EXCLUDE": [
+    "N",
+    "V"
+  ],
+  "UNDRESS": [
+    "V"
+  ],
+  "TOLERABLE-VAL": [
+    "ADV",
+    "ADJ"
+  ],
+  "QUESTIONING": [
+    "N",
+    "V"
+  ],
+  "RIDE": [
+    "N",
+    "V"
+  ],
+  "CELL-COMPARTMENT": [
+    "N"
+  ],
+  "FEEDING": [
+    "V"
+  ],
+  "MOVE-UP-AND-DOWN": [
+    "V"
+  ],
+  "OPACITY-SCALE": [
+    "N"
+  ],
+  "MATERIAL": [
+    "N"
+  ],
+  "SAME": [
+    "ADJ",
+    "ADV"
+  ],
+  "ACTIVE-OPEN": [
+    "ADJ"
+  ],
+  "PROUD-VAL": [
+    "ADJ"
+  ],
+  "SOCIAL-ACTIVITY": [
+    "V"
+  ],
+  "EXCLAMATION": [
+    "V"
+  ],
+  "RESIDUE": [
+    "N"
+  ],
+  "NOT-HONEST-VAL": [
+    "ADJ"
+  ],
+  "UNSMELLABILITY-VAL": [
+    "ADJ"
+  ],
+  "OUTCOME-VAL": [
+    "ADJ"
+  ],
+  "PERCEPTION": [
+    "V"
+  ],
+  "DEGREE-MODIFIER-LOW": [
+    "ADJ",
+    "ADV"
+  ],
+  "LEANING": [
+    "N",
+    "V"
+  ],
+  "USABILITY-SCALE": [
+    "N"
+  ],
+  "SEVERE-VAL": [
+    "ADV",
+    "ADJ"
+  ],
+  "CONGRATULATE": [
+    "V"
+  ],
+  "MULTIMEDIA-VAL": [
+    "N"
+  ],
+  "SNEEZE": [
+    "N"
+  ],
+  "DISSUADE": [
+    "V"
+  ],
+  "MECHANICAL-VAL": [
+    "ADJ"
+  ],
+  "POLARITY-SCALE": [
+    "N"
+  ],
+  "COLLATE": [
+    "V"
+  ],
+  "NOT-REGULAR-SCALE": [
+    "N"
+  ],
+  "OBSTRUCTED-BREATHING": [
+    "V"
+  ],
+  "DEGREE": [
+    "ADV"
+  ],
+  "MATHEMATICAL-TERM": [
+    "N"
+  ],
+  "INCOMING": [
+    "ADJ"
+  ],
+  "COMPUTER": [
+    "N"
+  ],
+  "CITY-RELATED-VAL": [
+    "ADJ"
+  ],
+  "PROTEIN": [
+    "N"
+  ],
+  "FEDERAL-VAL": [
+    "ADJ"
+  ],
+  "DEFINITION": [
+    "N"
+  ],
+  "MEALS": [
+    "N"
+  ],
+  "EASY": [
+    "ADJ",
+    "ADV"
+  ],
+  "PARENTHETICAL": [
+    "ADV"
+  ],
+  "STEADY": [
+    "ADJ"
+  ],
+  "WIDTH-SCALE": [
+    "N"
+  ],
+  "NETWORKABLE-VAL": [
+    "ADJ"
+  ],
+  "BIRD": [
+    "N"
+  ],
+  "DIRECTION-DOWN": [
+    "ADV"
+  ],
+  "DUE-TO": [
+    "ADV"
+  ],
+  "PHYSICAL-ACTIVITY": [
+    "N",
+    "V"
+  ],
+  "BROWN": [
+    "ADJ"
+  ],
+  "DOCUMENT": [
+    "N"
+  ],
+  "SORRY": [
+    "ADJ"
+  ],
+  "SCROLL": [
+    "V"
+  ],
+  "MANNER-REFL": [
+    "ADJ",
+    "ADV"
+  ],
+  "UNDO": [
+    "V"
+  ],
+  "MESSAGE": [
+    "N"
+  ],
+  "NOT-EXPENSIVE-VAL": [
+    "ADJ"
+  ],
+  "ACTIVE": [
+    "ADJ"
+  ],
+  "FACT": [
+    "N"
+  ],
+  "MUSIC-SCALE": [
+    "N"
+  ],
+  "PERFECTIVE": [
+    "V"
+  ],
+  "TAN": [
+    "ADJ"
+  ],
+  "SIMILARITY-VAL": [
+    "ADJ"
+  ],
+  "CREATE-BY-COOKING": [
+    "V"
+  ],
+  "ARRANGE-TEXT": [
+    "N",
+    "V"
+  ],
+  "DYSPEPSIA": [
+    "N"
+  ],
+  "CONVENTIONAL-VAL": [
+    "ADJ"
+  ],
+  "OPTIONAL-VAL": [
+    "ADJ"
+  ],
+  "COMPUTER-PROGRAM": [
+    "N"
+  ],
+  "COMPUTER-HARDWARE": [
+    "N"
+  ],
+  "SIGNALING-PATHWAY": [
+    "N"
+  ],
+  "UNABLE": [
+    "ADJ"
+  ],
+  "FOREIGN-VAL": [
+    "ADJ"
+  ],
+  "AGGRESSIVENESS-SCALE": [
+    "N"
+  ],
+  "DISCARD": [
+    "N",
+    "V"
+  ],
+  "GRATEFUL": [
+    "ADJ"
+  ],
+  "GAS-SUBSTANCE": [
+    "N"
+  ],
+  "NOT-FAVORABLE-CONDITION": [
+    "N"
+  ],
+  "ACETYLATION": [
+    "N",
+    "V"
+  ],
+  "ENVYING": [
+    "V"
+  ],
+  "EVOKE-COMFORT": [
+    "N",
+    "V"
+  ],
+  "ATMOSPHERIC-VAL": [
+    "ADJ"
+  ],
+  "SKIP-ACTION": [
+    "V"
+  ],
+  "TRANSFORMATION": [
+    "N",
+    "V"
+  ],
+  "CALCULATION": [
+    "N",
+    "V"
+  ],
+  "LIGHT-VAL": [
+    "ADJ"
+  ],
+  "SHALLOW-VAL": [
+    "ADJ"
+  ],
+  "RNA": [
+    "N"
+  ],
+  "ANCIENT-VAL": [
+    "ADJ"
+  ],
+  "VEHICLE-CONTAINER": [
+    "N"
+  ],
+  "NOT-PREMEDITATED-VAL": [
+    "ADJ"
+  ],
+  "FALL": [
+    "N",
+    "V"
+  ],
+  "POS-AS-OPPOSITE": [
+    "ADV"
+  ],
+  "BATH": [
+    "N"
+  ],
+  "ENDURING": [
+    "V"
+  ],
+  "STATUS": [
+    "N"
+  ],
+  "WORKING": [
+    "V",
+    "N"
+  ],
+  "ACCOMMODATE": [
+    "V"
+  ],
+  "PRICE": [
+    "N"
+  ],
+  "TRANSFORM-TO-PRESERVE": [
+    "V"
+  ],
+  "NEAR": [
+    "ADJ"
+  ],
+  "PROTECTION": [
+    "N"
+  ],
+  "GEOGRAPHIC-REGION": [
+    "NAME"
+  ],
+  "EVENT-DURATION-MODIFIER": [
+    "ADJ",
+    "ADV"
+  ],
+  "SUGAR": [
+    "N"
+  ],
+  "CONTEST-DENY-OPPOSE-PROTEST": [
+    "N",
+    "V"
+  ],
+  "SENSOR": [
+    "N"
+  ],
+  "REFERENTIAL-PERSON": [
+    "N"
+  ],
+  "TEMPORAL-OCCURRENCE-SCALE": [
+    "N"
+  ],
+  "BADNESS-SCALE": [
+    "N"
+  ],
+  "NOMINATE": [
+    "V"
+  ],
+  "STRADDLE": [
+    "V"
+  ],
+  "CAKE-PIE": [
+    "N"
+  ],
+  "ROUND-TRIP": [
+    "N"
+  ],
+  "TEMPLATE-INFO-OBJECT": [
+    "N"
+  ],
+  "DRY-VAL": [
+    "ADJ"
+  ],
+  "REFUSE": [
+    "N",
+    "V"
+  ],
+  "TACTILE-HARDNESS-SCALE": [
+    "N"
+  ],
+  "CHANGE-DEVICE-STATE": [
+    "N",
+    "V"
+  ],
+  "MEDICAL-DISORDERS-AND-CONDITIONS": [
+    "N"
+  ],
+  "COFFEE": [
+    "N"
+  ],
+  "LOSE": [
+    "N",
+    "V"
+  ],
+  "DIMENSION": [
+    "ADV"
+  ],
+  "TIDY-VAL": [
+    "ADJ"
+  ],
+  "LUCKY": [
+    "ADJ"
+  ],
+  "MILD-VAL": [
+    "ADJ"
+  ],
+  "ENTRANT": [
+    "N"
+  ],
+  "INCREMENTAL-VAL": [
+    "ADV",
+    "ADJ"
+  ],
+  "AREA-DEF-BY-USE": [
+    "N"
+  ],
+  "RATIO": [
+    "N"
+  ],
+  "SUBSTANCE": [
+    "N"
+  ],
+  "COALESCE": [
+    "V"
+  ],
+  "DIFFERENT-SCALE": [
+    "N"
+  ],
+  "EMPIRICAL-VAL": [
+    "ADJ"
+  ],
+  "POSITION": [
+    "V"
+  ],
+  "COLLECTION": [
+    "N"
+  ],
+  "BITTERNESS-SCALE": [
+    "N"
+  ],
+  "EXIT": [
+    "N"
+  ],
+  "MILEAGE-SCALE": [
+    "N"
+  ],
+  "DEFINED-BY-SEQUENCE-RELATIONSHIP": [
+    "N"
+  ],
+  "VOMIT": [
+    "V"
+  ],
+  "NOT-OFFENSIVE-VAL": [
+    "ADJ"
+  ],
+  "MORE-THAN-REL": [
+    "ADV"
+  ],
+  "ALLERGY": [
+    "N"
+  ],
+  "UGLY-VAL": [
+    "ADJ"
+  ],
+  "SUBSTANTIAL-VAL": [
+    "ADJ"
+  ],
+  "IMPORTANCE-SCALE": [
+    "N"
+  ],
+  "DAT-STAGE": [
+    "N"
+  ],
+  "POS-AFTER-IN-TRAJECTORY": [
+    "ADV"
+  ],
+  "LOSE-CONSCIOUSNESS": [
+    "V"
+  ],
+  "AIRLINE": [
+    "N"
+  ],
+  "WH-LOCATION": [
+    "N",
+    "ADV"
+  ],
+  "COMPUTER-INPUT-DEVICE": [
+    "N"
+  ],
+  "EAST-RELN": [
+    "ADV",
+    "ADJ"
+  ],
+  "EVOKE-EXCITEMENT": [
+    "N",
+    "V"
+  ],
+  "POSSESS": [
+    "N",
+    "V"
+  ],
+  "PORTABLE-VAL": [
+    "ADJ"
+  ],
+  "SPICES-HERBS": [
+    "N"
+  ],
+  "MUSIC-MOVEMENT": [
+    "N"
+  ],
+  "BIND-INTERACT": [
+    "N",
+    "V"
+  ],
+  "SPECIFIC-VAL": [
+    "ADJ"
+  ],
+  "DIRECTION-WRT-GRAVITY": [
+    "ADV"
+  ],
+  "MENTAL-VAL": [
+    "ADJ"
+  ],
+  "HYPERACTIVE-VAL": [
+    "ADJ"
+  ],
+  "DATABASE": [
+    "N"
+  ],
+  "FUNCTION-CALCULATION": [
+    "V"
+  ],
+  "CLEANLINESS-SCALE": [
+    "N"
+  ],
+  "CONSTRAINT": [
+    "N"
+  ],
+  "FATTY-VAL": [
+    "ADJ"
+  ],
+  "CONFUSING-VAL": [
+    "ADJ"
+  ],
+  "CAUSE-COME-FROM": [
+    "V"
+  ],
+  "WATER": [
+    "N"
+  ],
+  "OPAQUE-VAL": [
+    "ADJ"
+  ],
+  "FONT": [
+    "N"
+  ],
+  "EVAL-WRT-EXPECTATION": [
+    "ADV"
+  ],
+  "SPRING": [
+    "N"
+  ],
+  "EMU": [
+    "N"
+  ],
+  "THRUWAY": [
+    "N"
+  ],
+  "PRODUCT-MODEL": [
+    "N"
+  ],
+  "BELIEF-ASCRIPTION": [
+    "N",
+    "V"
+  ],
+  "PRECIPITATING": [
+    "N",
+    "V"
+  ],
+  "CABINET": [
+    "N"
+  ],
+  "WET-VAL": [
+    "ADJ"
+  ],
+  "FROM-LOC": [
+    "ADV"
+  ],
+  "ATHLETIC-GAME": [
+    "N"
+  ],
+  "BENIGN-VAL": [
+    "ADJ"
+  ],
+  "GREAT-VAL": [
+    "ADV",
+    "ADJ"
+  ],
+  "PHYSICAL-VAL": [
+    "ADJ"
+  ],
+  "FEARING": [
+    "V"
+  ],
+  "DELIVER": [
+    "N",
+    "V"
+  ],
+  "SUPPORT-STAND": [
+    "N"
+  ],
+  "TRUE-VAL": [
+    "ADJ"
+  ],
+  "ANXIETY": [
+    "N"
+  ],
+  "NYCHTHEMERON-EVENT": [
+    "N"
+  ],
+  "TODAY": [
+    "PRO"
+  ],
+  "PROJECTOR": [
+    "N"
+  ],
+  "SAMPLING": [
+    "V"
+  ],
+  "INFO-HOLDER": [
+    "N"
+  ],
+  "SUBSTANCE-DELIVERY-UNIT": [
+    "N"
+  ],
+  "CIRCUMSCRIBE": [
+    "V"
+  ],
+  "PROHIBIT": [
+    "N",
+    "V"
+  ],
+  "FROM": [
+    "ADV"
+  ],
+  "RESCUE": [
+    "N",
+    "V"
+  ],
+  "FLU": [
+    "N"
+  ],
+  "BETWEEN": [
+    "ADJ",
+    "ADV"
+  ],
+  "DRIFT": [
+    "V"
+  ],
+  "BREATHLESS-VAL": [
+    "ADJ"
+  ],
+  "NOT-STEADY-SCALE": [
+    "N"
+  ],
+  "ACOUSTIC-DEVICE": [
+    "N"
+  ],
+  "MOVE-DOWNWARD": [
+    "N",
+    "V"
+  ],
+  "WHOLE-COMPLETE": [
+    "ADJ"
+  ],
+  "MOVE-BACK-AND-FORTH": [
+    "V"
+  ],
+  "CATALYZE": [
+    "N",
+    "V"
+  ],
+  "BACTERIUM": [
+    "N"
+  ],
+  "FUNCTIONALITY-SCALE": [
+    "N"
+  ],
+  "ERA": [
+    "VALUE"
+  ],
+  "PERSON": [
+    "PRO",
+    "N"
+  ],
+  "WAIT-WATCH": [
+    "V"
+  ],
+  "TOWER": [
+    "N"
+  ],
+  "DEGREE-MODIFIER-MED": [
+    "ADJ",
+    "ADV"
+  ],
+  "COLLECTIVE-VAL": [
+    "ADJ",
+    "N"
+  ],
+  "UNFAMILIAR-VAL": [
+    "ADJ"
+  ],
+  "CALC-SUBTRACT": [
+    "V"
+  ],
+  "FOOLISH-VAL": [
+    "ADJ"
+  ],
+  "STD": [
+    "N"
+  ],
+  "SWEET-VAL": [
+    "ADJ"
+  ],
+  "VEHICLE": [
+    "N"
+  ],
+  "UNADORNED": [
+    "ADJ"
+  ],
+  "EVOKE-CLARITY": [
+    "V"
+  ],
+  "QUIET": [
+    "ADJ"
+  ],
+  "HYDROLYSIS": [
+    "N",
+    "V"
+  ],
+  "IMPORTANT-PART": [
+    "N"
+  ],
+  "COMPUTER-MODEL": [
+    "N"
+  ],
+  "IN-LOC": [
+    "ADJ",
+    "ADV"
+  ],
+  "LUMINOSITY-UNIT": [
+    "N"
+  ],
+  "JAUNT": [
+    "N"
+  ],
+  "RELIGIOUS-FACILITY": [
+    "N"
+  ],
+  "FAIL": [
+    "N",
+    "V"
+  ],
+  "SECONDARY": [
+    "ADJ"
+  ],
+  "WIDEN": [
+    "V"
+  ],
+  "QMODIFIER": [
+    "ADV"
+  ],
+  "PHYSICAL-SCRUTINY": [
+    "N",
+    "V"
+  ],
+  "HIGH-VAL": [
+    "ADJ"
+  ],
+  "EFFECTIVE-VAL": [
+    "ADJ"
+  ],
+  "WRITE": [
+    "N",
+    "V"
+  ],
+  "LIVER-DISEASE": [
+    "N"
+  ],
+  "ESTABLISH-COMMUNICATION": [
+    "N",
+    "V"
+  ],
+  "INSTALL": [
+    "V"
+  ],
+  "TIME-OBJECT": [
+    "PRO",
+    "N"
+  ],
+  "TEMPERATURE-SCALE": [
+    "N"
+  ],
+  "SLEEPINESS-SCALE": [
+    "N"
+  ],
+  "BITTER-VAL": [
+    "ADJ"
+  ],
+  "TUBERCULOSIS": [
+    "N"
+  ],
+  "BE-BORN": [
+    "N",
+    "V"
+  ],
+  "SET-UP-DEVICE": [
+    "N",
+    "V"
+  ],
+  "ACCESSIBLE-VAL": [
+    "ADJ"
+  ],
+  "SATIATED-VAL": [
+    "ADJ"
+  ],
+  "PRESS": [
+    "V"
+  ],
+  "FAMILY-GROUP": [
+    "N"
+  ],
+  "TOUCH": [
+    "V"
+  ],
+  "LONELINESS-SCALE": [
+    "N"
+  ],
+  "INCREASE-NUMBER": [
+    "V"
+  ],
+  "CORDLESS-VAL": [
+    "ADJ"
+  ],
+  "LEAST-EXTENT": [
+    "ADJ"
+  ],
+  "NOT-INTENTIONAL-VAL": [
+    "ADJ"
+  ],
+  "HAVE-PROPERTY": [
+    "V"
+  ],
+  "MEDICATION": [
+    "N"
+  ],
+  "DECLARE-PERFORMATIVE": [
+    "N",
+    "V"
+  ],
+  "REMOVE-PARTS": [
+    "N",
+    "V"
+  ],
+  "LENGTH-SCALE": [
+    "N"
+  ],
+  "STEEP": [
+    "N",
+    "V"
+  ],
+  "HABITUATED-VAL": [
+    "ADJ"
+  ],
+  "URBAN-VAL": [
+    "ADJ"
+  ],
+  "PRECIPITATION": [
+    "N"
+  ],
+  "ASSUME": [
+    "N",
+    "V"
+  ],
+  "SCHOLAR": [
+    "N"
+  ],
+  "INACTIVE-OFF": [
+    "ADJ"
+  ],
+  "TRANSPARENT-VAL": [
+    "ADJ"
+  ],
+  "INACTIVE": [
+    "ADJ"
+  ],
+  "FLATTER": [
+    "V"
+  ],
+  "WALKING": [
+    "N",
+    "V"
+  ],
+  "MOVE-UPSIDE-DOWN": [
+    "V"
+  ],
+  "FIRST-VAL": [
+    "ADJ"
+  ],
+  "STRUCTURAL-OPENING": [
+    "N"
+  ],
+  "CONSUMER": [
+    "N"
+  ],
+  "REPEAT": [
+    "N",
+    "V"
+  ],
+  "STATIC-VAL": [
+    "ADJ"
+  ],
+  "SSN": [
+    "N"
+  ],
+  "INTERNAL-BODY-PART": [
+    "N"
+  ],
+  "SWEATY-VAL": [
+    "ADJ"
+  ],
+  "SODA": [
+    "N"
+  ],
+  "PROMOTER": [
+    "N"
+  ],
+  "AMBITIOUS-VAL": [
+    "ADJ"
+  ],
+  "SUGGEST": [
+    "N",
+    "V"
+  ],
+  "NOT-ATTENTIVE-VAL": [
+    "ADJ"
+  ],
+  "MONTH": [
+    "N"
+  ],
+  "CAREFUL-VAL": [
+    "ADJ"
+  ],
+  "LESS-VAL": [
+    "ADJ",
+    "QUAN",
+    "ADV"
+  ],
+  "WEIGH": [
+    "V"
+  ],
+  "EARTH-SUBSTANCE": [
+    "N"
+  ],
+  "NEGATIVE-SMELL-SCALE": [
+    "N"
+  ],
+  "VOLUME-MEASURE-UNIT": [
+    "N"
+  ],
+  "SENIOR-VAL": [
+    "ADJ"
+  ],
+  "ADD-INCLUDE": [
+    "N",
+    "V"
+  ],
+  "BAR-MEASURE": [
+    "N"
+  ],
+  "LYRIC": [
+    "N"
+  ],
+  "MUTANT-OBJ": [
+    "N"
+  ],
+  "SALIVATE": [
+    "V"
+  ],
+  "PASTA": [
+    "N"
+  ],
+  "CLOCK-SPEED-SCALE": [
+    "N"
+  ],
+  "MIN-VAL": [
+    "ADJ",
+    "ADV"
+  ],
+  "HEAT-SCALE": [
+    "N"
+  ],
+  "RANGE": [
+    "N"
+  ],
+  "COLLIDE": [
+    "N",
+    "V"
+  ],
+  "SUPPOSE": [
+    "V"
+  ],
+  "NORTH-RELN": [
+    "ADV",
+    "ADJ"
+  ],
+  "BURN-OUT-LIGHT-UP-CHANGE": [
+    "V"
+  ],
+  "EQUIPPED-VAL": [
+    "ADJ"
+  ],
+  "AWAKE-VAL": [
+    "ADJ"
+  ],
+  "UNDERSTAND": [
+    "N",
+    "V"
+  ],
+  "FEED": [
+    "N"
+  ],
+  "AMASS": [
+    "N",
+    "V"
+  ],
+  "LAST-VAL": [
+    "ADJ"
+  ],
+  "INCORRECT": [
+    "ADV",
+    "ADJ"
+  ],
+  "INTERESTING-VAL": [
+    "ADJ"
+  ],
+  "MANIPULATE": [
+    "N",
+    "V"
+  ],
+  "HYPERVENTILATION": [
+    "N"
+  ],
+  "REASON": [
+    "ADV"
+  ],
+  "OFFER": [
+    "N",
+    "V"
+  ],
+  "CARDINALITY-VAL": [
+    "ADJ"
+  ],
+  "NURTURING": [
+    "V"
+  ],
+  "NOT-SENSIBLE-VAL": [
+    "ADJ"
+  ],
+  "ASSOCIATE": [
+    "V"
+  ],
+  "WORKING-OUT": [
+    "V",
+    "N"
+  ],
+  "VALID-VAL": [
+    "ADJ"
+  ],
+  "CHANGE-STATE-ACTION": [
+    "V"
+  ],
+  "DETERMINE": [
+    "N",
+    "V"
+  ],
+  "LANDSCAPE-VAL": [
+    "ADJ"
+  ],
+  "PACKAGE": [
+    "N"
+  ],
+  "DESTROY": [
+    "N",
+    "V"
+  ],
+  "DEPTH-SCALE": [
+    "N"
+  ],
+  "NOT-POSSIBLE-VAL": [
+    "ADJ"
+  ],
+  "ASSOCIATED-WITH-FOOD-VAL": [
+    "ADV"
+  ],
+  "TRANSPORTATION-FACILITY": [
+    "N"
+  ],
+  "SOUND-SOFTNESS-SCALE": [
+    "N"
+  ],
+  "WISE-VAL": [
+    "ADJ"
+  ],
+  "INCONSISTENT": [
+    "ADJ"
+  ],
+  "CHILL": [
+    "N"
+  ],
+  "BAG": [
+    "N"
+  ],
+  "CALC-ADD": [
+    "N",
+    "V"
+  ],
+  "OLFACTORY-PROPERTY-SCALE": [
+    "N"
+  ],
+  "ORGANIZATION": [
+    "N"
+  ],
+  "CHRONICLE": [
+    "N"
+  ],
+  "AVAILABLE": [
+    "ADJ"
+  ],
+  "EAGER-VAL": [
+    "ADJ"
+  ],
+  "DIAGONAL-VAL": [
+    "ADJ"
+  ],
+  "APPROVE-AUTHORIZE": [
+    "N",
+    "V"
+  ],
+  "BODILY-PROCESS": [
+    "V",
+    "N"
+  ],
+  "MEMORIZE": [
+    "N",
+    "V"
+  ],
+  "BUSINESS-FACILITY": [
+    "N"
+  ],
+  "COOKWARE": [
+    "N"
+  ],
+  "DARKNESS-SCALE": [
+    "N"
+  ],
+  "LOCATED-EVENT": [
+    "N"
+  ],
+  "POWER-UNIT": [
+    "N"
+  ],
+  "LINGUISTIC-VAL": [
+    "ADJ"
+  ],
+  "ABILITY-TO-PERCEIVE": [
+    "N"
+  ],
+  "TIME-DURATION-REL": [
+    "ADV"
+  ],
+  "SHOW": [
+    "N",
+    "V"
+  ],
+  "FLEXIBILITY-SCALE": [
+    "N"
+  ],
+  "WIRELESS": [
+    "ADJ",
+    "N"
+  ],
+  "SOLID-SUBSTANCE": [
+    "N"
+  ],
+  "ALTER-CONSCIOUSNESS": [
+    "V"
+  ],
+  "STARTUP-VAL": [
+    "ADJ"
+  ],
+  "ATTRACT": [
+    "N",
+    "V"
+  ],
+  "TWO-DIMENSIONAL-VAL": [
+    "ADJ"
+  ],
+  "SEPARATION": [
+    "N",
+    "V"
+  ],
+  "ACKNOWLEDGE": [
+    "N",
+    "V"
+  ],
+  "DOCTRINE": [
+    "N"
+  ],
+  "TIME-REL-SO-FAR": [
+    "ADV"
+  ],
+  "ASTRONOMY-VAL": [
+    "ADJ"
+  ],
+  "LEVEL": [
+    "N"
+  ],
+  "PRIORITY": [
+    "ADV"
+  ],
+  "KIND": [
+    "N"
+  ],
+  "FUNGUS": [
+    "N"
+  ],
+  "LIST": [
+    "N"
+  ],
+  "STORAGE-FACILITY": [
+    "N"
+  ],
+  "PREDICTABLE-VAL": [
+    "ADJ"
+  ],
+  "AWKWARD-VAL": [
+    "ADJ"
+  ],
+  "STRUCTURAL-COMPONENT": [
+    "N"
+  ],
+  "LOC-DEFINED-BY-CONTRAST": [
+    "N"
+  ],
+  "OBJ-IN-PATH": [
+    "ADV"
+  ],
+  "OCCURRING": [
+    "N",
+    "V"
+  ],
+  "PROTEIN-FAMILY": [
+    "N"
+  ],
+  "MOTIVE": [
+    "N"
+  ],
+  "NAMING": [
+    "N",
+    "V"
+  ],
+  "RATE-UNIT": [
+    "N"
+  ],
+  "GIVING": [
+    "N",
+    "V"
+  ],
+  "LOCATION": [
+    "ADV",
+    "PRO",
+    "N"
+  ],
+  "PERCENT": [
+    "N"
+  ],
+  "CONSTIPATION": [
+    "N"
+  ],
+  "NOT-SUCCESSFUL-VAL": [
+    "ADJ"
+  ],
+  "FUTURE": [
+    "V"
+  ],
+  "HERD": [
+    "V"
+  ],
+  "GRACEFUL-VAL": [
+    "ADJ"
+  ],
+  "COMMERCE-VAL": [
+    "ADJ"
+  ],
+  "VALLEY": [
+    "N"
+  ],
+  "PRECEPTIBILITY-VAL": [
+    "ADJ"
+  ],
+  "OCCASIONAL": [
+    "ADJ"
+  ],
+  "CUTLERY": [
+    "N"
+  ],
+  "WILD-VAL": [
+    "ADJ"
+  ],
+  "DYSPNEA": [
+    "N"
+  ],
+  "DESTINATION-LOC": [
+    "ADV"
+  ],
+  "HYPOTHESIZE": [
+    "N",
+    "V"
+  ],
+  "ASK": [
+    "V"
+  ],
+  "EXPECTATION": [
+    "N",
+    "V"
+  ],
+  "DROWSY-VAL": [
+    "ADJ"
+  ],
+  "RISE": [
+    "N",
+    "V"
+  ],
+  "OSTRICH": [
+    "N"
+  ],
+  "RELATIVE": [
+    "ADJ"
+  ],
+  "PANCREATITIS": [
+    "N"
+  ],
+  "INVENTION": [
+    "V"
+  ],
+  "CALM": [
+    "ADJ"
+  ],
+  "PROMISE": [
+    "N",
+    "V"
+  ],
+  "UNOBSTRUCTED": [
+    "ADJ"
+  ],
+  "SHAPE-CHANGE": [
+    "N",
+    "V"
+  ],
+  "DRINK": [
+    "V"
+  ],
+  "CUT": [
+    "N",
+    "V"
+  ],
+  "ESTABLISH": [
+    "N",
+    "V"
+  ],
+  "NOT-INTERESTED-VAL": [
+    "ADJ"
+  ],
+  "MODERATE-VAL": [
+    "ADJ"
+  ],
+  "RELEVANT": [
+    "ADJ"
+  ],
+  "OWN": [
+    "ADJ"
+  ],
+  "PROPOSITION-EQUAL": [
+    "V"
+  ],
+  "SITUATED-IN": [
+    "ADV"
+  ],
+  "FULL": [
+    "ADJ"
+  ],
+  "HEIGHT-SCALE": [
+    "N"
+  ]
+}

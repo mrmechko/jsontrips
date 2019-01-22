@@ -140,6 +140,5 @@ pip-selfcheck.json
 *.json
 gen*.lisp
 lisp/
-jsontrips/
 
 .DS_STORE

@@ -1,0 +1,3 @@
+[submodule "jsontrips"]
+	path = jsontrips
+	url = git://github.com/mrmechko/jsontrips.git

@@ -1,0 +1,22 @@
+<type-name>: {
+  "name": <type-name>,
+  "sem": {
+      "type": <feature-list-name>,
+      "features": <additional-features>,
+      "defaults": <default-feature-values>
+  },
+  "arguments": [
+    "role": <role>,
+    "restriction": {
+      "type": <feature-list-description>,
+      "features": <additional-features>,
+      "defaults": <default-feature-values>
+    },
+    "optionality": <optionality>,
+    "implements": <role>
+  ],
+  "parent": <parent-of-type>,
+  "children: [<children-of-type>],
+  "wordnet-sense-keys": [<wordnet-sense-keys>],
+  "comment": <Comment-left-on-type>
+}

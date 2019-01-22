@@ -50,7 +50,7 @@ def main():
                 data = clean_lexicon(data)
             data = clean(data)
             with open(fname, 'w') as out:
-                out.write(json.dumps(data, indent=2))
+                out.write(json.dumps(data, indent=2, sort_keys=True))
 
 if __name__ == "__main__":
     main()

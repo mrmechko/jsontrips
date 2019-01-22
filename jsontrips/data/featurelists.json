@@ -1,4 +1,177 @@
 {
+  "ABSTR-OBJ": {
+    "features": [
+      "MEASURE-FUNCTION",
+      "SCALE",
+      "INTENTIONAL",
+      "INFORMATION",
+      "CONTAINER",
+      "GRADABILITY",
+      "KR-TYPE",
+      "TYPE",
+      "OBJECT-FUNCTION",
+      "ORIGIN",
+      "INTENSITY",
+      "ORIENTATION",
+      "TANGIBLE"
+    ],
+    "name": "ABSTR-OBJ",
+    "defaults": {
+      "features": [
+        [
+          "TYPE",
+          "ABSTRACT-OBJECT"
+        ],
+        [
+          "GRADABILITY",
+          "-"
+        ],
+        [
+          "ORIENTATION",
+          "-"
+        ],
+        [
+          "INTENSITY",
+          "-"
+        ],
+        [
+          "INTENTIONAL",
+          "-"
+        ],
+        [
+          "INFORMATION",
+          "-"
+        ],
+        [
+          "CONTAINER",
+          "-"
+        ],
+        [
+          "MEASURE-FUNCTION",
+          "-"
+        ],
+        [
+          "SCALE",
+          "-"
+        ],
+        [
+          "ORIGIN",
+          "ANY-ORIGIN"
+        ],
+        [
+          "TANGIBLE",
+          "-"
+        ]
+      ],
+      "type": "ABSTR-OBJ"
+    }
+  },
+  "SEM": {
+    "features": [
+      "TYPE"
+    ],
+    "name": "SEM",
+    "defaults": {
+      "type": "SEM"
+    }
+  },
+  "SITUATION": {
+    "features": [
+      "ASPECT",
+      "TIME-SPAN",
+      "CAUSE",
+      "TRAJECTORY",
+      "LOCATIVE",
+      "INTENTIONAL",
+      "INFORMATION",
+      "CONTAINER",
+      "KR-TYPE",
+      "TYPE",
+      "ORIGIN",
+      "IOBJ",
+      "TANGIBLE"
+    ],
+    "name": "SITUATION",
+    "defaults": {
+      "features": [
+        [
+          "TYPE",
+          "SITUATION"
+        ],
+        [
+          "INTENTIONAL",
+          "-"
+        ],
+        [
+          "INFORMATION",
+          "MENTAL-CONSTRUCT"
+        ],
+        [
+          "CONTAINER",
+          "-"
+        ],
+        [
+          "ASPECT",
+          "ANY-ASPECT"
+        ],
+        [
+          "CAUSE",
+          "ANY-CAUSE"
+        ],
+        [
+          "TIME-SPAN",
+          "ANY-TIME-SPAN"
+        ],
+        [
+          "TRAJECTORY",
+          "-"
+        ],
+        [
+          "LOCATIVE",
+          "-"
+        ],
+        [
+          "ORIGIN",
+          "ANY-ORIGIN"
+        ],
+        [
+          "IOBJ",
+          "-"
+        ],
+        [
+          "TANGIBLE",
+          "-"
+        ]
+      ],
+      "type": "SITUATION"
+    }
+  },
+  "TIME": {
+    "features": [
+      "TIME-FUNCTION",
+      "SCALE",
+      "KR-TYPE",
+      "TYPE"
+    ],
+    "name": "TIME",
+    "defaults": {
+      "features": [
+        [
+          "TYPE",
+          "ANY-TIME-OBJECT"
+        ],
+        [
+          "TIME-FUNCTION",
+          "ANY-TIME-FUNCTION"
+        ],
+        [
+          "SCALE",
+          "TIME-LOC-SCALE"
+        ]
+      ],
+      "type": "TIME"
+    }
+  },
   "PHYS-OBJ": {
     "features": [
       "OBJECT-FUNCTION",
@@ -15,6 +188,7 @@
       "TRAJECTORY",
       "TANGIBLE"
     ],
+    "name": "PHYS-OBJ",
     "defaults": {
       "features": [
         [
@@ -68,180 +242,6 @@
         ]
       ],
       "type": "PHYS-OBJ"
-    },
-    "name": "PHYS-OBJ"
-  },
-  "TIME": {
-    "features": [
-      "TIME-FUNCTION",
-      "SCALE",
-      "KR-TYPE",
-      "TYPE"
-    ],
-    "defaults": {
-      "features": [
-        [
-          "TYPE",
-          "ANY-TIME-OBJECT"
-        ],
-        [
-          "TIME-FUNCTION",
-          "ANY-TIME-FUNCTION"
-        ],
-        [
-          "SCALE",
-          "TIME-LOC-SCALE"
-        ]
-      ],
-      "type": "TIME"
-    },
-    "name": "TIME"
-  },
-  "SITUATION": {
-    "features": [
-      "ASPECT",
-      "TIME-SPAN",
-      "CAUSE",
-      "TRAJECTORY",
-      "LOCATIVE",
-      "INTENTIONAL",
-      "INFORMATION",
-      "CONTAINER",
-      "KR-TYPE",
-      "TYPE",
-      "ORIGIN",
-      "IOBJ",
-      "TANGIBLE"
-    ],
-    "defaults": {
-      "features": [
-        [
-          "TYPE",
-          "SITUATION"
-        ],
-        [
-          "INTENTIONAL",
-          "-"
-        ],
-        [
-          "INFORMATION",
-          "MENTAL-CONSTRUCT"
-        ],
-        [
-          "CONTAINER",
-          "-"
-        ],
-        [
-          "ASPECT",
-          "ANY-ASPECT"
-        ],
-        [
-          "CAUSE",
-          "ANY-CAUSE"
-        ],
-        [
-          "TIME-SPAN",
-          "ANY-TIME-SPAN"
-        ],
-        [
-          "TRAJECTORY",
-          "-"
-        ],
-        [
-          "LOCATIVE",
-          "-"
-        ],
-        [
-          "ORIGIN",
-          "ANY-ORIGIN"
-        ],
-        [
-          "IOBJ",
-          "-"
-        ],
-        [
-          "TANGIBLE",
-          "-"
-        ]
-      ],
-      "type": "SITUATION"
-    },
-    "name": "SITUATION"
-  },
-  "SEM": {
-    "features": [
-      "TYPE"
-    ],
-    "defaults": {
-      "type": "SEM"
-    },
-    "name": "SEM"
-  },
-  "ABSTR-OBJ": {
-    "features": [
-      "MEASURE-FUNCTION",
-      "SCALE",
-      "INTENTIONAL",
-      "INFORMATION",
-      "CONTAINER",
-      "GRADABILITY",
-      "KR-TYPE",
-      "TYPE",
-      "OBJECT-FUNCTION",
-      "ORIGIN",
-      "INTENSITY",
-      "ORIENTATION",
-      "TANGIBLE"
-    ],
-    "defaults": {
-      "features": [
-        [
-          "TYPE",
-          "ABSTRACT-OBJECT"
-        ],
-        [
-          "GRADABILITY",
-          "-"
-        ],
-        [
-          "ORIENTATION",
-          "-"
-        ],
-        [
-          "INTENSITY",
-          "-"
-        ],
-        [
-          "INTENTIONAL",
-          "-"
-        ],
-        [
-          "INFORMATION",
-          "-"
-        ],
-        [
-          "CONTAINER",
-          "-"
-        ],
-        [
-          "MEASURE-FUNCTION",
-          "-"
-        ],
-        [
-          "SCALE",
-          "-"
-        ],
-        [
-          "ORIGIN",
-          "ANY-ORIGIN"
-        ],
-        [
-          "TANGIBLE",
-          "-"
-        ]
-      ],
-      "type": "ABSTR-OBJ"
-    },
-    "name": "ABSTR-OBJ"
+    }
   }
 }

@@ -19,3 +19,6 @@ python code/prettify.py dist/words.json dist/syntax_templates.json dist/lexicon_
 
 rm -rf jsontrips/data
 cp -r dist jsontrips/data
+
+echo "Trips successfully updated.  Run deploy.sh to deploy and push to github"
+echo True > .deploy.lock

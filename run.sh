@@ -14,6 +14,3 @@ sbcl --script lisp/genlexicon.lisp
 
 python prettify.py dist/featurelists.json dist/featuretypes.json dist/ontology.json
 python prettify.py dist/words.json dist/syntax_templates.json dist/lexicon_lf.json
-
-rm jsontrips/jsontrips/data
-cp -r dist jsontrips/jsontrips/data

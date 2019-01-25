@@ -179,6 +179,7 @@
     "V"
   ],
   "AFFECT-EXPERIENCER": [
+    "N",
     "V"
   ],
   "AFFILIATE": [
@@ -782,7 +783,6 @@
     "N"
   ],
   "BODILY-PROCESS": [
-    "V",
     "N"
   ],
   "BODY-MANIPULATION": [
@@ -832,6 +832,7 @@
     "N"
   ],
   "BOOT-UP": [
+    "N",
     "V"
   ],
   "BORED": [
@@ -1193,8 +1194,8 @@
     "N"
   ],
   "COGITATION": [
-    "N",
-    "V"
+    "V",
+    "N"
   ],
   "COLD": [
     "ADJ"
@@ -1652,6 +1653,9 @@
   "DAMAGE": [
     "V"
   ],
+  "DAMPEN": [
+    "V"
+  ],
   "DANCE": [
     "N",
     "V"
@@ -1891,6 +1895,7 @@
     "V"
   ],
   "DIGEST": [
+    "N",
     "V"
   ],
   "DIGITAL-VAL": [
@@ -1966,6 +1971,9 @@
   ],
   "DISAPPEAR": [
     "N",
+    "V"
+  ],
+  "DISARM": [
     "V"
   ],
   "DISCARD": [
@@ -2370,9 +2378,6 @@
   ],
   "EVOKE-COMFORT": [
     "N",
-    "V"
-  ],
-  "EVOKE-COMPLIANCE": [
     "V"
   ],
   "EVOKE-CONFUSION": [
@@ -3699,7 +3704,7 @@
   "LIGHT-VAL": [
     "ADJ"
   ],
-  "LIGHTEN-WEIGHT": [
+  "LIGHTEN": [
     "V"
   ],
   "LIGHTHEADEDNESS": [
@@ -3750,9 +3755,6 @@
   ],
   "LISTING": [
     "V"
-  ],
-  "LITTLE": [
-    "ADJ"
   ],
   "LIVE": [
     "N",
@@ -4882,6 +4884,9 @@
     "N",
     "V"
   ],
+  "PAY-ATTENTION": [
+    "V"
+  ],
   "PENETRATE": [
     "V"
   ],
@@ -4960,9 +4965,6 @@
   ],
   "PHYSICAL-VAL": [
     "ADJ"
-  ],
-  "PICKUP": [
-    "V"
   ],
   "PIGEON": [
     "N"
@@ -5785,6 +5787,9 @@
   "RNA": [
     "N"
   ],
+  "ROAD": [
+    "N"
+  ],
   "ROAST": [
     "V"
   ],
@@ -6455,9 +6460,6 @@
   "STUPID": [
     "ADJ"
   ],
-  "SUBDUING": [
-    "V"
-  ],
   "SUBMIT": [
     "N",
     "V"
@@ -6613,6 +6615,9 @@
   ],
   "TALL-VAL": [
     "ADJ"
+  ],
+  "TAME": [
+    "V"
   ],
   "TAME-VAL": [
     "ADJ"
@@ -6791,9 +6796,6 @@
     "N"
   ],
   "TINY": [
-    "ADJ"
-  ],
-  "TIRESOME-VAL": [
     "ADJ"
   ],
   "TITLE": [

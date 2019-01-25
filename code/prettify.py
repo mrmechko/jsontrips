@@ -29,17 +29,22 @@ def clean(data):
             del data[key]
     return data
 
-def clean_lex_entry(entry):
+def clean_lex_entry(entry, word_entries):
     if not entry:
         return []
     cat, label, val = entry
     if cat == "NONE":
         cat = None
-    return {"cat": cat, "name": label, "entries": val}
+    word_entries[val["name"]] = val
+    return {"cat": cat, "name": label, "entry": val["name"]}
 
 def clean_lexicon(lex):
     #TODO: sort the keys so that updates don't take a ton of space.
-    return {k: [clean_lex_entry(e) for e in v] for k, v in lex.items()}
+    word_entries = {}
+    return {
+        "words": {k: [clean_lex_entry(e, word_entries) for e in v] for k, v in lex.items()},
+        "entries": word_entries
+    }
 
 def main():
     if len(sys.argv) > 1:

@@ -35,8 +35,11 @@ def clean_lex_entry(entry, word_entries):
     cat, label, val = entry
     if cat == "NONE":
         cat = None
-    word_entries[val["name"]] = val
-    return {"cat": cat, "name": label, "entry": val["name"]}
+    name = val["name"]
+    if not val["name"]:
+        name = val["word"]+val["pos"]+str(len(word_entries))
+    word_entries[name] = val
+    return {"cat": cat, "name": label, "entry": name}
 
 def clean_lexicon(lex):
     #TODO: sort the keys so that updates don't take a ton of space.

@@ -16,10 +16,13 @@ if __name__ == "__main__":
                 long_description=long_description,
                 long_description_content_type="text/markdown",
                 url="https://github.com/mrmechko/jsontrips",
-                classifiers=[
-                ],
                 packages=find_packages(exclude=["test", "code"]),
                 package_data={
                     "jsontrips": ['data/*.json']
-                }
+                },
+                classifiers=[
+                    "Programming Language :: Python :: 3",
+                    "License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)",
+                    "Operating System :: OS Independent"
+                ]
         )

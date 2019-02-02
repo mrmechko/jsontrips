@@ -16,8 +16,6 @@ if __name__ == "__main__":
                 long_description=long_description,
                 long_description_content_type="text/markdown",
                 url="https://github.com/mrmechko/jsontrips",
-                classifiers=[
-                ],
                 packages=find_packages(exclude=["test", "code"]),
                 package_data={
                     "jsontrips": ['data/*.json']

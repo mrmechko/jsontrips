@@ -12,7 +12,8 @@ git add jsontrips/data
 
 echo False > .deploy.lock
 
+bumpversion --allow-dirty patch # preventing unnecessary commits
 git commit -m "automatic update of jsontrips [$DATE]"
-bumpversion patch
 
-git push
+git push origin master
+git push origin release

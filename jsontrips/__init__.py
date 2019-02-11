@@ -17,4 +17,3 @@ def ontology():
 
 def syntax_templates():
     return __get_file("syntax_templates.json")
-

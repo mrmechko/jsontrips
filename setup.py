@@ -9,7 +9,7 @@ with open("README.md", "r") as fh:
 if __name__ == "__main__":
         setup(
                 name='jsontrips',
-                version="0.1.10",
+                version="0.1.12",
                 author="Rik",
                 author_email="rbose@cs.rochester.edu",
                 description="A basic package",

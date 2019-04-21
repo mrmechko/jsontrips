@@ -165,6 +165,9 @@
     "N",
     "V"
   ],
+  "ADJUST-SURFACE": [
+    "V"
+  ],
   "ADMIT": [
     "N",
     "V"
@@ -782,9 +785,6 @@
   "BODILY-FLUID": [
     "N"
   ],
-  "BODILY-PROCESS": [
-    "N"
-  ],
   "BODY-MANIPULATION": [
     "N",
     "V"
@@ -850,6 +850,10 @@
   "BOTTOM-LOCATION-VAL": [
     "ADJ"
   ],
+  "BOUNCE-REFLECT": [
+    "N",
+    "V"
+  ],
   "BOX": [
     "N"
   ],
@@ -878,6 +882,9 @@
   ],
   "BRIGHT-VAL": [
     "ADJ"
+  ],
+  "BRIGHTEN": [
+    "V"
   ],
   "BRIGHTNESS-SCALE": [
     "N"
@@ -1065,10 +1072,6 @@
     "V"
   ],
   "CHANGE-DEVICE-STATE": [
-    "N",
-    "V"
-  ],
-  "CHANGE-FORMAT": [
     "N",
     "V"
   ],
@@ -1619,6 +1622,9 @@
     "N",
     "V"
   ],
+  "CROP": [
+    "N"
+  ],
   "CRUSH": [
     "V"
   ],
@@ -1668,6 +1674,9 @@
   ],
   "DARK-VAL": [
     "ADJ"
+  ],
+  "DARKEN": [
+    "V"
   ],
   "DARKNESS-SCALE": [
     "N"
@@ -1810,9 +1819,6 @@
   ],
   "DESCRIBE": [
     "N",
-    "V"
-  ],
-  "DESELECT": [
     "V"
   ],
   "DESIRABLE-VAL": [
@@ -2061,6 +2067,10 @@
   "DOUBT": [
     "V"
   ],
+  "DOWNREGULATE": [
+    "N",
+    "V"
+  ],
   "DOWNTOWN": [
     "ADV"
   ],
@@ -2116,6 +2126,9 @@
   ],
   "DURATION-SCALE": [
     "N"
+  ],
+  "DURING": [
+    "ADV"
   ],
   "DUST": [
     "N"
@@ -2550,6 +2563,9 @@
   ],
   "FACIAL-EXPRESSION": [
     "N",
+    "V"
+  ],
+  "FACILITATE": [
     "V"
   ],
   "FACILITY": [
@@ -2991,6 +3007,9 @@
   "GRAPHIC-SYMBOL": [
     "N"
   ],
+  "GRASS": [
+    "N"
+  ],
   "GRATEFUL": [
     "ADJ"
   ],
@@ -3276,9 +3295,16 @@
     "V",
     "N"
   ],
+  "IN-FUTURE": [
+    "ADJ"
+  ],
   "IN-LOC": [
     "ADJ",
     "ADV"
+  ],
+  "IN-PAST": [
+    "ADV",
+    "ADJ"
   ],
   "IN-RELATION": [
     "V"
@@ -3432,6 +3458,9 @@
   ],
   "INTENSIFIER": [
     "ADV"
+  ],
+  "INTENSIFY": [
+    "V"
   ],
   "INTENSITY-SCALE": [
     "N"
@@ -3671,6 +3700,9 @@
     "QUAN",
     "ADV"
   ],
+  "LESSEN-INTENSITY": [
+    "V"
+  ],
   "LETTER-SYMBOL": [
     "N",
     "VALUE"
@@ -3835,6 +3867,9 @@
     "V"
   ],
   "LOSE-CONSCIOUSNESS": [
+    "V"
+  ],
+  "LOUDEN": [
     "V"
   ],
   "LOUDNESS-SCALE": [
@@ -4122,6 +4157,9 @@
   "MISINFORM": [
     "V"
   ],
+  "MISS": [
+    "V"
+  ],
   "MISSES": [
     "V"
   ],
@@ -4229,9 +4267,6 @@
     "V"
   ],
   "MOVE-TOWARD": [
-    "V"
-  ],
-  "MOVE-UP-AND-DOWN": [
     "V"
   ],
   "MOVE-UPSIDE-DOWN": [
@@ -4673,6 +4708,9 @@
   "OCCASIONAL": [
     "ADJ"
   ],
+  "OCCURING-NOW": [
+    "ADJ"
+  ],
   "OCCURRING": [
     "N",
     "V"
@@ -4856,6 +4894,7 @@
     "ADV"
   ],
   "PARTICIPATE-ATTEND": [
+    "N",
     "V"
   ],
   "PARTS-REMOVED": [
@@ -5274,6 +5313,9 @@
     "N",
     "V"
   ],
+  "PROPERTY-VAL": [
+    "ADJ"
+  ],
   "PROPOSAL": [
     "N"
   ],
@@ -5407,6 +5449,9 @@
   ],
   "QUIET": [
     "ADJ"
+  ],
+  "QUIETEN": [
+    "V"
   ],
   "QUIETNESS-SCALE": [
     "N"
@@ -5619,6 +5664,9 @@
     "N",
     "V"
   ],
+  "RENEGE": [
+    "V"
+  ],
   "REPAIR": [
     "N",
     "V"
@@ -5700,7 +5748,6 @@
     "ADJ"
   ],
   "RESTART": [
-    "N",
     "V"
   ],
   "RESTAURANT": [
@@ -5723,6 +5770,10 @@
   ],
   "RESULTING-STATE": [
     "ADV"
+  ],
+  "RESUME": [
+    "N",
+    "V"
   ],
   "RETAIN": [
     "N",
@@ -6052,6 +6103,9 @@
     "N",
     "V"
   ],
+  "SHRUB": [
+    "N"
+  ],
   "SIDE-LOCATION": [
     "N"
   ],
@@ -6084,6 +6138,9 @@
   ],
   "SIMILARITY-VAL": [
     "ADJ"
+  ],
+  "SIMULTANEOUS": [
+    "ADV"
   ],
   "SING": [
     "V"
@@ -6340,10 +6397,6 @@
   "START-TIME": [
     "ADV"
   ],
-  "STARTOFF-BEGIN-COMMENCE-START": [
-    "N",
-    "V"
-  ],
   "STARTPOINT": [
     "N"
   ],
@@ -6432,6 +6485,9 @@
   ],
   "STRENGTH-SCALE": [
     "N"
+  ],
+  "STRENGTHEN": [
+    "V"
   ],
   "STRESS-SCALE": [
     "N"
@@ -6865,6 +6921,10 @@
     "V",
     "N"
   ],
+  "TRANSLATE": [
+    "N",
+    "V"
+  ],
   "TRANSLOCATE": [
     "N",
     "V"
@@ -6883,6 +6943,9 @@
     "N"
   ],
   "TRAVELLER": [
+    "N"
+  ],
+  "TREE": [
     "N"
   ],
   "TRI-VAL": [
@@ -7129,6 +7192,9 @@
   "VERTICAL": [
     "ADJ"
   ],
+  "VINE": [
+    "N"
+  ],
   "VISIBILITY-SCALE": [
     "N"
   ],
@@ -7208,6 +7274,9 @@
   ],
   "WEAK": [
     "ADJ"
+  ],
+  "WEAKEN": [
+    "V"
   ],
   "WEAKNESS-SCALE": [
     "N"

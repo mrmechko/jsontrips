@@ -9512,6 +9512,140 @@
     ],
     "name": "AGENT-ADDRESSEE-THEME-TEMPL"
   },
+  "AGENT-AFFECTED-AR-TO-OPTIONAL-TEMPL": {
+    "mappings": [
+      [
+        "LSUBJ",
+        {
+          "default": [
+            "%",
+            "NP"
+          ],
+          "name": "LSUBJ",
+          "required": [
+            [
+              "LF",
+              "?LSUBJLF"
+            ],
+            [
+              "SORT",
+              "?LSUBJSORT"
+            ],
+            [
+              "SUBJVAR",
+              "?LSUBJSUBJVAR"
+            ],
+            [
+              "LEX",
+              "?LSUBJLEX"
+            ],
+            [
+              "VAR",
+              "?LSUBJVAR"
+            ],
+            [
+              "AGR",
+              "?LSUBJAGR"
+            ],
+            [
+              "CASE",
+              "?LSUBJCASE"
+            ]
+          ],
+          "slot": "AGENT"
+        }
+      ],
+      [
+        "LOBJ",
+        {
+          "default": [
+            "%",
+            "NP"
+          ],
+          "name": "LOBJ",
+          "required": [
+            [
+              "LF",
+              "?LOBJLF"
+            ],
+            [
+              "SORT",
+              "?LOBJSORT"
+            ],
+            [
+              "SUBJVAR",
+              "?LOBJSUBJVAR"
+            ],
+            [
+              "LEX",
+              "?LOBJLEX"
+            ],
+            [
+              "VAR",
+              "?LOBJVAR"
+            ],
+            [
+              "AGR",
+              "?LOBJAGR"
+            ],
+            [
+              "CASE",
+              "?LOBJCASE"
+            ]
+          ],
+          "slot": "AFFECTED"
+        }
+      ],
+      [
+        "LCOMP",
+        {
+          "default": [
+            "%",
+            "PP",
+            [
+              "PTYPE",
+              "TO"
+            ]
+          ],
+          "name": "LCOMP",
+          "optional": true,
+          "paramname": "XP",
+          "required": [
+            [
+              "LF",
+              "?LCOMPLF"
+            ],
+            [
+              "SORT",
+              "?LCOMPSORT"
+            ],
+            [
+              "SUBJVAR",
+              "?LCOMPSUBJVAR"
+            ],
+            [
+              "LEX",
+              "?LCOMPLEX"
+            ],
+            [
+              "VAR",
+              "?LCOMPVAR"
+            ],
+            [
+              "AGR",
+              "?LCOMPAGR"
+            ],
+            [
+              "CASE",
+              "?LCOMPCASE"
+            ]
+          ],
+          "slot": "AFFECTED-RESULT"
+        }
+      ]
+    ],
+    "name": "AGENT-AFFECTED-AR-TO-OPTIONAL-TEMPL"
+  },
   "AGENT-AFFECTED-AR-TO-TEMPL": {
     "mappings": [
       [
@@ -35158,10 +35292,6 @@
         "PRED"
       ],
       [
-        "ALLOW-DELETED-COMP",
-        "+"
-      ],
-      [
         "MASS",
         "COUNT"
       ]
@@ -42874,6 +43004,10 @@
             [
               "GERUND",
               "-"
+            ],
+            [
+              "EXPLETIVE",
+              "-"
             ]
           ],
           "name": "LSUBJ",
@@ -42913,6 +43047,10 @@
             [
               "GERUND",
               "-"
+            ],
+            [
+              "EXPLETIVE",
+              "-"
             ]
           ],
           "slot": "NEUTRAL"
@@ -42934,6 +43072,10 @@
             ],
             [
               "GERUND",
+              "-"
+            ],
+            [
+              "EXPLETIVE",
               "-"
             ]
           ],
@@ -42973,6 +43115,10 @@
             ],
             [
               "GERUND",
+              "-"
+            ],
+            [
+              "EXPLETIVE",
               "-"
             ]
           ],
@@ -46476,6 +46622,204 @@
       [
         "AGR",
         "3S"
+      ],
+      [
+        "MORPH",
+        {
+          "FORMS": [
+            "-S-3P"
+          ]
+        }
+      ],
+      [
+        "CASE",
+        [
+          "?",
+          "CAS",
+          "SUB",
+          "OBJ"
+        ]
+      ],
+      [
+        "SORT",
+        "OTHER-RELN"
+      ],
+      [
+        "ALLOW-DELETED-COMP",
+        "+"
+      ],
+      [
+        "MASS",
+        "COUNT"
+      ]
+    ]
+  },
+  "OTHER-RELN-SUBCAT-COUNT-TEMPL": {
+    "mappings": [
+      [
+        "SUBCAT",
+        {
+          "default": [
+            "%",
+            "PP",
+            [
+              "PTYPE",
+              "OF"
+            ],
+            [
+              "MASS",
+              "COUNT"
+            ]
+          ],
+          "name": "SUBCAT",
+          "paramname": "XP",
+          "required": [
+            [
+              "LF",
+              "?SUBCATLF"
+            ],
+            [
+              "SUBJVAR",
+              "?SUBCATSUBJVAR"
+            ],
+            [
+              "LEX",
+              "?SUBCATLEX"
+            ],
+            [
+              "VAR",
+              "?SUBCATVAR"
+            ],
+            [
+              "AGR",
+              "?SUBCATAGR"
+            ],
+            [
+              "CASE",
+              "?SUBCATCASE"
+            ],
+            [
+              "SORT",
+              [
+                "?",
+                "!SORT",
+                "UNIT-MEASURE"
+              ]
+            ]
+          ],
+          "slot": "FIGURE"
+        }
+      ]
+    ],
+    "name": "OTHER-RELN-SUBCAT-COUNT-TEMPL",
+    "syntax": [
+      [
+        "AGR",
+        [
+          "?",
+          "A",
+          "3S",
+          "3P"
+        ]
+      ],
+      [
+        "MORPH",
+        {
+          "FORMS": [
+            "-S-3P"
+          ]
+        }
+      ],
+      [
+        "CASE",
+        [
+          "?",
+          "CAS",
+          "SUB",
+          "OBJ"
+        ]
+      ],
+      [
+        "SORT",
+        "OTHER-RELN"
+      ],
+      [
+        "ALLOW-DELETED-COMP",
+        "+"
+      ],
+      [
+        "MASS",
+        "COUNT"
+      ]
+    ]
+  },
+  "OTHER-RELN-SUBCAT-MASS-TEMPL": {
+    "mappings": [
+      [
+        "SUBCAT",
+        {
+          "default": [
+            "%",
+            "PP",
+            [
+              "PTYPE",
+              "OF"
+            ],
+            [
+              "MASS",
+              "MASS"
+            ]
+          ],
+          "name": "SUBCAT",
+          "paramname": "XP",
+          "required": [
+            [
+              "LF",
+              "?SUBCATLF"
+            ],
+            [
+              "SUBJVAR",
+              "?SUBCATSUBJVAR"
+            ],
+            [
+              "LEX",
+              "?SUBCATLEX"
+            ],
+            [
+              "VAR",
+              "?SUBCATVAR"
+            ],
+            [
+              "AGR",
+              "?SUBCATAGR"
+            ],
+            [
+              "CASE",
+              "?SUBCATCASE"
+            ],
+            [
+              "SORT",
+              [
+                "?",
+                "!SORT",
+                "UNIT-MEASURE"
+              ]
+            ]
+          ],
+          "slot": "FIGURE"
+        }
+      ]
+    ],
+    "name": "OTHER-RELN-SUBCAT-MASS-TEMPL",
+    "syntax": [
+      [
+        "AGR",
+        [
+          "?",
+          "A",
+          "3S",
+          "3P"
+        ]
       ],
       [
         "MORPH",

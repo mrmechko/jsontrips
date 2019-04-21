@@ -3,6 +3,7 @@ python:
 - '3.6'
 install:
 - pip install -r requirements.txt
+- pip install .
 script:
 - python test/tests.py
 notifications:
@@ -12,7 +13,8 @@ deploy:
   provider: pypi
   user: thesoulshell
   distributions: sdist bdist_wheel
-  password:
-    secure: f7AVmXLteQXbAlyh3f90RlsM66fusOvoa1VgsHcMP9E8quZSXJlDMRcGhBZ0Jb3SBn+ypL8e0QAFU4uEDAe6J/0xgLmQgTzx0RqXp8lqnJ0IkCSs887Z6XikeLGzl9vmZRD/Yld2iB00Xnzr/gqTl+ZY5P0BPjSr0Vtzt8VMIo58SzXldcKRiX9fEEDLS/q22n+a/OCsqiBsAnXkFkh6sRbh4ikEy7im9q/ciNTxS+F6vlR8c+TkDyWVr5lcQ2R1lZb8nLcKfNuG4g2104jRDxC5hDGuEf/aP3NNxjpvjOAZRCz2Uxu4Z1Cgl4Sn5SFHfPDpEgYYfxwUoCU2Uu80cFSLTxrptgXDWUbyo3ffHmEDN3JcL+TAWDFfPUcNKQwJhwYhq4SrW71BY73a/aLtcvVFYMO01G+NePXMbHcZ/3Bc/lLx7aZMh4U6INQP0bRGJnoBB6trK+DY0KLz5G45SNEZhd9q14y1pA5/ASKIeUtRZmvDIVJ6dI2wD+fS4NsKtlgDvbQGaQt2ti/nmRSWr/h0BbLdf5r9xmw74zStR+q8pJq29XtSowPDOHNquekYcm6Mzefcsbuft46inHRJQtYlD03TODRjuxetMZOb7gQjcCv4bTnwr7nc/doiyUv0pBPLuv238TjXshQeriMrarSbrX6b0YdbEj5WqaJpSsE=
   on:
     tags: true
+    python: 3.6
+  password:
+    secure: zRWk4v17Rx7PDO63gTHdvdAdcqur76m6Znx1ZUqRzGKbVWhE6YPUtAnFHtQ3TPRErfFCaGwl3090gLhCkBUNM/2OhzUz2R+ayQNQCJW1dKk7gYo9BABJca0qOlarl2sc7mr2wi0H5IvkRopT5UcIhnz7+C/H7jMd2qsno159TRZt8pC4Fni13Q+YEkCtuOPs2m+MiN3cmaa8IBMWsEdu05qlaeJBZUoEwRUGkdo1SbjntqG0pBfYEKFOf+qS2O5U7P8N9RE0VoT5p34AZnD208Wrb6zFJeVmno8bOJj/d1CdIV6Gf0FxMmrvV0rZNj+nI3gIwDetpTBEyOaD0LpUTZVFvVHJvTulQbdDEtLgUveL4Amt9X8Udxs6egYmWUpuhcGvWWsfS+RkTjMyjvOxDuBM4XtcxKKcvURnjUbOg/Y5Vz9nVVIfBZmjFnnFmt5n9xO283NGv250D5t2huel+wOzLn6kxhSMD3RWwCNxwthq45Hl/0CViGfOKzd7rahr/cOSw0CWrQ4mCEzqOEHBsynrn5hyVDgJYJ6/0ZXVBQaGfX1BRuzbiddHH2uzqvgxNgyZEzDAc7/LO0/frUF5O8dDZq2OTlOKLxkcQ/k3TZ1lZGHrM/1PdULYfWx83WE+plydIJdW5e1mjxI1kbPQcbBC4uS42r4puEcE2GFF/so=

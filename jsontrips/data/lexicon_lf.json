@@ -333,6 +333,9 @@
   "ANIMAL": [
     "N"
   ],
+  "ANIMAL-GROUP": [
+    "N"
+  ],
   "ANNOTATION": [
     "N"
   ],
@@ -403,6 +406,9 @@
   "ARRANGE-TEXT": [
     "N",
     "V"
+  ],
+  "ARRANGEMENT-CONFIGURATION": [
+    "N"
   ],
   "ARRANGING": [
     "N",
@@ -649,8 +655,15 @@
   "BE": [
     "V"
   ],
+  "BE-AHEAD": [
+    "N",
+    "V"
+  ],
   "BE-AT-LOC": [
     "N",
+    "V"
+  ],
+  "BE-BEHIND": [
     "V"
   ],
   "BE-BORN": [
@@ -880,6 +893,9 @@
   "BREATHLESS-VAL": [
     "ADJ"
   ],
+  "BRIDGE": [
+    "N"
+  ],
   "BRIGHT-VAL": [
     "ADJ"
   ],
@@ -899,6 +915,9 @@
     "ADJ"
   ],
   "BUDGET": [
+    "N"
+  ],
+  "BUILDING": [
     "N"
   ],
   "BURN": [
@@ -2113,9 +2132,6 @@
   ],
   "DUE-TO": [
     "ADV"
-  ],
-  "DUNK": [
-    "V"
   ],
   "DUPLICATE": [
     "N",
@@ -3577,6 +3593,9 @@
   "JUNIOR-VAL": [
     "ADJ"
   ],
+  "JUNK-REJECT": [
+    "N"
+  ],
   "KETTLE": [
     "N"
   ],
@@ -3635,6 +3654,7 @@
     "N"
   ],
   "LANGUAGE": [
+    "N",
     "NAME"
   ],
   "LANGUAGE-ADJUST": [
@@ -3702,6 +3722,9 @@
   ],
   "LESSEN-INTENSITY": [
     "V"
+  ],
+  "LETTER-MAIL": [
+    "N"
   ],
   "LETTER-SYMBOL": [
     "N",
@@ -3901,6 +3924,9 @@
   ],
   "MAIL": [
     "N"
+  ],
+  "MAINTAIN-KEEP": [
+    "V"
   ],
   "MAKE-IT-SO": [
     "V"
@@ -4333,9 +4359,6 @@
   ],
   "NATIONAL-VAL": [
     "ADJ"
-  ],
-  "NATIONALITY": [
-    "N"
   ],
   "NATIONALITY-VAL": [
     "ADJ"
@@ -4929,6 +4952,9 @@
   "PENETRATE": [
     "V"
   ],
+  "PEOPLE-GROUP": [
+    "N"
+  ],
   "PERCEIVABLE-SMELL-PROPERTY": [
     "N"
   ],
@@ -4961,6 +4987,9 @@
   ],
   "PERSON": [
     "PRO",
+    "N"
+  ],
+  "PERSON-OF-NATIONALITY": [
     "N"
   ],
   "PHASE": [
@@ -5061,6 +5090,9 @@
   "PNEUMONIA": [
     "N"
   ],
+  "POINTING-TO": [
+    "V"
+  ],
   "POLARITY-SCALE": [
     "N"
   ],
@@ -5081,6 +5113,9 @@
   ],
   "POLITICAL": [
     "ADJ"
+  ],
+  "POLITICAL-REGION": [
+    "N"
   ],
   "POLLUTION": [
     "N"

@@ -10362,203 +10362,6 @@
     ],
     "name": "AGENT-AFFECTED-CREATE-TEMPL"
   },
-  "AGENT-AFFECTED-EFFECT-LOC-OBJCONTROL-TEMPL": {
-    "mappings": [
-      [
-        "LSUBJ",
-        {
-          "default": [
-            "%",
-            "NP"
-          ],
-          "name": "LSUBJ",
-          "required": [
-            [
-              "LF",
-              "?LSUBJLF"
-            ],
-            [
-              "SORT",
-              "?LSUBJSORT"
-            ],
-            [
-              "SUBJVAR",
-              "?LSUBJSUBJVAR"
-            ],
-            [
-              "LEX",
-              "?LSUBJLEX"
-            ],
-            [
-              "VAR",
-              "?LSUBJVAR"
-            ],
-            [
-              "AGR",
-              "?LSUBJAGR"
-            ],
-            [
-              "CASE",
-              "?LSUBJCASE"
-            ]
-          ],
-          "slot": "AGENT"
-        }
-      ],
-      [
-        "LOBJ",
-        {
-          "default": [
-            "%",
-            "NP",
-            [
-              "LEX",
-              "?DOBJLEX"
-            ],
-            [
-              "SEM",
-              "?DOBJSEM"
-            ],
-            [
-              "VAR",
-              "?DOBJVAR"
-            ],
-            [
-              "EXPLETIVE",
-              "?EXP"
-            ]
-          ],
-          "name": "LOBJ",
-          "required": [
-            [
-              "LF",
-              "?LOBJLF"
-            ],
-            [
-              "SORT",
-              "?LOBJSORT"
-            ],
-            [
-              "SUBJVAR",
-              "?LOBJSUBJVAR"
-            ],
-            [
-              "AGR",
-              "?LOBJAGR"
-            ],
-            [
-              "CASE",
-              "?LOBJCASE"
-            ],
-            [
-              "LEX",
-              "?DOBJLEX"
-            ],
-            [
-              "SEM",
-              "?DOBJSEM"
-            ],
-            [
-              "VAR",
-              "?DOBJVAR"
-            ],
-            [
-              "EXPLETIVE",
-              "?EXP"
-            ]
-          ],
-          "slot": "AFFECTED"
-        }
-      ],
-      [
-        "LCOMP",
-        {
-          "default": [
-            "%",
-            "ADVBL",
-            [
-              "LF",
-              [
-                "%",
-                "?P",
-                [
-                  "CLASS",
-                  [
-                    "?",
-                    "X",
-                    "GOAL-RELN",
-                    "POSITION-RELN",
-                    "SOURCE-RELN"
-                  ]
-                ]
-              ]
-            ],
-            [
-              "ARG",
-              "?DOBJVAR"
-            ],
-            [
-              "ARGUMENT",
-              [
-                "%",
-                "S",
-                [
-                  "SEM",
-                  "?DOBJSEM"
-                ],
-                [
-                  "VAR",
-                  "?DOBJVAR"
-                ],
-                [
-                  "LEX",
-                  "?DOBJLEX"
-                ],
-                [
-                  "EXPLETIVE",
-                  "?EXP"
-                ]
-              ]
-            ]
-          ],
-          "name": "LCOMP",
-          "paramname": "XP",
-          "required": [
-            [
-              "LF",
-              "?LCOMPLF"
-            ],
-            [
-              "SORT",
-              "?LCOMPSORT"
-            ],
-            [
-              "SUBJVAR",
-              "?LCOMPSUBJVAR"
-            ],
-            [
-              "LEX",
-              "?LCOMPLEX"
-            ],
-            [
-              "VAR",
-              "?LCOMPVAR"
-            ],
-            [
-              "AGR",
-              "?LCOMPAGR"
-            ],
-            [
-              "CASE",
-              "?LCOMPCASE"
-            ]
-          ],
-          "slot": "RESULT"
-        }
-      ]
-    ],
-    "name": "AGENT-AFFECTED-EFFECT-LOC-OBJCONTROL-TEMPL"
-  },
   "AGENT-AFFECTED-EFFECT-OBJCONTROL-PRED-TEMPL": {
     "mappings": [
       [
@@ -12023,8 +11826,16 @@
               "?DOBJLEX"
             ],
             [
+              "SEM",
+              "?DOBJSEM"
+            ],
+            [
               "VAR",
               "?DOBJVAR"
+            ],
+            [
+              "EXPLETIVE",
+              "?EXP"
             ]
           ],
           "name": "LOBJ",
@@ -12054,8 +11865,16 @@
               "?DOBJLEX"
             ],
             [
+              "SEM",
+              "?DOBJSEM"
+            ],
+            [
               "VAR",
               "?DOBJVAR"
+            ],
+            [
+              "EXPLETIVE",
+              "?EXP"
             ]
           ],
           "slot": "AFFECTED"
@@ -12087,6 +11906,29 @@
             [
               "ARG",
               "?DOBJVAR"
+            ],
+            [
+              "ARGUMENT",
+              [
+                "%",
+                "S",
+                [
+                  "SEM",
+                  "?DOBJSEM"
+                ],
+                [
+                  "VAR",
+                  "?DOBJVAR"
+                ],
+                [
+                  "LEX",
+                  "?DOBJLEX"
+                ],
+                [
+                  "EXPLETIVE",
+                  "?EXP"
+                ]
+              ]
             ]
           ],
           "name": "LCOMP",
@@ -18640,7 +18482,7 @@
               "?LOBJCASE"
             ]
           ],
-          "slot": "RESULT"
+          "slot": "FORMAL"
         }
       ]
     ],
@@ -54868,7 +54710,23 @@
         {
           "default": [
             "%",
-            "NP"
+            "NP",
+            [
+              "VAR",
+              "?IOBJVAR"
+            ],
+            [
+              "SEM",
+              "?IOBJSEM"
+            ],
+            [
+              "LEX",
+              "?IOBJLEX"
+            ],
+            [
+              "EXPLETIVE",
+              "?EXP"
+            ]
           ],
           "name": "LIOBJ",
           "optional": true,
@@ -54886,23 +54744,31 @@
               "?LIOBJSUBJVAR"
             ],
             [
-              "LEX",
-              "?LIOBJLEX"
-            ],
-            [
-              "VAR",
-              "?LIOBJVAR"
-            ],
-            [
               "AGR",
               "?LIOBJAGR"
             ],
             [
               "CASE",
               "?LIOBJCASE"
+            ],
+            [
+              "VAR",
+              "?IOBJVAR"
+            ],
+            [
+              "SEM",
+              "?IOBJSEM"
+            ],
+            [
+              "LEX",
+              "?IOBJLEX"
+            ],
+            [
+              "EXPLETIVE",
+              "?EXP"
             ]
           ],
-          "slot": "FORMAL"
+          "slot": "NEUTRAL"
         }
       ],
       [
@@ -54958,6 +54824,7 @@
             ]
           ],
           "name": "LCOMP",
+          "paramname": "XP",
           "required": [
             [
               "LF",
@@ -54988,8 +54855,27 @@
               "?LCOMPCASE"
             ],
             [
-              "CTYPE",
-              "S-TO"
+              "SUBJ",
+              [
+                "%",
+                "NP",
+                [
+                  "SEM",
+                  "?IOBJSEM"
+                ],
+                [
+                  "LEX",
+                  "?IOBJLEX"
+                ],
+                [
+                  "VAR",
+                  "?IOBJVAR"
+                ],
+                [
+                  "EXPLETIVE",
+                  "?EXP"
+                ]
+              ]
             ]
           ],
           "slot": "FORMAL"

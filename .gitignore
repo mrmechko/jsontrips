@@ -142,4 +142,4 @@ gen*.lisp
 lisp/
 
 .DS_STORE
-.deploy.lock
+.*.lock

@@ -15,7 +15,7 @@
 		   '()
 		   ))
 
-;defstruct lf-description name sem arguments parent children wordnet-sense-keys comment
+;defstruct lf-description name sem arguments parent children wordnet-sense-keys comment definitions
 
 ;defstruct sem-argument role restriction optionality implements
 

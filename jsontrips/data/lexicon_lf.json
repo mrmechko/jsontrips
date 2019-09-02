@@ -622,6 +622,10 @@
   "BACKACHE": [
     "N"
   ],
+  "BACKUP-SUPPORT": [
+    "N",
+    "V"
+  ],
   "BACTERIUM": [
     "N"
   ],
@@ -678,6 +682,9 @@
   ],
   "BE-BORN": [
     "N",
+    "V"
+  ],
+  "BE-INACTIVE": [
     "V"
   ],
   "BE-INCLINED": [
@@ -760,12 +767,12 @@
   "BINDING-VAL": [
     "ADV"
   ],
-  "BIOLOGICAL": [
-    "ADV",
-    "ADJ"
-  ],
   "BIOLOGICAL-PROCESS": [
     "N"
+  ],
+  "BIOLOGY-VAL": [
+    "ADV",
+    "ADJ"
   ],
   "BIRD": [
     "N"
@@ -1000,9 +1007,6 @@
   "CARDINAL-POINT": [
     "N"
   ],
-  "CARDINALITY-VAL": [
-    "ADJ"
-  ],
   "CARDIOPULMONARY-EXERCISE": [
     "N"
   ],
@@ -1027,6 +1031,9 @@
   ],
   "CAUSE-BODY-EFFECT": [
     "N",
+    "V"
+  ],
+  "CAUSE-CLEAR": [
     "V"
   ],
   "CAUSE-COME-FROM": [
@@ -1213,9 +1220,6 @@
   "CLOUDY": [
     "ADJ"
   ],
-  "COALESCE": [
-    "V"
-  ],
   "COAT-FOOD": [
     "V"
   ],
@@ -1228,6 +1232,9 @@
   "COGITATION": [
     "V",
     "N"
+  ],
+  "COHERE": [
+    "V"
   ],
   "COLD": [
     "ADJ"
@@ -1503,6 +1510,9 @@
     "N",
     "V"
   ],
+  "CONTEMPORANEOUS-VAL": [
+    "ADJ"
+  ],
   "CONTENT": [
     "N"
   ],
@@ -1517,7 +1527,7 @@
   "CONTINUOUS": [
     "ADJ"
   ],
-  "CONTRA": [
+  "CONTRA-FORCE": [
     "ADV"
   ],
   "CONTROL-MANAGE": [
@@ -2163,7 +2173,7 @@
   "DUST": [
     "N"
   ],
-  "DYNAMIC-VAL": [
+  "DYNAMIC-MOVING-VAL": [
     "ADJ"
   ],
   "DYNAMICS": [
@@ -2203,6 +2213,7 @@
     "N"
   ],
   "EAT": [
+    "N",
     "V"
   ],
   "EATER": [
@@ -2339,6 +2350,7 @@
     "N"
   ],
   "EQUAL": [
+    "ADV",
     "ADJ"
   ],
   "EQUAL-DISTANCE-VAL": [
@@ -2355,6 +2367,9 @@
   ],
   "ERA": [
     "VALUE"
+  ],
+  "ERR": [
+    "V"
   ],
   "ESTABLISH": [
     "N",
@@ -2853,7 +2868,7 @@
     "N",
     "V"
   ],
-  "FOLLOW-PATH": [
+  "FOLLOW-SOMETHING": [
     "V"
   ],
   "FONT": [
@@ -3322,6 +3337,9 @@
     "ADV",
     "ADJ"
   ],
+  "IGNORE": [
+    "V"
+  ],
   "ILLNESS-SCALE": [
     "N"
   ],
@@ -3355,8 +3373,8 @@
     "V"
   ],
   "IMPROVE": [
-    "V",
-    "N"
+    "N",
+    "V"
   ],
   "IN-FUTURE": [
     "ADJ"
@@ -3517,6 +3535,7 @@
     "ADJ"
   ],
   "INTENSE": [
+    "ADV",
     "ADJ"
   ],
   "INTENSIFIER": [
@@ -3566,6 +3585,9 @@
   ],
   "INTERNAL-ENCLOSURE": [
     "N"
+  ],
+  "INTERNATIONAL-VAL": [
+    "ADJ"
   ],
   "INTERNET-ORGANIZATION": [
     "N"
@@ -3755,6 +3777,7 @@
     "N"
   ],
   "LEND": [
+    "N",
     "V"
   ],
   "LENGTH-SCALE": [
@@ -3850,7 +3873,7 @@
   "LINGUISTIC-OBJECT": [
     "N"
   ],
-  "LINGUISTIC-VAL": [
+  "LINGUISTICS-VAL": [
     "ADJ"
   ],
   "LINK": [
@@ -3903,6 +3926,9 @@
     "ADV",
     "PRO",
     "N"
+  ],
+  "LOCATION-AS-MOTION": [
+    "V"
   ],
   "LOCATION-DISTANCE-MODIFIER": [
     "ADV"
@@ -4087,6 +4113,9 @@
   ],
   "MEASURE": [
     "V"
+  ],
+  "MEASURE-METRIC": [
+    "N"
   ],
   "MEASURE-RELATED-PROPERTY-VAL": [
     "ADJ"
@@ -4328,6 +4357,9 @@
     "N",
     "V"
   ],
+  "MOVE-BACK": [
+    "V"
+  ],
   "MOVE-BACK-AND-FORTH": [
     "V"
   ],
@@ -4342,6 +4374,7 @@
     "V"
   ],
   "MOVE-FORWARD": [
+    "N",
     "V"
   ],
   "MOVE-PLAYFULLY": [
@@ -4580,9 +4613,6 @@
     "ADJ"
   ],
   "NOT-CREDIBLE-VAL": [
-    "ADJ"
-  ],
-  "NOT-CURRENT-VAL": [
     "ADJ"
   ],
   "NOT-EFFECTIVE-VAL": [
@@ -4824,6 +4854,9 @@
   "OFTEN": [
     "ADV"
   ],
+  "OLD-FASHIONED-VAL": [
+    "ADJ"
+  ],
   "OLD-VAL": [
     "ADJ"
   ],
@@ -4967,6 +5000,9 @@
   "PANCREATITIS": [
     "N"
   ],
+  "PARAMETER": [
+    "N"
+  ],
   "PARDON": [
     "V"
   ],
@@ -4987,6 +5023,9 @@
   "PARTS-REMOVED": [
     "V",
     "N"
+  ],
+  "PASS-ACROSS": [
+    "V"
   ],
   "PASS-BY": [
     "V"
@@ -5467,9 +5506,6 @@
   "PULL": [
     "V"
   ],
-  "PULL-OFF": [
-    "V"
-  ],
   "PULL-OUT-OF": [
     "N",
     "V"
@@ -5533,6 +5569,7 @@
     "N"
   ],
   "QUALIFICATION": [
+    "CONJ",
     "ADV"
   ],
   "QUANTITY": [
@@ -5606,6 +5643,9 @@
     "ADV"
   ],
   "REBOOT": [
+    "V"
+  ],
+  "RECEIVE-PUNISHMENT": [
     "V"
   ],
   "RECENT": [
@@ -5824,6 +5864,9 @@
   "REQUIREMENTS": [
     "N"
   ],
+  "RESCIND": [
+    "V"
+  ],
   "RESCUE": [
     "N",
     "V"
@@ -5832,6 +5875,7 @@
     "N"
   ],
   "RESEMBLE": [
+    "N",
     "V"
   ],
   "RESERVE": [
@@ -6429,11 +6473,15 @@
   "SPASM": [
     "N"
   ],
-  "SPATIAL": [
-    "ADJ"
-  ],
   "SPATIAL-DISTANCE-REL": [
     "ADV"
+  ],
+  "SPATIAL-SEPARATE": [
+    "N",
+    "V"
+  ],
+  "SPATIAL-VAL": [
+    "ADJ"
   ],
   "SPEAKERSTATUS": [
     "ADV"
@@ -6522,7 +6570,7 @@
   "STATE-OF-WORRYING": [
     "V"
   ],
-  "STATIC-VAL": [
+  "STATIC-NONMOVING-VAL": [
     "ADJ"
   ],
   "STATUS": [
@@ -6536,9 +6584,6 @@
     "V"
   ],
   "STD": [
-    "N"
-  ],
-  "STD-MEASUREMENT-VAL": [
     "N"
   ],
   "STEADY": [
@@ -6945,6 +6990,9 @@
   "TIME-DURATION-REL": [
     "ADV"
   ],
+  "TIME-ELAPSE": [
+    "V"
+  ],
   "TIME-IN-REL": [
     "ADV"
   ],
@@ -7140,9 +7188,6 @@
     "ADJ"
   ],
   "UNABLE": [
-    "ADJ"
-  ],
-  "UNADORNED": [
     "ADJ"
   ],
   "UNATTACH": [

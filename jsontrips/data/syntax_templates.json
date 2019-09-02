@@ -984,6 +984,159 @@
       ]
     ]
   },
+  "ADJ-CO-THEME2-TEMPL": {
+    "mappings": [
+      [
+        "ARGUMENT",
+        {
+          "default": [
+            "%",
+            "NP"
+          ],
+          "name": "ARGUMENT",
+          "required": [
+            [
+              "LF",
+              "?ARGUMENTLF"
+            ],
+            [
+              "SORT",
+              "?ARGUMENTSORT"
+            ],
+            [
+              "SUBJVAR",
+              "?ARGUMENTSUBJVAR"
+            ],
+            [
+              "LEX",
+              "?ARGUMENTLEX"
+            ],
+            [
+              "VAR",
+              "?ARGUMENTVAR"
+            ],
+            [
+              "AGR",
+              "?ARGUMENTAGR"
+            ],
+            [
+              "CASE",
+              "?ARGUMENTCASE"
+            ]
+          ],
+          "slot": "FIGURE"
+        }
+      ],
+      [
+        "SUBCAT",
+        {
+          "default": [
+            "%",
+            "NP"
+          ],
+          "name": "SUBCAT",
+          "required": [
+            [
+              "LF",
+              "?SUBCATLF"
+            ],
+            [
+              "SORT",
+              "?SUBCATSORT"
+            ],
+            [
+              "SUBJVAR",
+              "?SUBCATSUBJVAR"
+            ],
+            [
+              "LEX",
+              "?SUBCATLEX"
+            ],
+            [
+              "VAR",
+              "?SUBCATVAR"
+            ],
+            [
+              "AGR",
+              "?SUBCATAGR"
+            ],
+            [
+              "CASE",
+              "?SUBCATCASE"
+            ]
+          ],
+          "slot": "SCALE"
+        }
+      ],
+      [
+        "SUBCAT2",
+        {
+          "default": [
+            "%",
+            "PP",
+            [
+              "PTYPE",
+              [
+                "?",
+                "PT",
+                "TO",
+                "FOR"
+              ]
+            ]
+          ],
+          "name": "SUBCAT2",
+          "optional": true,
+          "paramname": "XP",
+          "required": [
+            [
+              "LF",
+              "?SUBCAT2LF"
+            ],
+            [
+              "SORT",
+              "?SUBCAT2SORT"
+            ],
+            [
+              "SUBJVAR",
+              "?SUBCAT2SUBJVAR"
+            ],
+            [
+              "LEX",
+              "?SUBCAT2LEX"
+            ],
+            [
+              "VAR",
+              "?SUBCAT2VAR"
+            ],
+            [
+              "AGR",
+              "?SUBCAT2AGR"
+            ],
+            [
+              "CASE",
+              "?SUBCAT2CASE"
+            ]
+          ],
+          "slot": "GROUND"
+        }
+      ]
+    ],
+    "name": "ADJ-CO-THEME2-TEMPL",
+    "syntax": [
+      [
+        "SORT",
+        "PRED"
+      ],
+      [
+        "ATYPE",
+        "CENTRAL"
+      ],
+      [
+        "ARG",
+        "?ARG"
+      ]
+    ]
+  },
   "ADJ-COMP-OPERATOR-TEMPL": {
     "mappings": [
       [
@@ -1459,7 +1612,7 @@
               ]
             ]
           ],
-          "slot": "AFFECTED"
+          "slot": "FIGURE"
         }
       ],
       [
@@ -1505,7 +1658,7 @@
               "?SUBCATCASE"
             ]
           ],
-          "slot": "FORMAL"
+          "slot": "GROUND"
         }
       ],
       [
@@ -2892,6 +3045,157 @@
       ]
     ]
   },
+  "ADJ-PURPOSE-IMPLICIT-XP-TEMPL": {
+    "mappings": [
+      [
+        "ARGUMENT",
+        {
+          "default": [
+            "%",
+            "NP"
+          ],
+          "name": "ARGUMENT",
+          "required": [
+            [
+              "LF",
+              "?ARGUMENTLF"
+            ],
+            [
+              "SORT",
+              "?ARGUMENTSORT"
+            ],
+            [
+              "SUBJVAR",
+              "?ARGUMENTSUBJVAR"
+            ],
+            [
+              "LEX",
+              "?ARGUMENTLEX"
+            ],
+            [
+              "VAR",
+              "?ARGUMENTVAR"
+            ],
+            [
+              "AGR",
+              "?ARGUMENTAGR"
+            ],
+            [
+              "CASE",
+              "?ARGUMENTCASE"
+            ]
+          ],
+          "slot": "FIGURE"
+        }
+      ],
+      [
+        "SUBCAT",
+        {
+          "default": [
+            "%",
+            "PP",
+            [
+              "PTYPE",
+              "FOR"
+            ]
+          ],
+          "name": "SUBCAT",
+          "paramname": "XP",
+          "required": [
+            [
+              "LF",
+              "?SUBCATLF"
+            ],
+            [
+              "SORT",
+              "?SUBCATSORT"
+            ],
+            [
+              "SUBJVAR",
+              "?SUBCATSUBJVAR"
+            ],
+            [
+              "LEX",
+              "?SUBCATLEX"
+            ],
+            [
+              "VAR",
+              "?SUBCATVAR"
+            ],
+            [
+              "AGR",
+              "?SUBCATAGR"
+            ],
+            [
+              "CASE",
+              "?SUBCATCASE"
+            ]
+          ],
+          "slot": "REASON"
+        }
+      ],
+      [
+        "SUBCAT2",
+        {
+          "default": [
+            "%",
+            "-"
+          ],
+          "name": "SUBCAT2",
+          "required": [
+            [
+              "LF",
+              "?SUBCAT2LF"
+            ],
+            [
+              "SORT",
+              "?SUBCAT2SORT"
+            ],
+            [
+              "SUBJVAR",
+              "?SUBCAT2SUBJVAR"
+            ],
+            [
+              "LEX",
+              "?SUBCAT2LEX"
+            ],
+            [
+              "VAR",
+              "?SUBCAT2VAR"
+            ],
+            [
+              "AGR",
+              "?SUBCAT2AGR"
+            ],
+            [
+              "CASE",
+              "?SUBCAT2CASE"
+            ]
+          ],
+          "slot": "NOROLE"
+        }
+      ]
+    ],
+    "name": "ADJ-PURPOSE-IMPLICIT-XP-TEMPL",
+    "syntax": [
+      [
+        "SORT",
+        "PRED"
+      ],
+      [
+        "ATYPE",
+        "CENTRAL"
+      ],
+      [
+        "ARG",
+        "?ARG"
+      ],
+      [
+        "ALLOW-DELETED-COMP",
+        "-"
+      ]
+    ]
+  },
   "ADJ-PURPOSE-OPTIONAL-TEMPL": {
     "mappings": [
       [
@@ -3492,14 +3796,18 @@
       ]
     ]
   },
-  "ADJ-THEME-ACTION-TEMPL": {
+  "ADJ-SUBJCONTROL-ACTION-TEMPL": {
     "mappings": [
       [
         "ARGUMENT",
         {
           "default": [
             "%",
-            "NP"
+            "NP",
+            [
+              "VAR",
+              "?FIG"
+            ]
           ],
           "name": "ARGUMENT",
           "required": [
@@ -3520,19 +3828,19 @@
               "?ARGUMENTLEX"
             ],
             [
-              "VAR",
-              "?ARGUMENTVAR"
-            ],
-            [
               "AGR",
               "?ARGUMENTAGR"
             ],
             [
               "CASE",
               "?ARGUMENTCASE"
+            ],
+            [
+              "VAR",
+              "?FIG"
             ]
           ],
-          "slot": "FORMAL"
+          "slot": "FIGURE"
         }
       ],
       [
@@ -3544,6 +3852,10 @@
             [
               "CTYPE",
               "S-TO"
+            ],
+            [
+              "SUBJVAR",
+              "?FIG"
             ]
           ],
           "name": "SUBCAT",
@@ -3623,7 +3935,7 @@
         }
       ]
     ],
-    "name": "ADJ-THEME-ACTION-TEMPL",
+    "name": "ADJ-SUBJCONTROL-ACTION-TEMPL",
     "syntax": [
       [
         "SORT",
@@ -5055,7 +5367,7 @@
         }
       ],
       [
-        "LOBJ",
+        "LCOMP",
         {
           "default": [
             "%",
@@ -5065,36 +5377,36 @@
               "?SUBJVAR"
             ]
           ],
-          "name": "LOBJ",
+          "name": "LCOMP",
           "paramname": "XP",
           "required": [
             [
               "LF",
-              "?LOBJLF"
+              "?LCOMPLF"
             ],
             [
               "SORT",
-              "?LOBJSORT"
+              "?LCOMPSORT"
             ],
             [
               "SUBJVAR",
-              "?LOBJSUBJVAR"
+              "?LCOMPSUBJVAR"
             ],
             [
               "LEX",
-              "?LOBJLEX"
+              "?LCOMPLEX"
             ],
             [
               "VAR",
-              "?LOBJVAR"
+              "?LCOMPVAR"
             ],
             [
               "AGR",
-              "?LOBJAGR"
+              "?LCOMPAGR"
             ],
             [
               "CASE",
-              "?LOBJCASE"
+              "?LCOMPCASE"
             ],
             [
               "FILLED",
@@ -24792,6 +25104,130 @@
       ]
     ]
   },
+  "BINARY-CONSTRAINT-S-OR-NP-SUBJCONTROL-TEMPL": {
+    "mappings": [
+      [
+        "ARGUMENT",
+        {
+          "default": [
+            "%",
+            [
+              "?",
+              "XX",
+              "S",
+              "NP"
+            ],
+            [
+              "SUBJVAR",
+              "?SUBJVAR"
+            ]
+          ],
+          "name": "ARGUMENT",
+          "required": [
+            [
+              "LF",
+              "?ARGUMENTLF"
+            ],
+            [
+              "SORT",
+              "?ARGUMENTSORT"
+            ],
+            [
+              "LEX",
+              "?ARGUMENTLEX"
+            ],
+            [
+              "VAR",
+              "?ARGUMENTVAR"
+            ],
+            [
+              "AGR",
+              "?ARGUMENTAGR"
+            ],
+            [
+              "CASE",
+              "?ARGUMENTCASE"
+            ],
+            [
+              "SUBJVAR",
+              "?SUBJVAR"
+            ]
+          ],
+          "slot": "FIGURE"
+        }
+      ],
+      [
+        "SUBCAT",
+        {
+          "default": [
+            "%",
+            "VP",
+            [
+              "VFORM",
+              "ING"
+            ],
+            [
+              "GAP",
+              "?GAP"
+            ],
+            [
+              "SUBJVAR",
+              "?SUBJVAR"
+            ]
+          ],
+          "name": "SUBCAT",
+          "paramname": "XP",
+          "required": [
+            [
+              "LF",
+              "?SUBCATLF"
+            ],
+            [
+              "SORT",
+              "?SUBCATSORT"
+            ],
+            [
+              "SUBJVAR",
+              "?SUBCATSUBJVAR"
+            ],
+            [
+              "LEX",
+              "?SUBCATLEX"
+            ],
+            [
+              "VAR",
+              "?SUBCATVAR"
+            ],
+            [
+              "AGR",
+              "?SUBCATAGR"
+            ],
+            [
+              "CASE",
+              "?SUBCATCASE"
+            ]
+          ],
+          "slot": "GROUND"
+        }
+      ]
+    ],
+    "name": "BINARY-CONSTRAINT-S-OR-NP-SUBJCONTROL-TEMPL",
+    "syntax": [
+      [
+        "SORT",
+        "BINARY-CONSTRAINT"
+      ],
+      [
+        "ATYPE",
+        [
+          "?",
+          "ATYPE",
+          "PRE",
+          "POST"
+        ]
+      ]
+    ]
+  },
   "BINARY-CONSTRAINT-S-OR-NP-TEMPL": {
     "mappings": [
       [
@@ -25135,6 +25571,113 @@
           "PRE",
           "POST"
         ]
+      ]
+    ]
+  },
+  "BINARY-CONSTRAINT-S-PRED-TEMPL": {
+    "mappings": [
+      [
+        "ARGUMENT",
+        {
+          "default": [
+            "%",
+            "S"
+          ],
+          "name": "ARGUMENT",
+          "required": [
+            [
+              "LF",
+              "?ARGUMENTLF"
+            ],
+            [
+              "SORT",
+              "?ARGUMENTSORT"
+            ],
+            [
+              "SUBJVAR",
+              "?ARGUMENTSUBJVAR"
+            ],
+            [
+              "LEX",
+              "?ARGUMENTLEX"
+            ],
+            [
+              "VAR",
+              "?ARGUMENTVAR"
+            ],
+            [
+              "AGR",
+              "?ARGUMENTAGR"
+            ],
+            [
+              "CASE",
+              "?ARGUMENTCASE"
+            ]
+          ],
+          "slot": "FIGURE"
+        }
+      ],
+      [
+        "SUBCAT",
+        {
+          "default": [
+            "%",
+            "PRED"
+          ],
+          "name": "SUBCAT",
+          "paramname": "XP",
+          "required": [
+            [
+              "LF",
+              "?SUBCATLF"
+            ],
+            [
+              "SORT",
+              "?SUBCATSORT"
+            ],
+            [
+              "SUBJVAR",
+              "?SUBCATSUBJVAR"
+            ],
+            [
+              "LEX",
+              "?SUBCATLEX"
+            ],
+            [
+              "VAR",
+              "?SUBCATVAR"
+            ],
+            [
+              "AGR",
+              "?SUBCATAGR"
+            ],
+            [
+              "CASE",
+              "?SUBCATCASE"
+            ]
+          ],
+          "slot": "GROUND"
+        }
+      ]
+    ],
+    "name": "BINARY-CONSTRAINT-S-PRED-TEMPL",
+    "syntax": [
+      [
+        "SORT",
+        "PRED"
+      ],
+      [
+        "ATYPE",
+        [
+          "?",
+          "XX",
+          "PRE",
+          "POST"
+        ]
+      ],
+      [
+        "ARG",
+        "?ARG"
       ]
     ]
   },
@@ -26741,7 +27284,11 @@
         {
           "default": [
             "%",
-            "NP"
+            "NP",
+            [
+              "VAR",
+              "?FIG"
+            ]
           ],
           "name": "ARGUMENT",
           "required": [
@@ -26762,16 +27309,16 @@
               "?ARGUMENTLEX"
             ],
             [
-              "VAR",
-              "?ARGUMENTVAR"
-            ],
-            [
               "AGR",
               "?ARGUMENTAGR"
             ],
             [
               "CASE",
               "?ARGUMENTCASE"
+            ],
+            [
+              "VAR",
+              "?FIG"
             ]
           ],
           "slot": "FIGURE"
@@ -26786,6 +27333,10 @@
             [
               "CTYPE",
               "S-TO"
+            ],
+            [
+              "SUBJVAR",
+              "?FIG"
             ]
           ],
           "name": "SUBCAT",
@@ -31515,6 +32066,10 @@
             "%",
             "NP",
             [
+              "EXPLETIVE",
+              "+"
+            ],
+            [
               "SEM",
               [
                 "$",
@@ -31551,6 +32106,10 @@
             [
               "CASE",
               "?LSUBJCASE"
+            ],
+            [
+              "EXPLETIVE",
+              "+"
             ],
             [
               "SEM",
@@ -31723,6 +32282,10 @@
             "%",
             "NP",
             [
+              "EXPLETIVE",
+              "+"
+            ],
+            [
               "SEM",
               [
                 "$",
@@ -31759,6 +32322,10 @@
             [
               "CASE",
               "?LSUBJCASE"
+            ],
+            [
+              "EXPLETIVE",
+              "+"
             ],
             [
               "SEM",
@@ -31877,10 +32444,6 @@
             "%",
             "NP",
             [
-              "EXPLETIVE",
-              "+"
-            ],
-            [
               "LEX",
               "IT"
             ]
@@ -31915,6 +32478,10 @@
             [
               "CASE",
               "?LSUBJCASE"
+            ],
+            [
+              "EXPLETIVE",
+              "+"
             ],
             [
               "SEM",
@@ -32017,6 +32584,10 @@
               "?LSUBJCASE"
             ],
             [
+              "EXPLETIVE",
+              "+"
+            ],
+            [
               "SEM",
               [
                 "$",
@@ -32085,6 +32656,10 @@
             "%",
             "NP",
             [
+              "EXPLETIVE",
+              "+"
+            ],
+            [
               "SEM",
               [
                 "$",
@@ -32121,6 +32696,10 @@
             [
               "CASE",
               "?LSUBJCASE"
+            ],
+            [
+              "EXPLETIVE",
+              "+"
             ],
             [
               "SEM",
@@ -32355,6 +32934,10 @@
             [
               "CASE",
               "?LSUBJCASE"
+            ],
+            [
+              "EXPLETIVE",
+              "+"
             ],
             [
               "SEM",
@@ -35028,7 +35611,7 @@
             "PRED",
             [
               "ARG",
-              "?SUBJVAR"
+              "?LSUBJVAR"
             ]
           ],
           "name": "LOBJ",
@@ -35091,7 +35674,7 @@
             ],
             [
               "ARG",
-              "?SUBJVAR"
+              "?LSUBJVAR"
             ],
             [
               "GAP",
@@ -44068,7 +44651,7 @@
               "?ARGUMENTCASE"
             ]
           ],
-          "slot": "AFFECTED"
+          "slot": "FIGURE"
         }
       ]
     ],

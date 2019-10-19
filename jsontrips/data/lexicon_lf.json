@@ -542,10 +542,8 @@
     "N"
   ],
   "ATTRIBUTE-IMPUTE": [
+    "N",
     "V"
-  ],
-  "ATTRIBUTED-INFORMATION": [
-    "ADV"
   ],
   "ATTRIBUTED-TO": [
     "ADV"
@@ -587,6 +585,9 @@
   ],
   "AVAILABLE": [
     "ADJ"
+  ],
+  "AVENGE": [
+    "V"
   ],
   "AVOID-LOCATION": [
     "V"
@@ -1533,6 +1534,9 @@
   "CONTRA-FORCE": [
     "ADV"
   ],
+  "CONTRASTIVE": [
+    "ADV"
+  ],
   "CONTROL-MANAGE": [
     "N",
     "V"
@@ -1683,9 +1687,6 @@
   "CURRENCY": [
     "N"
   ],
-  "CURRENT-VAL": [
-    "ADJ"
-  ],
   "CUT": [
     "N",
     "V"
@@ -1784,9 +1785,6 @@
   ],
   "DEFECTIVE-VAL": [
     "ADJ"
-  ],
-  "DEFINED-BY-SEQUENCE-RELATIONSHIP": [
-    "N"
   ],
   "DEFINITION": [
     "N"
@@ -2353,7 +2351,6 @@
     "N"
   ],
   "EQUAL": [
-    "ADV",
     "ADJ"
   ],
   "EQUAL-DISTANCE-VAL": [
@@ -2399,9 +2396,6 @@
   ],
   "EVENT-DURATION-MODIFIER": [
     "ADJ",
-    "ADV"
-  ],
-  "EVENT-EVENT-TIME": [
     "ADV"
   ],
   "EVENT-OF-CHANGE": [
@@ -3773,9 +3767,6 @@
   "LEFT": [
     "ADJ"
   ],
-  "LEFT-LOC": [
-    "N"
-  ],
   "LEGAL-ORGANIZATION": [
     "N"
   ],
@@ -4929,12 +4920,6 @@
   "ORIENT": [
     "V"
   ],
-  "ORIENTATION-VAL": [
-    "ADJ"
-  ],
-  "ORIENTS-TO": [
-    "ADV"
-  ],
   "ORIGINAL-MATERIAL": [
     "ADV"
   ],
@@ -5976,9 +5961,6 @@
   "RIGHT": [
     "ADJ"
   ],
-  "RIGHT-LOC": [
-    "N"
-  ],
   "RIGHT-PERMISSION": [
     "N"
   ],
@@ -6319,6 +6301,9 @@
     "N"
   ],
   "SKEPTICAL-VAL": [
+    "ADJ"
+  ],
+  "SKILLFUL-VAL": [
     "ADJ"
   ],
   "SKILLFULNESS-SCALE": [
@@ -6699,6 +6684,9 @@
   "SUCCESSFUL-VAL": [
     "ADJ"
   ],
+  "SUCCESSOR": [
+    "N"
+  ],
   "SUCK": [
     "V"
   ],
@@ -7037,6 +7025,9 @@
     "NAME"
   ],
   "TO-LOC": [
+    "ADV"
+  ],
+  "TO-PRIOR-LOC": [
     "ADV"
   ],
   "TODAY": [

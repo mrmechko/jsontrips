@@ -1,6 +1,36 @@
 import json
 import pprint
 import sys
+from nltk.corpus import wordnet as wn
+from nltk.corpus.reader.wordnet import Synset, WordNetError
+
+
+def get_wn_key(k):
+    if not wn:
+        log.info("wn not found when trying to lookup " + k)
+        return None
+    if not k:
+        return None
+    if type(k) is Synset:
+        return k
+    if k.startswith("wn::"):
+        k = k[4:]
+    while k.count(":") < 4:
+        k += ":"
+    if "%" not in k:
+        return None
+    try:
+        res = wn.lemma_from_key(k).synset()
+        return res
+    except WordNetError:
+        return None
+
+def ss_to_sk(ss):
+    if type(ss) is Synset:
+        return ss.lemmas()[0].key()
+    return ss
+
+norm_wn_key = lambda x: ss_to_sk(get_wn_key(x))
 
 
 def clean(data):
@@ -21,6 +51,8 @@ def clean(data):
             del data[key]
             key = "typeq"
             data[key] = typeq
+        if key == "wordnet_sense_keys":
+            data[key] = [norm_wn_key(s) for s in data[key]]
         data[key] = clean(data[key])
 
         if data[key] == []:

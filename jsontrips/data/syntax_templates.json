@@ -10736,7 +10736,11 @@
         {
           "default": [
             "%",
-            "NP"
+            "NP",
+            [
+              "VAR",
+              "?DOBJVAR"
+            ]
           ],
           "name": "LOBJ",
           "required": [
@@ -10757,16 +10761,16 @@
               "?LOBJLEX"
             ],
             [
-              "VAR",
-              "?LOBJVAR"
-            ],
-            [
               "AGR",
               "?LOBJAGR"
             ],
             [
               "CASE",
               "?LOBJCASE"
+            ],
+            [
+              "VAR",
+              "?DOBJVAR"
             ]
           ],
           "slot": "AFFECTED"
@@ -10788,6 +10792,7 @@
                   [
                     "?",
                     "X",
+                    "DIRECTION",
                     "GOAL-RELN"
                   ]
                 ]
@@ -10796,6 +10801,29 @@
             [
               "ARG",
               "?DOBJVAR"
+            ],
+            [
+              "ARGUMENT",
+              [
+                "%",
+                "NP",
+                [
+                  "SEM",
+                  "?DOBJSEM"
+                ],
+                [
+                  "VAR",
+                  "?DOBJVAR"
+                ],
+                [
+                  "LEX",
+                  "?DOBJLEX"
+                ],
+                [
+                  "EXPLETIVE",
+                  "?EXP"
+                ]
+              ]
             ]
           ],
           "name": "LCOMP",
@@ -37843,6 +37871,113 @@
         ]
       ]
     ]
+  },
+  "NEUTRAL-ORIENTATION-SUBJCONTROL-TEMPL": {
+    "mappings": [
+      [
+        "LSUBJ",
+        {
+          "default": [
+            "%",
+            "NP",
+            [
+              "VAR",
+              "?SUBJVAR"
+            ]
+          ],
+          "name": "LSUBJ",
+          "required": [
+            [
+              "LF",
+              "?LSUBJLF"
+            ],
+            [
+              "SORT",
+              "?LSUBJSORT"
+            ],
+            [
+              "SUBJVAR",
+              "?LSUBJSUBJVAR"
+            ],
+            [
+              "LEX",
+              "?LSUBJLEX"
+            ],
+            [
+              "AGR",
+              "?LSUBJAGR"
+            ],
+            [
+              "CASE",
+              "?LSUBJCASE"
+            ],
+            [
+              "VAR",
+              "?SUBJVAR"
+            ]
+          ],
+          "slot": "NEUTRAL"
+        }
+      ],
+      [
+        "LCOMP",
+        {
+          "default": [
+            "%",
+            "ADVBL",
+            [
+              "ARG",
+              "?SUBJVAR"
+            ],
+            [
+              "ARGUMENT",
+              [
+                "%",
+                "NP",
+                [
+                  "VAR",
+                  "?SUBJVAR"
+                ]
+              ]
+            ]
+          ],
+          "name": "LCOMP",
+          "paramname": "XP",
+          "required": [
+            [
+              "LF",
+              "?LCOMPLF"
+            ],
+            [
+              "SORT",
+              "?LCOMPSORT"
+            ],
+            [
+              "SUBJVAR",
+              "?LCOMPSUBJVAR"
+            ],
+            [
+              "LEX",
+              "?LCOMPLEX"
+            ],
+            [
+              "VAR",
+              "?LCOMPVAR"
+            ],
+            [
+              "AGR",
+              "?LCOMPAGR"
+            ],
+            [
+              "CASE",
+              "?LCOMPCASE"
+            ]
+          ],
+          "slot": "ORIENTATION"
+        }
+      ]
+    ],
+    "name": "NEUTRAL-ORIENTATION-SUBJCONTROL-TEMPL"
   },
   "NEUTRAL-TEMPL": {
     "mappings": [

@@ -1,7 +1,7 @@
 import logging
 logging.basicConfig()
 
-version = "0.1.26"
+version = "0.1.27"
 
 import os
 import pkg_resources

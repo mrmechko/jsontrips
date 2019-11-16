@@ -2398,10 +2398,6 @@
     "ADJ",
     "ADV"
   ],
-  "EVENT-OF-CHANGE": [
-    "N",
-    "V"
-  ],
   "EVENT-TIME-INITIALLY": [
     "ADV"
   ],

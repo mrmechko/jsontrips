@@ -1255,6 +1255,14 @@
           "SPATIAL-ABSTRACTION",
           "ANY-SPATIAL-ABSTRACTION"
         ],
+        "value": "-"
+      },
+      {
+        "feature_name": "SPATIAL-ABSTRACTION",
+        "parent": [
+          "SPATIAL-ABSTRACTION",
+          "ANY-SPATIAL-ABSTRACTION"
+        ],
         "value": "SPATIAL-REGION"
       },
       {

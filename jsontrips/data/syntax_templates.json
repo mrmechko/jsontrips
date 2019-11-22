@@ -30931,6 +30931,122 @@
     ],
     "name": "EXPERIENCER-FORMAL-SUBJCONTROL-TEMPL"
   },
+  "EXPERIENCER-FORMAL-XP-TEMPL": {
+    "mappings": [
+      [
+        "LSUBJ",
+        {
+          "default": [
+            "%",
+            "NP",
+            [
+              "LEX",
+              "?LSUBJLEX"
+            ],
+            [
+              "SEM",
+              "?LSUBJSEM"
+            ],
+            [
+              "VAR",
+              "?LSUBJVAR"
+            ],
+            [
+              "EXPLETIVE",
+              "?EXP"
+            ]
+          ],
+          "name": "LSUBJ",
+          "required": [
+            [
+              "LF",
+              "?LSUBJLF"
+            ],
+            [
+              "SORT",
+              "?LSUBJSORT"
+            ],
+            [
+              "SUBJVAR",
+              "?LSUBJSUBJVAR"
+            ],
+            [
+              "AGR",
+              "?LSUBJAGR"
+            ],
+            [
+              "CASE",
+              "?LSUBJCASE"
+            ],
+            [
+              "LEX",
+              "?LSUBJLEX"
+            ],
+            [
+              "SEM",
+              "?LSUBJSEM"
+            ],
+            [
+              "VAR",
+              "?LSUBJVAR"
+            ],
+            [
+              "EXPLETIVE",
+              "?EXP"
+            ]
+          ],
+          "slot": "EXPERIENCER"
+        }
+      ],
+      [
+        "LCOMP",
+        {
+          "default": [
+            "%",
+            "CP",
+            [
+              "CTYPE",
+              "FINITE"
+            ]
+          ],
+          "name": "LCOMP",
+          "paramname": "XP",
+          "required": [
+            [
+              "LF",
+              "?LCOMPLF"
+            ],
+            [
+              "SORT",
+              "?LCOMPSORT"
+            ],
+            [
+              "SUBJVAR",
+              "?LCOMPSUBJVAR"
+            ],
+            [
+              "LEX",
+              "?LCOMPLEX"
+            ],
+            [
+              "VAR",
+              "?LCOMPVAR"
+            ],
+            [
+              "AGR",
+              "?LCOMPAGR"
+            ],
+            [
+              "CASE",
+              "?LCOMPCASE"
+            ]
+          ],
+          "slot": "FORMAL"
+        }
+      ]
+    ],
+    "name": "EXPERIENCER-FORMAL-XP-TEMPL"
+  },
   "EXPERIENCER-NEUTRAL-FORMAL-2-XP-3-XP2-ADJP-OPTIONAL-TEMPL": {
     "mappings": [
       [

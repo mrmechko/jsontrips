@@ -1073,9 +1073,6 @@
     "N",
     "V"
   ],
-  "CAUSED-EVENT": [
-    "N"
-  ],
   "CAUTIOUSNESS-SCALE": [
     "N"
   ],
@@ -2394,6 +2391,9 @@
   "EVENING": [
     "N"
   ],
+  "EVENT-DEFINED-BY-ACTIVITY": [
+    "N"
+  ],
   "EVENT-DURATION-MODIFIER": [
     "ADJ",
     "ADV"
@@ -2410,6 +2410,9 @@
     "ADV"
   ],
   "EVENT-TYPE": [
+    "N"
+  ],
+  "EVIDENCE": [
     "N"
   ],
   "EVOKE-AMUSEMENT": [
@@ -3918,6 +3921,9 @@
     "N"
   ],
   "LOCATION-AS-MOTION": [
+    "V"
+  ],
+  "LOCATION-AS-ORIENTATION": [
     "V"
   ],
   "LOCATION-DISTANCE-MODIFIER": [

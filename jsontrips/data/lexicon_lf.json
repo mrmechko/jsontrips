@@ -1115,7 +1115,7 @@
     "N",
     "V"
   ],
-  "CHANGE-MAGNITUDE": [
+  "CHANGE-IN-SIZE": [
     "V"
   ],
   "CHANGE-SKIN-COLOR": [
@@ -1785,9 +1785,6 @@
   ],
   "DEFINITION": [
     "N"
-  ],
-  "DEGREE": [
-    "ADV"
   ],
   "DEGREE-MODIFIER": [
     "ADV"
@@ -4253,6 +4250,7 @@
   ],
   "MIN-VAL": [
     "ADJ",
+    "N",
     "ADV"
   ],
   "MINE": [
@@ -4262,8 +4260,8 @@
     "N"
   ],
   "MINIMIZE": [
-    "V",
-    "N"
+    "N",
+    "V"
   ],
   "MINUTE-DURATION": [
     "N"
@@ -5108,9 +5106,6 @@
     "N"
   ],
   "PHYS-REPRESENTATION": [
-    "N"
-  ],
-  "PHYS-SHAPE": [
     "N"
   ],
   "PHYSICAL-ACTIVITY": [
@@ -6175,14 +6170,14 @@
   "SHALLOW-VAL": [
     "ADJ"
   ],
-  "SHAPE": [
-    "N"
-  ],
   "SHAPE-CHANGE": [
     "N",
     "V"
   ],
   "SHAPE-OBJECT": [
+    "N"
+  ],
+  "SHAPE-SCALE": [
     "N"
   ],
   "SHAPE-VAL": [

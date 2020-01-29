@@ -2,6 +2,8 @@
 (ql:quickload :jonathan)
 
 (load "../OntologyManager/om.lisp")
+(if (probe-file "../gloss-extension.lisp")
+	(load "../gloss-extension"))
 
 (in-package :om)
 

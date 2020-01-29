@@ -2,6 +2,8 @@
 (ql:quickload :jonathan)
 
 (load "../LexiconManager/lxm.lisp")
+(if (probe-file "../gloss-extension.lisp")
+	(load "../gloss-extension"))
 (in-package :lxm)
 
 (defun cell-to-pair (c) (list (car c) (cdr c)))

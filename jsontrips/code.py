@@ -7,6 +7,10 @@ import os
 import pkg_resources
 import json
 
-def get_file(name):
+def get_file(name, as_json=True):
     logging.info("Getting {} - version {}".format(name, version))
-    return json.loads(pkg_resources.resource_string(__name__, os.path.join("data", name)).decode('utf-8'))
+    ret = pkg_resources.resource_string(__name__, os.path.join("data", name)).decode('utf-8')
+    if as_json:
+        return json.loads(ret)
+    return ret
+

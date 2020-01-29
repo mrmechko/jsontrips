@@ -17,6 +17,9 @@ sbcl --script lisp/genlexicon.lisp
 python code/prettify.py dist/featurelists.json dist/featuretypes.json dist/ontology.json
 python code/prettify.py dist/words.json dist/syntax_templates.json dist/lexicon_lf.json
 
+cp ../WordFinder/wordnet/stoplist.txt dist
+cp ../WordFinder/wordnet/golist.txt dist
+
 rm -rf jsontrips/data
 cp -r dist jsontrips/data
 

@@ -17,3 +17,9 @@ def ontology():
 
 def syntax_templates():
     return __get_file("syntax_templates.json")
+
+def stoplist():
+    return __get_file("stoplist.txt", as_json=False)
+
+def golist():
+    return __get_file("golist.txt", as_json=False)

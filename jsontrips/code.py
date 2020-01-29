@@ -12,5 +12,5 @@ def get_file(name, as_json=True):
     ret = pkg_resources.resource_string(__name__, os.path.join("data", name)).decode('utf-8')
     if as_json:
         return json.loads(ret)
-    return ret
+    return [x.strip().lower() for x in ret.split() if not x.strip().startswith(";")]
 

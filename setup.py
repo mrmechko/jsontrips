@@ -18,7 +18,7 @@ if __name__ == "__main__":
                 url="https://github.com/mrmechko/jsontrips",
                 packages=find_packages(exclude=["test", "code"]),
                 package_data={
-                    "jsontrips": ['data/*.json']
+                    "jsontrips": ['data/*.json', 'data/*.txt']
                 },
                 classifiers=[
                     "Programming Language :: Python :: 3",

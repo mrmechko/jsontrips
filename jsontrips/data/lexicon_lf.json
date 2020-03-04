@@ -1034,7 +1034,6 @@
     "V"
   ],
   "CAUSE-BODY-EFFECT": [
-    "N",
     "V"
   ],
   "CAUSE-CLEAR": [
@@ -1683,6 +1682,9 @@
   ],
   "CURRENCY": [
     "N"
+  ],
+  "CURRENT-VAL": [
+    "ADJ"
   ],
   "CUT": [
     "N",
@@ -2382,6 +2384,10 @@
   "EVAL-WRT-EXPECTATION": [
     "ADV"
   ],
+  "EVALUATE": [
+    "N",
+    "V"
+  ],
   "EVALUATION-SCALE": [
     "N"
   ],
@@ -2448,6 +2454,9 @@
   ],
   "EVOKE-CONFUSION": [
     "N",
+    "V"
+  ],
+  "EVOKE-DISCOMFORT": [
     "V"
   ],
   "EVOKE-DISGUST": [
@@ -2589,10 +2598,10 @@
   "EXPENSIVE-VAL": [
     "ADJ"
   ],
-  "EXPERIENCER-EMOTION": [
+  "EXPERIENCE-BODY-EFFECT": [
     "V"
   ],
-  "EXPERIENCER-OBJ": [
+  "EXPERIENCER-EMOTION": [
     "V"
   ],
   "EXPLAIN": [
@@ -4230,6 +4239,10 @@
   "MIDNIGHT": [
     "PRO"
   ],
+  "MIGRATE": [
+    "N",
+    "V"
+  ],
   "MIGRATION": [
     "N"
   ],
@@ -4757,7 +4770,6 @@
     "ADJ"
   ],
   "NOW": [
-    "ADJ",
     "ADV"
   ],
   "NUCLEAR-VAL": [

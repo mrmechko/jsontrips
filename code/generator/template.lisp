@@ -1,8 +1,6 @@
 (load "~/quicklisp/setup.lisp")
 (ql:quickload :jonathan)
 
-(load "../OntologyManager/om.lisp")
-
 (in-package :om)
 
 (defun sfeat (x) (list (featval-description-feature-name x) (featval-description-value x)))

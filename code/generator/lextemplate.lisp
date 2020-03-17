@@ -1,9 +1,6 @@
 (load "~/quicklisp/setup.lisp")
 (ql:quickload :jonathan)
 
-(load "../LexiconManager/lxm.lisp")
-(if (probe-file "../gloss-extension.lisp")
-	(load "../gloss-extension"))
 (in-package :lxm)
 
 (defun cell-to-pair (c) (list (car c) (cdr c)))
@@ -45,6 +42,8 @@
     (format str (JONATHAN::to-json source)))
 )
 
-(write-ont-file (lexicon-db-synt-table *lexicon-data*) "dist/syntax_templates.json")
-(write-ont-file (lexicon-db-word-table *lexicon-data*) "dist/words.json")
-(write-ont-file (lexicon-db-lf-table *lexicon-data*) "dist/lexicon_lf.json")
+(defun write-all-lexicon (dest)
+  (write-ont-file (lexicon-db-synt-table *lexicon-data*) (format nil "~A/~A" dest "syntax_templates.json"))
+  (write-ont-file (lexicon-db-word-table *lexicon-data*) (format nil "~A/~A" dest "words.json"))
+  (write-ont-file (lexicon-db-lf-table *lexicon-data*) (format nil "~A/~A" dest "lexicon_lf.json"))
+)

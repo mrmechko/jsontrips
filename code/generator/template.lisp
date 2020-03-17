@@ -2,8 +2,6 @@
 (ql:quickload :jonathan)
 
 (load "../OntologyManager/om.lisp")
-(if (probe-file "../gloss-extension.lisp")
-	(load "../gloss-extension"))
 
 (in-package :om)
 
@@ -43,7 +41,8 @@
     (format str (JONATHAN::to-json source)))
 )
 
-(write-ont-file onttypes "dist/ontology.json")
-(write-ont-file featuretypes "dist/featuretypes.json")
-(write-ont-file featurelists "dist/featurelists.json")
-
+(defun write-all-ontology (dest)
+  (write-ont-file onttypes (format nil "~A/~A" dest "ontology.json"))
+  (write-ont-file featuretypes (format nil "~A/~A" dest "featuretypes.json"))
+  (write-ont-file featurelists (format nil "~A/~A" dest "featurelists.json"))
+)

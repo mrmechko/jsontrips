@@ -5,7 +5,7 @@
 
 (dfc:defcomponent :xml :use (:util :common-lisp) :system (:depends-on (:util) :components nil))
 
-(defvar *define-type-and-words-file* #!TRIPS"logs;verb-synset-chunks;yan2-result.kqml")
+(defvar *define-type-and-words-file* #!TRIPS"messages.kqml")
 
 (defun send-define-msgs (msg args)
     (declare (ignore msg args))
@@ -20,8 +20,12 @@
 (defun send-define-msgs ()
   (comm::send 'test '(request :content (send-define-msgs))))
 
+(defvar *out-dir* #!TRIPS"src;jsontrips;dist")
 (defun write-json ()
-  (load "lisp/genontology.lisp")
-  (load "lisp/genlexicon.lisp"))
+  (load #!TRIPS"src;jsontrips;lisp;genontology.lisp")
+  (om::write-all-ontology *out-dir*)
+  (load #!TRIPS"src;jsontrips;lisp;genlexicon.lisp")
+  (lxm::write-all-lexicon *out-dir*)
+  )
 
 (trips:process-run-function :xml #'dfc:run-component :xml)

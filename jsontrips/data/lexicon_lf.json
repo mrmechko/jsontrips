@@ -32,6 +32,9 @@
   "ABSTRACT-INFORMATION-PROPERTY-VAL": [
     "ADJ"
   ],
+  "ABUNDANT-VAL": [
+    "ADJ"
+  ],
   "ABUSE": [
     "N",
     "V"
@@ -96,9 +99,6 @@
   "ACT-BEHAVE": [
     "N",
     "V"
-  ],
-  "ACTION": [
-    "N"
   ],
   "ACTION-DEFINED-BY-GAME": [
     "N"
@@ -246,7 +246,7 @@
   "AIRPORT": [
     "N"
   ],
-  "ALCOHOL": [
+  "ALCOHOL-COCKTAILS": [
     "N"
   ],
   "ALERT-VAL": [
@@ -273,13 +273,7 @@
   "ALLOWS-DOING-VAL": [
     "ADJ"
   ],
-  "ALONG": [
-    "ADV"
-  ],
   "ALTER-CONSCIOUSNESS": [
-    "V"
-  ],
-  "ALTER-FLAVOR": [
     "V"
   ],
   "ALWAYS": [
@@ -354,6 +348,9 @@
     "N"
   ],
   "ANXIETY": [
+    "N"
+  ],
+  "APATHY-SCALE": [
     "N"
   ],
   "APOLOGIZE": [
@@ -620,6 +617,9 @@
   "AWKWARD-VAL": [
     "ADJ"
   ],
+  "BACK-LOCATION": [
+    "N"
+  ],
   "BACK-OF": [
     "ADV"
   ],
@@ -801,6 +801,9 @@
     "N",
     "V"
   ],
+  "BLENDS": [
+    "N"
+  ],
   "BLOCK": [
     "N"
   ],
@@ -856,9 +859,6 @@
   "BODY-TIGHTNESS": [
     "N"
   ],
-  "BOIL": [
-    "V"
-  ],
   "BOLD-VAL": [
     "ADJ"
   ],
@@ -875,7 +875,7 @@
   "BORED": [
     "ADJ"
   ],
-  "BORING": [
+  "BORING-VAL": [
     "ADJ"
   ],
   "BORROW": [
@@ -925,9 +925,6 @@
   ],
   "BRIGHTEN": [
     "V"
-  ],
-  "BRIGHTNESS-SCALE": [
-    "N"
   ],
   "BROAD": [
     "ADJ"
@@ -989,6 +986,9 @@
   "CALMING-VAL": [
     "ADJ"
   ],
+  "CAMPAIGN": [
+    "N"
+  ],
   "CANCEL": [
     "V"
   ],
@@ -1021,6 +1021,9 @@
   "CAREFUL-VAL": [
     "ADJ"
   ],
+  "CARING-VAL": [
+    "ADJ"
+  ],
   "CARVE-CUT": [
     "N",
     "V"
@@ -1031,9 +1034,6 @@
   ],
   "CATEGORIZATION": [
     "N",
-    "V"
-  ],
-  "CAUSE-BODY-EFFECT": [
     "V"
   ],
   "CAUSE-CLEAR": [
@@ -1220,6 +1220,9 @@
   "CLOUDY": [
     "ADJ"
   ],
+  "CM": [
+    "N"
+  ],
   "COAT-FOOD": [
     "V"
   ],
@@ -1316,6 +1319,7 @@
     "ADJ"
   ],
   "COMMERCIAL-ACTIVITY": [
+    "V",
     "N"
   ],
   "COMMERCIAL-FACILITY": [
@@ -1336,6 +1340,9 @@
   ],
   "COMMUNICATION-PARTY": [
     "N"
+  ],
+  "COMMUNICATIVE-VAL": [
+    "ADJ"
   ],
   "COMPANY": [
     "N"
@@ -1481,6 +1488,9 @@
   "CONNECTIVITY-SCALE": [
     "N"
   ],
+  "CONSIDERATE-VAL": [
+    "ADJ"
+  ],
   "CONSISTENT": [
     "ADJ"
   ],
@@ -1555,6 +1565,9 @@
   "COOK": [
     "V"
   ],
+  "COOK-BOIL": [
+    "V"
+  ],
   "COOK-IN-FAT": [
     "V"
   ],
@@ -1627,14 +1640,23 @@
   "COUNTY": [
     "N"
   ],
+  "COURAGEOUS-VAL": [
+    "ADJ"
+  ],
   "COURT-GAME": [
     "N"
+  ],
+  "COURTEOUS-VAL": [
+    "ADJ"
   ],
   "COVER": [
     "V"
   ],
   "COVERING": [
     "N"
+  ],
+  "COWARDLY-VAL": [
+    "ADJ"
   ],
   "CRACKERS": [
     "N"
@@ -1742,9 +1764,6 @@
   "DAY-STAGE": [
     "N"
   ],
-  "DAY-STAGE-AM": [
-    "N"
-  ],
   "DAY-STAGE-PM": [
     "N"
   ],
@@ -1757,6 +1776,9 @@
   "DECIDE": [
     "N",
     "V"
+  ],
+  "DECISIVE-VAL": [
+    "ADJ"
   ],
   "DECLARE-PERFORMATIVE": [
     "N",
@@ -2003,9 +2025,6 @@
   "DIRECTION-WRT-ENTITY": [
     "ADV"
   ],
-  "DIRECTION-WRT-GRAVITY": [
-    "ADV"
-  ],
   "DIRTY-VAL": [
     "ADJ"
   ],
@@ -2025,6 +2044,9 @@
   "DISCARD": [
     "N",
     "V"
+  ],
+  "DISCERNING-VAL": [
+    "ADJ"
   ],
   "DISCIPLINE": [
     "N"
@@ -2051,6 +2073,9 @@
   ],
   "DISPLAY": [
     "N"
+  ],
+  "DISPOSITION-VAL": [
+    "ADJ"
   ],
   "DISSUADE": [
     "V"
@@ -2136,9 +2161,6 @@
   "DROUGHT": [
     "N"
   ],
-  "DROWSE": [
-    "V"
-  ],
   "DROWSY-VAL": [
     "ADJ"
   ],
@@ -2187,6 +2209,9 @@
   ],
   "EARLY-IN-PROCESS": [
     "ADV",
+    "ADJ"
+  ],
+  "EARNEST-VAL": [
     "ADJ"
   ],
   "EARNING": [
@@ -2249,9 +2274,6 @@
   "ELECTRICAL": [
     "ADJ"
   ],
-  "ELEMENT": [
-    "N"
-  ],
   "EMAIL": [
     "N"
   ],
@@ -2290,7 +2312,7 @@
     "N",
     "V"
   ],
-  "ENDPOINT": [
+  "END-LOCATION": [
     "N"
   ],
   "ENDURANCE-SCALE": [
@@ -2301,6 +2323,9 @@
   ],
   "ENERGIZED-VAL": [
     "ADJ"
+  ],
+  "ENERGY-DRINK": [
+    "N"
   ],
   "ENERGY-UNIT": [
     "N"
@@ -2906,6 +2931,12 @@
   "FORGIVE": [
     "V"
   ],
+  "FORGIVING-VAL": [
+    "ADJ"
+  ],
+  "FRANK-VAL": [
+    "ADJ"
+  ],
   "FREE-VAL": [
     "ADJ"
   ],
@@ -2933,8 +2964,14 @@
   "FROM-LOC": [
     "ADV"
   ],
-  "FRONT": [
+  "FRONT-LOCATION": [
+    "N"
+  ],
+  "FRONT-OF": [
     "ADV"
+  ],
+  "FRUGAL-VAL": [
+    "ADJ"
   ],
   "FRUIT": [
     "N"
@@ -2972,11 +3009,17 @@
   "FUTURE-GIVING": [
     "V"
   ],
+  "G": [
+    "N"
+  ],
   "GAME": [
     "N"
   ],
   "GAS-SUBSTANCE": [
     "N"
+  ],
+  "GASIFY-BOIL": [
+    "V"
   ],
   "GATHERING-EVENT": [
     "N"
@@ -3003,6 +3046,12 @@
     "N"
   ],
   "GENERAL-VAL": [
+    "ADJ"
+  ],
+  "GENEROUS-VAL": [
+    "ADJ"
+  ],
+  "GENTLE-VAL": [
     "ADJ"
   ],
   "GEO-FEATURE-VAL": [
@@ -3107,9 +3156,6 @@
     "N",
     "V"
   ],
-  "GRIEF-SCALE": [
-    "N"
-  ],
   "GRIEVOUS-VAL": [
     "ADJ"
   ],
@@ -3130,6 +3176,9 @@
   "GUIDING": [
     "N",
     "V"
+  ],
+  "HA": [
+    "N"
   ],
   "HABITUAL": [
     "V"
@@ -3182,6 +3231,9 @@
   "HAVE-INFLUENCE": [
     "V"
   ],
+  "HAVE-KNOWLEDGE-VAL": [
+    "ADJ"
+  ],
   "HAVE-PROPERTY": [
     "V"
   ],
@@ -3210,6 +3262,12 @@
     "V"
   ],
   "HEAT-SCALE": [
+    "N"
+  ],
+  "HEATER": [
+    "N"
+  ],
+  "HEATING-ELEMENT": [
     "N"
   ],
   "HEAVY": [
@@ -3561,11 +3619,11 @@
     "N",
     "V"
   ],
-  "INTERESTED-SCALE": [
-    "N"
-  ],
   "INTERESTED-VAL": [
     "ADJ"
+  ],
+  "INTERESTEDNESS-SCALE": [
+    "N"
   ],
   "INTERESTING-VAL": [
     "ADJ"
@@ -3623,6 +3681,10 @@
   "INVISIBLE-VAL": [
     "ADJ"
   ],
+  "INVITE": [
+    "N",
+    "V"
+  ],
   "IO-DEVICE": [
     "N"
   ],
@@ -3652,6 +3714,9 @@
   "JUDGEMENT": [
     "V"
   ],
+  "JUDGEMENTAL-VAL": [
+    "ADJ"
+  ],
   "JUICE": [
     "N"
   ],
@@ -3676,6 +3741,9 @@
   "KEY": [
     "N"
   ],
+  "KG": [
+    "N"
+  ],
   "KICKING": [
     "N",
     "V"
@@ -3694,6 +3762,9 @@
     "N",
     "V"
   ],
+  "KM": [
+    "N"
+  ],
   "KNOW": [
     "N",
     "V"
@@ -3706,6 +3777,9 @@
     "N"
   ],
   "LACK": [
+    "N"
+  ],
+  "LACK-KNOWLEDGE-VAL": [
     "N"
   ],
   "LACKING": [
@@ -3772,7 +3846,13 @@
   "LEFT": [
     "ADJ"
   ],
+  "LEFT-OF": [
+    "ADJ"
+  ],
   "LEGAL-ORGANIZATION": [
+    "N"
+  ],
+  "LEMONADE-LIMEADE": [
     "N"
   ],
   "LEND": [
@@ -3871,6 +3951,9 @@
   ],
   "LINGUISTIC-OBJECT": [
     "N"
+  ],
+  "LINGUISTIC-PROPERTY-VAL": [
+    "ADJ"
   ],
   "LINGUISTICS-VAL": [
     "ADJ"
@@ -3989,16 +4072,28 @@
   "LOW-VAL": [
     "ADJ"
   ],
+  "LOYAL-FAITHFUL-VAL": [
+    "ADJ"
+  ],
   "LUCKINESS-SCALE": [
     "N"
   ],
   "LUCKY": [
     "ADJ"
   ],
+  "LUMINOSITY-SCALE": [
+    "N"
+  ],
   "LUMINOSITY-UNIT": [
     "N"
   ],
   "LYRIC": [
+    "N"
+  ],
+  "M": [
+    "N"
+  ],
+  "M2": [
     "N"
   ],
   "MACHINE": [
@@ -4021,6 +4116,9 @@
   ],
   "MAKE-SOUND": [
     "V"
+  ],
+  "MAL-INTENDED-VAL": [
+    "ADJ"
   ],
   "MALE-CHILD": [
     "N"
@@ -4131,7 +4229,7 @@
   "MEAT": [
     "N"
   ],
-  "MEAT-OTHER": [
+  "MEAT-PRODUCT": [
     "N"
   ],
   "MECHANICAL-VAL": [
@@ -4181,9 +4279,6 @@
     "N"
   ],
   "MEMBER": [
-    "N"
-  ],
-  "MEMBER-RELN": [
     "N"
   ],
   "MEMBERSHIP": [
@@ -4291,6 +4386,9 @@
   "MISUNDERSTAND": [
     "V"
   ],
+  "MM": [
+    "N"
+  ],
   "MODE": [
     "ADJ",
     "N"
@@ -4384,6 +4482,9 @@
     "N",
     "V"
   ],
+  "MOVE-LEISURELY": [
+    "V"
+  ],
   "MOVE-PLAYFULLY": [
     "V"
   ],
@@ -4448,6 +4549,9 @@
     "ADJ"
   ],
   "N-TUPLE-VAL": [
+    "ADJ"
+  ],
+  "NAIVE-VAL": [
     "ADJ"
   ],
   "NAME": [
@@ -4515,6 +4619,9 @@
   ],
   "NEG-CONDITION": [
     "ADV"
+  ],
+  "NEGATIVE-DISPOSITION-VAL": [
+    "ADJ"
   ],
   "NEGATIVE-SMELL-SCALE": [
     "N"
@@ -4607,6 +4714,9 @@
   "NOT-CAREFUL-VAL": [
     "ADJ"
   ],
+  "NOT-CARING-VAL": [
+    "N"
+  ],
   "NOT-CERTAIN-SCALE": [
     "N"
   ],
@@ -4616,11 +4726,23 @@
   "NOT-COMPATIBLE-VAL": [
     "ADJ"
   ],
+  "NOT-CONSIDERATE-VAL": [
+    "N"
+  ],
   "NOT-CONVENIENT-VAL": [
     "ADJ"
   ],
+  "NOT-COURTEOUS-VAL": [
+    "N"
+  ],
   "NOT-CREDIBLE-VAL": [
     "ADJ"
+  ],
+  "NOT-DECISIVE-VAL": [
+    "N"
+  ],
+  "NOT-DISCERNING-VAL": [
+    "N"
   ],
   "NOT-EFFECTIVE-VAL": [
     "ADJ"
@@ -4640,10 +4762,19 @@
   "NOT-FLEXIBLE-VAL": [
     "ADJ"
   ],
+  "NOT-FORGIVING-VAL": [
+    "N"
+  ],
+  "NOT-FRANK-VAL": [
+    "ADJ"
+  ],
   "NOT-FREE-VAL": [
     "ADJ"
   ],
   "NOT-FRESH-VAL": [
+    "ADJ"
+  ],
+  "NOT-GENEROUS-VAL": [
     "ADJ"
   ],
   "NOT-GRATEFUL-VAL": [
@@ -4664,10 +4795,7 @@
   "NOT-INTENTIONAL-VAL": [
     "ADJ"
   ],
-  "NOT-INTERESTED-SCALE": [
-    "N"
-  ],
-  "NOT-INTERESTED-VAL": [
+  "NOT-JUDGEMENTAL-VAL": [
     "ADJ"
   ],
   "NOT-LIKELY-SCALE": [
@@ -4682,6 +4810,9 @@
   "NOT-LOOSE-VAL": [
     "ADJ"
   ],
+  "NOT-LOYAL-FAITHFUL-VAL": [
+    "N"
+  ],
   "NOT-MEANINGFUL-VAL": [
     "ADJ"
   ],
@@ -4690,6 +4821,9 @@
   ],
   "NOT-OFFENSIVE-VAL": [
     "ADJ"
+  ],
+  "NOT-PATIENT-VAL": [
+    "N"
   ],
   "NOT-PLAIN-VAL": [
     "ADJ"
@@ -4723,8 +4857,14 @@
   "NOT-RELEVANT-VAL": [
     "ADJ"
   ],
+  "NOT-RESPECTFUL-VAL": [
+    "N"
+  ],
   "NOT-RESPONSIBLE-VAL": [
     "ADJ"
+  ],
+  "NOT-RETICENT-VAL": [
+    "N"
   ],
   "NOT-SATIATED-VAL": [
     "ADJ"
@@ -4732,11 +4872,20 @@
   "NOT-SENSIBLE-VAL": [
     "ADJ"
   ],
+  "NOT-SKILLFUL-VAL": [
+    "N"
+  ],
   "NOT-SMOOTH-VAL": [
     "ADJ"
   ],
+  "NOT-SOCIAL-VAL": [
+    "N"
+  ],
   "NOT-STEADY-SCALE": [
     "N"
+  ],
+  "NOT-SUBMISSIVE-VAL": [
+    "ADJ"
   ],
   "NOT-SUCCESSFUL-VAL": [
     "ADJ"
@@ -4853,6 +5002,9 @@
   "OFFER": [
     "N",
     "V"
+  ],
+  "OFFICIAL": [
+    "N"
   ],
   "OFFICIAL-DOCUMENT": [
     "N"
@@ -5045,6 +5197,9 @@
   "PATIENT": [
     "N"
   ],
+  "PATIENT-VAL": [
+    "ADJ"
+  ],
   "PAUSE": [
     "N",
     "V"
@@ -5093,6 +5248,9 @@
   ],
   "PERSON": [
     "PRO",
+    "N"
+  ],
+  "PERSON-DEFINED-BY-MEMBERSHIP": [
     "N"
   ],
   "PERSON-OF-NATIONALITY": [
@@ -5269,6 +5427,9 @@
   ],
   "POSITION-RELN": [
     "ADV"
+  ],
+  "POSITIVE-DISPOSITION-VAL": [
+    "ADJ"
   ],
   "POSITIVE-SMELL-SCALE": [
     "N"
@@ -5639,9 +5800,6 @@
   "REASON-INFORMAL": [
     "ADV"
   ],
-  "REBOOT": [
-    "V"
-  ],
   "RECEIVE-PUNISHMENT": [
     "V"
   ],
@@ -5677,7 +5835,7 @@
   "RED": [
     "ADJ"
   ],
-  "REDNESS-SCALE": [
+  "RED-SCALE": [
     "N"
   ],
   "REFERENCE-WORK": [
@@ -5692,10 +5850,6 @@
   ],
   "REFRIGERATOR": [
     "N"
-  ],
-  "REFUSE": [
-    "N",
-    "V"
   ],
   "REFUTE": [
     "N",
@@ -5885,6 +6039,9 @@
   "RESOLUTION-SCALE": [
     "N"
   ],
+  "RESPECTFUL-VAL": [
+    "ADJ"
+  ],
   "RESPONSIBILITY": [
     "N"
   ],
@@ -5922,6 +6079,9 @@
   "RETAIN": [
     "N",
     "V"
+  ],
+  "RETICENT-VAL": [
+    "ADJ"
   ],
   "RETIRE": [
     "V"
@@ -5968,6 +6128,12 @@
     "V"
   ],
   "RIGHT": [
+    "ADJ"
+  ],
+  "RIGHT-LOC": [
+    "N"
+  ],
+  "RIGHT-OF": [
     "ADJ"
   ],
   "RIGHT-PERMISSION": [
@@ -6120,7 +6286,10 @@
     "N",
     "V"
   ],
-  "SEMANTIC-VAL": [
+  "SELFISH-VAL": [
+    "ADJ"
+  ],
+  "SELFLESS-VAL": [
     "ADJ"
   ],
   "SEND": [
@@ -6147,6 +6316,9 @@
     "N"
   ],
   "SENSORY-MODE-VAL": [
+    "ADJ"
+  ],
+  "SENSORY-PROPERTY-VAL": [
     "ADJ"
   ],
   "SEPARATION": [
@@ -6290,6 +6462,9 @@
   "SINCE-UNTIL": [
     "ADV"
   ],
+  "SINCERE-VAL": [
+    "ADJ"
+  ],
   "SING": [
     "V"
   ],
@@ -6364,6 +6539,9 @@
   "SMOOTHNESS-SCALE": [
     "N"
   ],
+  "SNEAKY-VAL": [
+    "ADJ"
+  ],
   "SNEEZE": [
     "N"
   ],
@@ -6390,6 +6568,9 @@
   ],
   "SOCIAL-RELATIONSHIP": [
     "N"
+  ],
+  "SOCIAL-VAL": [
+    "ADJ"
   ],
   "SOCIALLY-REMOVE": [
     "N",
@@ -6473,7 +6654,7 @@
   "SPATIAL-DISTANCE-REL": [
     "ADV"
   ],
-  "SPATIAL-SEPARATE": [
+  "SPATIAL-DIVIDE": [
     "N",
     "V"
   ],
@@ -6537,9 +6718,6 @@
     "N"
   ],
   "STAIRS": [
-    "N"
-  ],
-  "STAND": [
     "N"
   ],
   "STANDARD": [
@@ -6672,6 +6850,9 @@
     "N"
   ],
   "STUPID": [
+    "ADJ"
+  ],
+  "SUBMISSIVE-VAL": [
     "ADJ"
   ],
   "SUBMIT": [
@@ -6829,6 +7010,10 @@
   "TAKE-TIME": [
     "V"
   ],
+  "TAKE-TURN": [
+    "N",
+    "V"
+  ],
   "TAKING-CARE-OF": [
     "V"
   ],
@@ -6857,19 +7042,13 @@
   "TANKER": [
     "N"
   ],
-  "TASTEFUL-VAL": [
-    "ADJ"
-  ],
   "TASTY-VAL": [
     "ADJ"
-  ],
-  "TEA": [
-    "N"
   ],
   "TEACH-TRAIN": [
     "V"
   ],
-  "TEAS-COCKTAILS-BLENDS": [
+  "TEAS": [
     "N"
   ],
   "TECHNOLOGY": [
@@ -7024,9 +7203,6 @@
     "N"
   ],
   "TINY": [
-    "ADJ"
-  ],
-  "TIRESOME-VAL": [
     "ADJ"
   ],
   "TITLE": [
@@ -7191,6 +7367,9 @@
     "ADJ"
   ],
   "UNABLE": [
+    "ADJ"
+  ],
+  "UNAFFECTED-VAL": [
     "ADJ"
   ],
   "UNATTACH": [
@@ -7440,6 +7619,9 @@
   "WASTE": [
     "N"
   ],
+  "WASTEFUL-VAL": [
+    "ADJ"
+  ],
   "WATER": [
     "N"
   ],
@@ -7494,6 +7676,9 @@
   "WELCOME": [
     "N",
     "V"
+  ],
+  "WELL-INTENDED-VAL": [
+    "ADJ"
   ],
   "WEST": [
     "ADJ"
@@ -7560,6 +7745,9 @@
   ],
   "WITH-INSTRUMENT": [
     "ADV"
+  ],
+  "WITHHOLD": [
+    "V"
   ],
   "WITHOUT": [
     "ADV"

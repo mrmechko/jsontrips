@@ -967,7 +967,7 @@
         "feature_name": "ORIGIN",
         "parent": [
           "ORIGIN",
-          "NON-LIVING"
+          "ANY-ORIGIN"
         ],
         "value": "ARTIFACT"
       },

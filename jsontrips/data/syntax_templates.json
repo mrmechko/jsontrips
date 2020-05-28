@@ -2894,6 +2894,79 @@
       ]
     ]
   },
+  "ADJ-OR-ADV-OPERATOR-TEMPL": {
+    "mappings": [
+      [
+        "ARGUMENT",
+        {
+          "default": [
+            "%",
+            [
+              "?",
+              "ARGCAT",
+              "ADVBL",
+              "ADJP"
+            ],
+            [
+              "SET-MODIFIER",
+              "-"
+            ],
+            [
+              "SORT",
+              "?SORT"
+            ]
+          ],
+          "name": "ARGUMENT",
+          "required": [
+            [
+              "LF",
+              "?ARGUMENTLF"
+            ],
+            [
+              "SUBJVAR",
+              "?ARGUMENTSUBJVAR"
+            ],
+            [
+              "LEX",
+              "?ARGUMENTLEX"
+            ],
+            [
+              "VAR",
+              "?ARGUMENTVAR"
+            ],
+            [
+              "AGR",
+              "?ARGUMENTAGR"
+            ],
+            [
+              "CASE",
+              "?ARGUMENTCASE"
+            ],
+            [
+              "SET-MODIFIER",
+              "-"
+            ],
+            [
+              "SORT",
+              "?SORT"
+            ]
+          ],
+          "slot": "FIGURE"
+        }
+      ]
+    ],
+    "name": "ADJ-OR-ADV-OPERATOR-TEMPL",
+    "syntax": [
+      [
+        "SORT",
+        "OPERATOR"
+      ],
+      [
+        "ATYPE",
+        "PRE"
+      ]
+    ]
+  },
   "ADJ-PROPERTY-TEMPL": {
     "mappings": [
       [
@@ -19629,6 +19702,98 @@
     ],
     "name": "AGENT-NEUTRAL-TEMPL"
   },
+  "AGENT-NEUTRAL-XP-COMP-TEMPL": {
+    "mappings": [
+      [
+        "LSUBJ",
+        {
+          "default": [
+            "%",
+            "NP"
+          ],
+          "name": "LSUBJ",
+          "required": [
+            [
+              "LF",
+              "?LSUBJLF"
+            ],
+            [
+              "SORT",
+              "?LSUBJSORT"
+            ],
+            [
+              "SUBJVAR",
+              "?LSUBJSUBJVAR"
+            ],
+            [
+              "LEX",
+              "?LSUBJLEX"
+            ],
+            [
+              "VAR",
+              "?LSUBJVAR"
+            ],
+            [
+              "AGR",
+              "?LSUBJAGR"
+            ],
+            [
+              "CASE",
+              "?LSUBJCASE"
+            ]
+          ],
+          "slot": "AGENT"
+        }
+      ],
+      [
+        "LCOMP",
+        {
+          "default": [
+            "%",
+            "PP",
+            [
+              "PTYPE",
+              "ABOUT"
+            ]
+          ],
+          "name": "LCOMP",
+          "paramname": "XP",
+          "required": [
+            [
+              "LF",
+              "?LCOMPLF"
+            ],
+            [
+              "SORT",
+              "?LCOMPSORT"
+            ],
+            [
+              "SUBJVAR",
+              "?LCOMPSUBJVAR"
+            ],
+            [
+              "LEX",
+              "?LCOMPLEX"
+            ],
+            [
+              "VAR",
+              "?LCOMPVAR"
+            ],
+            [
+              "AGR",
+              "?LCOMPAGR"
+            ],
+            [
+              "CASE",
+              "?LCOMPCASE"
+            ]
+          ],
+          "slot": "NEUTRAL"
+        }
+      ]
+    ],
+    "name": "AGENT-NEUTRAL-XP-COMP-TEMPL"
+  },
   "AGENT-NEUTRAL-XP-OPTIONAL-TEMPL": {
     "mappings": [
       [
@@ -20183,269 +20348,6 @@
       ]
     ],
     "name": "AGENT-RESULT-AFFECTED-XP-OPTIONAL-TEMPL"
-  },
-  "AGENT-RESULT-FORMAL-XP-OPTIONAL-TEMPL": {
-    "mappings": [
-      [
-        "LSUBJ",
-        {
-          "default": [
-            "%",
-            "NP"
-          ],
-          "name": "LSUBJ",
-          "required": [
-            [
-              "LF",
-              "?LSUBJLF"
-            ],
-            [
-              "SORT",
-              "?LSUBJSORT"
-            ],
-            [
-              "SUBJVAR",
-              "?LSUBJSUBJVAR"
-            ],
-            [
-              "LEX",
-              "?LSUBJLEX"
-            ],
-            [
-              "VAR",
-              "?LSUBJVAR"
-            ],
-            [
-              "AGR",
-              "?LSUBJAGR"
-            ],
-            [
-              "CASE",
-              "?LSUBJCASE"
-            ]
-          ],
-          "slot": "AGENT"
-        }
-      ],
-      [
-        "LIOBJ",
-        {
-          "default": [
-            "%",
-            "NP"
-          ],
-          "name": "LIOBJ",
-          "required": [
-            [
-              "LF",
-              "?LIOBJLF"
-            ],
-            [
-              "SORT",
-              "?LIOBJSORT"
-            ],
-            [
-              "SUBJVAR",
-              "?LIOBJSUBJVAR"
-            ],
-            [
-              "LEX",
-              "?LIOBJLEX"
-            ],
-            [
-              "VAR",
-              "?LIOBJVAR"
-            ],
-            [
-              "AGR",
-              "?LIOBJAGR"
-            ],
-            [
-              "CASE",
-              "?LIOBJCASE"
-            ]
-          ],
-          "slot": "RESULT"
-        }
-      ],
-      [
-        "LCOMP",
-        {
-          "default": [
-            "%",
-            "PP",
-            [
-              "PTYPE",
-              "WITH"
-            ]
-          ],
-          "name": "LCOMP",
-          "optional": true,
-          "paramname": "XP",
-          "required": [
-            [
-              "LF",
-              "?LCOMPLF"
-            ],
-            [
-              "SORT",
-              "?LCOMPSORT"
-            ],
-            [
-              "SUBJVAR",
-              "?LCOMPSUBJVAR"
-            ],
-            [
-              "LEX",
-              "?LCOMPLEX"
-            ],
-            [
-              "VAR",
-              "?LCOMPVAR"
-            ],
-            [
-              "AGR",
-              "?LCOMPAGR"
-            ],
-            [
-              "CASE",
-              "?LCOMPCASE"
-            ]
-          ],
-          "slot": "FORMAL"
-        }
-      ]
-    ],
-    "name": "AGENT-RESULT-FORMAL-XP-OPTIONAL-TEMPL"
-  },
-  "AGENT-RESULT-FORMAL-XP-TEMPL": {
-    "mappings": [
-      [
-        "LSUBJ",
-        {
-          "default": [
-            "%",
-            "NP"
-          ],
-          "name": "LSUBJ",
-          "required": [
-            [
-              "LF",
-              "?LSUBJLF"
-            ],
-            [
-              "SORT",
-              "?LSUBJSORT"
-            ],
-            [
-              "SUBJVAR",
-              "?LSUBJSUBJVAR"
-            ],
-            [
-              "LEX",
-              "?LSUBJLEX"
-            ],
-            [
-              "VAR",
-              "?LSUBJVAR"
-            ],
-            [
-              "AGR",
-              "?LSUBJAGR"
-            ],
-            [
-              "CASE",
-              "?LSUBJCASE"
-            ]
-          ],
-          "slot": "AGENT"
-        }
-      ],
-      [
-        "LOBJ",
-        {
-          "default": [
-            "%",
-            "NP"
-          ],
-          "name": "LOBJ",
-          "required": [
-            [
-              "LF",
-              "?LOBJLF"
-            ],
-            [
-              "SORT",
-              "?LOBJSORT"
-            ],
-            [
-              "SUBJVAR",
-              "?LOBJSUBJVAR"
-            ],
-            [
-              "LEX",
-              "?LOBJLEX"
-            ],
-            [
-              "VAR",
-              "?LOBJVAR"
-            ],
-            [
-              "AGR",
-              "?LOBJAGR"
-            ],
-            [
-              "CASE",
-              "?LOBJCASE"
-            ]
-          ],
-          "slot": "RESULT"
-        }
-      ],
-      [
-        "LCOMP",
-        {
-          "default": [
-            "%",
-            "NP"
-          ],
-          "name": "LCOMP",
-          "paramname": "XP",
-          "required": [
-            [
-              "LF",
-              "?LCOMPLF"
-            ],
-            [
-              "SORT",
-              "?LCOMPSORT"
-            ],
-            [
-              "SUBJVAR",
-              "?LCOMPSUBJVAR"
-            ],
-            [
-              "LEX",
-              "?LCOMPLEX"
-            ],
-            [
-              "VAR",
-              "?LCOMPVAR"
-            ],
-            [
-              "AGR",
-              "?LCOMPAGR"
-            ],
-            [
-              "CASE",
-              "?LCOMPCASE"
-            ]
-          ],
-          "slot": "FORMAL"
-        }
-      ]
-    ],
-    "name": "AGENT-RESULT-FORMAL-XP-TEMPL"
   },
   "AGENT-RESULT-SUBJCONTROL-OPTIONAL-TEMPL": {
     "mappings": [
@@ -37524,7 +37426,7 @@
             ],
             [
               "SEM",
-              "?SEM"
+              "?SEM1"
             ],
             [
               "GERUND",
@@ -37567,7 +37469,7 @@
             ],
             [
               "SEM",
-              "?SEM"
+              "?SEM1"
             ],
             [
               "GERUND",

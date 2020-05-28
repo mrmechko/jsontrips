@@ -3,6 +3,9 @@
 ;;;; William de Beaumont
 ;;;; 2019-12-16
 
+(load "test")
+(run)
+
 (dfc:defcomponent :xml :use (:util :common-lisp) :system (:depends-on (:util) :components nil))
 
 (defvar *define-type-and-words-file* #!TRIPS"messages.kqml")
@@ -22,10 +25,15 @@
 
 (defvar *out-dir* #!TRIPS"src;jsontrips;dist")
 (defun write-json ()
+  (format t "Writing ontology\n")
   (load #!TRIPS"src;jsontrips;lisp;genontology.lisp")
   (om::write-all-ontology *out-dir*)
+  (format t "Writing lexicon\n")
   (load #!TRIPS"src;jsontrips;lisp;genlexicon.lisp")
   (lxm::write-all-lexicon *out-dir*)
+  (format t "done!\n")
   )
 
 (trips:process-run-function :xml #'dfc:run-component :xml)
+
+(write-json)

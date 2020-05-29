@@ -2,27 +2,6 @@
 
 set -e # exit if anything breaks
 
-echo False > .deploy.lock
-
-rm -rf lisp
-rm -rf dist
-
-mkdir lisp
-mkdir dist
-
-python code/generator/generator.py -f code/generator/template.lisp > lisp/genontology.lisp
-python code/generator/generator.py -f code/generator/lextemplate.lisp > lisp/genlexicon.lisp
-
-~/shared/step/bin/Facilitator -display none &
-
-sleep 5
-
-echo running sbcl \> update.lisp
-
-pushd ../Systems/STEP
-sbcl --script ../../jsontrips/update.lisp
-popd
-
 echo prettifying jsons
 
 python code/prettify.py dist/featurelists.json dist/featuretypes.json dist/ontology.json

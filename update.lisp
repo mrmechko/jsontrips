@@ -3,12 +3,12 @@
 ;;;; William de Beaumont
 ;;;; 2019-12-16
 
+
 (load "test")
-(run)
 
-(dfc:defcomponent :xml :use (:util :common-lisp) :system (:depends-on (:util) :components nil))
+(dfc:defcomponent :xml :use (:util :common-lisp) :system (:depends-on (:util :lxm :om) :components nil))
 
-(defvar *define-type-and-words-file* #!TRIPS"messages.kqml")
+(defvar *define-type-and-words-file* #!TRIPS"src;messages.kqml")
 
 (defun send-define-msgs (msg args)
     (declare (ignore msg args))
@@ -25,6 +25,23 @@
 
 (defvar *out-dir* #!TRIPS"src;jsontrips;dist")
 (defun write-json ()
+  (if (probe-file #!TRIPS"src;messages.kqml") 
+      (progn
+        (format t "Sending messages")
+        (send-define-msgs)
+        (format t "sleeping for a bit")
+        (sleep 20)
+        (format t "sleeping for a bit")
+        (sleep 20)
+        (format t "sleeping for a bit")
+        (sleep 20)
+        (format t "sleeping for a bit")
+        (sleep 20)
+        (format t "sleeping for a bit")
+        (sleep 20)
+        (format t "sleeping for a bit")
+        (sleep 20)
+        ))
   (format t "Writing ontology\n")
   (load #!TRIPS"src;jsontrips;lisp;genontology.lisp")
   (om::write-all-ontology *out-dir*)
@@ -34,6 +51,8 @@
   (format t "done!\n")
   )
 
+
 (trips:process-run-function :xml #'dfc:run-component :xml)
 
+(run)
 (write-json)

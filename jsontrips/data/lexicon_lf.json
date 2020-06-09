@@ -443,6 +443,9 @@
   "ARTIFICIAL": [
     "ADJ"
   ],
+  "AS-IF-FOR": [
+    "ADV"
+  ],
   "ASK": [
     "V"
   ],
@@ -3843,6 +3846,9 @@
   "LEFT": [
     "ADJ"
   ],
+  "LEFT-LOC": [
+    "N"
+  ],
   "LEFT-OF": [
     "ADJ"
   ],
@@ -5880,6 +5886,9 @@
   "RELATE": [
     "N",
     "V"
+  ],
+  "RELATED-VAL": [
+    "ADJ"
   ],
   "RELATION": [
     "N"

@@ -12463,9 +12463,6 @@
   "EQUIP-WN23000": [
     "V"
   ],
-  "EQUIPMENT": [
-    "N"
-  ],
   "EQUIPPED-VAL": [
     "ADJ"
   ],
@@ -19812,9 +19809,6 @@
     "N",
     "V"
   ],
-  "MIGRATION": [
-    "N"
-  ],
   "MILD-AND-PLEASANT-VAL": [
     "ADJ"
   ],
@@ -24838,6 +24832,9 @@
   "RELATE-WN24100": [
     "V"
   ],
+  "RELATED-VAL": [
+    "ADJ"
+  ],
   "RELATION": [
     "N"
   ],
@@ -25243,9 +25240,6 @@
     "V"
   ],
   "REST-WN23504": [
-    "V"
-  ],
-  "RESTART": [
     "V"
   ],
   "RESTAURANT": [

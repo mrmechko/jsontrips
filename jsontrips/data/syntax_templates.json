@@ -45278,6 +45278,56 @@
       ]
     ]
   },
+  "QUAN-CARDINALITY-PL-CONVERTABLE-TEMPL": {
+    "name": "QUAN-CARDINALITY-PL-CONVERTABLE-TEMPL",
+    "syntax": [
+      [
+        "AGR",
+        "3P"
+      ],
+      [
+        "CARDINALITY",
+        "+"
+      ],
+      [
+        "CONVERT-TO-ADJ",
+        "+"
+      ],
+      [
+        "MASS",
+        [
+          "?",
+          "M1",
+          "COUNT",
+          "BARE"
+        ]
+      ],
+      [
+        "QOF",
+        [
+          "%",
+          "PP",
+          [
+            "PTYPE",
+            "OF"
+          ],
+          [
+            "AGR",
+            "3P"
+          ],
+          [
+            "MASS",
+            [
+              "?",
+              "M2",
+              "COUNT",
+              "BARE"
+            ]
+          ]
+        ]
+      ]
+    ]
+  },
   "QUAN-CARDINALITY-PL-TEMPL": {
     "name": "QUAN-CARDINALITY-PL-TEMPL",
     "syntax": [

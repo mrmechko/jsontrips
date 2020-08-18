@@ -30320,94 +30320,6 @@
       ]
     ]
   },
-  "EXPERIENCER-FORMAL-AS-COMP-TEMPL": {
-    "mappings": [
-      [
-        "LSUBJ",
-        {
-          "default": [
-            "%",
-            "NP"
-          ],
-          "name": "LSUBJ",
-          "required": [
-            [
-              "LF",
-              "?LSUBJLF"
-            ],
-            [
-              "SORT",
-              "?LSUBJSORT"
-            ],
-            [
-              "SUBJVAR",
-              "?LSUBJSUBJVAR"
-            ],
-            [
-              "LEX",
-              "?LSUBJLEX"
-            ],
-            [
-              "VAR",
-              "?LSUBJVAR"
-            ],
-            [
-              "AGR",
-              "?LSUBJAGR"
-            ],
-            [
-              "CASE",
-              "?LSUBJCASE"
-            ]
-          ],
-          "slot": "EXPERIENCER"
-        }
-      ],
-      [
-        "LCOMP",
-        {
-          "default": [
-            "%",
-            "NP"
-          ],
-          "name": "LCOMP",
-          "paramname": "XP",
-          "required": [
-            [
-              "LF",
-              "?LCOMPLF"
-            ],
-            [
-              "SORT",
-              "?LCOMPSORT"
-            ],
-            [
-              "SUBJVAR",
-              "?LCOMPSUBJVAR"
-            ],
-            [
-              "LEX",
-              "?LCOMPLEX"
-            ],
-            [
-              "VAR",
-              "?LCOMPVAR"
-            ],
-            [
-              "AGR",
-              "?LCOMPAGR"
-            ],
-            [
-              "CASE",
-              "?LCOMPCASE"
-            ]
-          ],
-          "slot": "FORMAL"
-        }
-      ]
-    ],
-    "name": "EXPERIENCER-FORMAL-AS-COMP-TEMPL"
-  },
   "EXPERIENCER-FORMAL-PRED-SUBJCONTROL-TEMPL": {
     "mappings": [
       [
@@ -30769,7 +30681,7 @@
             "CP",
             [
               "CTYPE",
-              "FINITE"
+              "S-FINITE"
             ]
           ],
           "name": "LCOMP",
@@ -31875,94 +31787,6 @@
       ]
     ],
     "name": "EXPERIENCER-TEMPL"
-  },
-  "EXPERIENCER-THEME-XP-TEMPL": {
-    "mappings": [
-      [
-        "LSUBJ",
-        {
-          "default": [
-            "%",
-            "NP"
-          ],
-          "name": "LSUBJ",
-          "required": [
-            [
-              "LF",
-              "?LSUBJLF"
-            ],
-            [
-              "SORT",
-              "?LSUBJSORT"
-            ],
-            [
-              "SUBJVAR",
-              "?LSUBJSUBJVAR"
-            ],
-            [
-              "LEX",
-              "?LSUBJLEX"
-            ],
-            [
-              "VAR",
-              "?LSUBJVAR"
-            ],
-            [
-              "AGR",
-              "?LSUBJAGR"
-            ],
-            [
-              "CASE",
-              "?LSUBJCASE"
-            ]
-          ],
-          "slot": "EXPERIENCER"
-        }
-      ],
-      [
-        "LOBJ",
-        {
-          "default": [
-            "%",
-            "NP"
-          ],
-          "name": "LOBJ",
-          "paramname": "XP",
-          "required": [
-            [
-              "LF",
-              "?LOBJLF"
-            ],
-            [
-              "SORT",
-              "?LOBJSORT"
-            ],
-            [
-              "SUBJVAR",
-              "?LOBJSUBJVAR"
-            ],
-            [
-              "LEX",
-              "?LOBJLEX"
-            ],
-            [
-              "VAR",
-              "?LOBJVAR"
-            ],
-            [
-              "AGR",
-              "?LOBJAGR"
-            ],
-            [
-              "CASE",
-              "?LOBJCASE"
-            ]
-          ],
-          "slot": "FORMAL"
-        }
-      ]
-    ],
-    "name": "EXPERIENCER-THEME-XP-TEMPL"
   },
   "EXPLETIVE-AFFECTED-EXTENT-FORMAL-2-OPTIONAL-TEMPL": {
     "mappings": [
@@ -33665,7 +33489,7 @@
       ],
       [
         "SORT",
-        "KINSHIP-RELN"
+        "OTHER-RELN"
       ],
       [
         "MASS",
